@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ page.title }}</title>
+    <link type="text/css" rel="stylesheet" href="/assets/style.css" />
+    <link href='http://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Pontano+Sans' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/projects.html">Projects</a></li>
+        <li><a href="/opensource.html">Open Source</a></li>
+        <li><a href="/speaking.html">Speaking</a></li>
+
+      </ul>
+    </nav>
+    <div class="container">
+      <hgroup>
+        <h1>{{ page.title }}</h1>
+        <h2>{{ page.second_title }}</h2>
+      </hgroup>
+
+      <div class="primary">
+        {{ content }}
+      </div>
+      <div class="secondary">
+        <h2>Get in Touch</h2>
+        <p>The best way is to email jack [at] jackfranklin [dot] net</a>.</p>
+        <p>If you're into social networks, you can <a href="http://twitter.com/Jack_Franklin">follow me on Twitter</a> or check out <a href="http://github.com/jackfranklin">code on Github</a>.
+
+      </div>
+
+    </div>
+
+    <footer>
+      <p>All content is &copy; Jack Franklin.</p>
+    </footer>
+
+  </body>
+</html>
+
