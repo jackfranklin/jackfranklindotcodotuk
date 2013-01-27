@@ -18,7 +18,7 @@ On the evening of March 27th, 2013, I am running a workshop on building your own
 ## 2013 Speaking
 
 ### TakeOff Conf: RequireJS - January
-A 30 minute talk at Take Off Conference in Lille, France on RequireJS. [Slides](https://speakerdeck.com/jackfranklin/requirejs-take-off-conf)
+A 30 minute talk at Take Off Conference in Lille, France on RequireJS. [Slides](https://speakerdeck.com/jackfranklin/requirejs-take-off-conf) || [Blog Post](http://javascriptplayground.com/blog/2013/01/talking-requirejs-at-takeoff-conf)
 
 ## 2012 Speaking
 
