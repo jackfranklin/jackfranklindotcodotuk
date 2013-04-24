@@ -5,7 +5,7 @@ second_title: Recent things I've been working on
 ---
 
 ###Beginning jQuery
-My first physical book, [Beginning jQuery](http://www.apress.com/9781430249320) is about to be published. I was approached to write the book in June 2012, and seven months later it's about to be released. The book aims to guide a JavaScript and jQuery novice through to a level at which they are comfortable in writing their own plugins.
+My first physical book, [Beginning jQuery](http://www.apress.com/9781430249320) was published in February 2013. I was approached to write the book in June 2012, and seven months later it's about to be released. The book aims to guide a JavaScript and jQuery novice through to a level at which they are comfortable in writing their own plugins.
 
 ###The JavaScript Playground
 I run the popular [JavaScript Playground](http://javascriptplayground.com), which received over 250,000 page views in its first 9 months of existance. On it I cover a range of JavaScript and jQuery subjects with short, concise tutorials.
