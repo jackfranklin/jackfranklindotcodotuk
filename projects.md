@@ -22,7 +22,7 @@ I was asked by Addy Osmani to contribute to his [Backbone Fundamentals](http://a
 ###TIL: Vim
 A small Jekyll powered blog, [TIL Vim](http://tilvim.com/) documents things I learn about the Vim editor.
 
-#### pulldown
+### pulldown
 [pulldown](https://github.com/jackfranklin/pulldown) is a small npm module for quickly downloading libraries via the command line.
 
 ### jQuery Form Validator
