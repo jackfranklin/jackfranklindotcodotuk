@@ -16,5 +16,8 @@ My first book, [Testing with CoffeeScript](https://efendibooks.com/minibooks/tes
 ####.Net magazine
 Since mid 2012 I have been a regular writer for .Net, the largest web development magazine in the UK. I write the JavaScript gallery section every month and have written for the website too, on subjects such as [MV* Frameworks](http://www.netmagazine.com/features/essential-javascript-top-five-mvc-frameworks).
 
-####Contributing to "Backbone Fundamentals"
+####"Backbone Fundamentals" RequireJS Chapter
 I was asked by Addy Osmani to contribute to his [Backbone Fundamentals](http://addyosmani.github.com/backbone-fundamentals/) book, a book published by O'Reilly but freely available on the internet too. I helped write the chapter on using Backbone with RequireJS.
+
+####TIL: Vim
+A small Jekyll powered blog, [TIL Vim](http://tilvim.com/) documents things I learn about the Vim editor.
