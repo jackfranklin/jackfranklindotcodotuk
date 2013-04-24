@@ -8,14 +8,20 @@ I am always interested in speaking at conferences, local meetups or running work
 
 ## Upcoming
 
-### Modern Tooling on the Command Line Workshop
-On the evening of March 6th, 2013, I am running a workshop on useful command line tools that exist for JS development. These include Yeoman, Grunt, serve, nodefetch, Bower, Mocha and more. [Tickets are available](http://ldnjsnightclass-toolingcli.eventbrite.com/) and cost &pound;40.
+### Future of Web Design: Better JavaScripting - May 13th, 14th and 15th
+At [The Future of Web Design Conference](http://port80events.co.uk/) in London I am speaking again on JavaScript, looking at the new tools, techiques and approaches to speed up a developer's workflow, along with some of the pitfalls and caveats.
 
-### Building CLI Tools with JavaScript
-On the evening of March 27th, 2013, I am running a workshop on building your own command line tools with JavaScript, node and npm. [Tickets are available](http://ldnjsnightclass-buildingcli.eventbrite.com/) and cost &pound;40.
+### Port80: Tools for Better JavaScripting - May 10th
+I am speaking at [Port80](http://port80events.co.uk/) in Newport, Wales on May 10th. I'm going to be talking about better JavaScript and this new wave of "web apps", and the tools we can use to improve our day to day development
 
 
 ## 2013 Speaking
+
+### Modern Tooling on the Command Line Workshop
+On the evening of March 6th, 2013, I ran a workshop on useful command line tools that exist for JS development.
+
+### Building CLI Tools with JavaScript
+On the evening of March 27th, 2013, I ran a workshop on building your own command line tools with JavaScript, node and npm. 
 
 ### TakeOff Conf: RequireJS - January
 A 30 minute talk at Take Off Conference in Lille, France on RequireJS. [Slides](https://speakerdeck.com/jackfranklin/requirejs-take-off-conf) || [Blog Post](http://javascriptplayground.com/blog/2013/01/talking-requirejs-at-takeoff-conf)
