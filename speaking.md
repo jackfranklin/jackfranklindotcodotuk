@@ -8,14 +8,16 @@ I am always interested in speaking at conferences, local meetups or running work
 
 ## Upcoming
 
-### Future of Web Design: Better JavaScripting - May 13th, 14th and 15th
-At [The Future of Web Design Conference](http://port80events.co.uk/) in London I am speaking again on JavaScript, looking at the new tools, techiques and approaches to speed up a developer's workflow, along with some of the pitfalls and caveats.
-
-### Port80: Tools for Better JavaScripting - May 10th
-I am speaking at [Port80](http://port80events.co.uk/) in Newport, Wales on May 10th. I'm going to be talking about better JavaScript and this new wave of "web apps", and the tools we can use to improve our day to day development
-
+### Generate Conf - September 13th
+In September I'm heading to London to speak at [Generate Conf](http://www.generateconf.com/).
 
 ## 2013 Speaking
+
+### Future of Web Design: Better JavaScripting - May 13th, 14th and 15th
+At [The Future of Web Design Conference](http://port80events.co.uk/) in London I spoke about the future of JavaScript, about modernising our workflow and getting over the whole "web app" thing. [Slides](https://speakerdeck.com/jackfranklin/fowd-practical-javascripting)
+
+### Port80: Tools for Better JavaScripting - May 10th
+At Port80 I spoke on Practical JavaScripting - new tools, approaches and methods that can improve your day to day development. [Slides](https://speakerdeck.com/jackfranklin/port80-practical-javascripting).
 
 ### Modern Tooling on the Command Line Workshop
 On the evening of March 6th, 2013, I ran a workshop on useful command line tools that exist for JS development.
