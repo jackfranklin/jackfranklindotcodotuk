@@ -19,6 +19,9 @@ At [The Future of Web Design Conference](http://port80events.co.uk/) in London I
 ### Port80: Tools for Better JavaScripting - May 10th
 At Port80 I spoke on Practical JavaScripting - new tools, approaches and methods that can improve your day to day development. [Slides](https://speakerdeck.com/jackfranklin/port80-practical-javascripting).
 
+### 12 Devs: The Future of JS - April
+A quick 10 minute talk I gave at [12Devs Easter](http://12devs.co.uk/events/12-devs-at-easter/) with lots of Jurassic Park references. [Slides](https://speakerdeck.com/jackfranklin/the-new-era-of-js)
+
 ### Modern Tooling on the Command Line Workshop
 On the evening of March 6th, 2013, I ran a workshop on useful command line tools that exist for JS development.
 
