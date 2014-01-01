@@ -5,7 +5,6 @@
 $dark_blue: #3C4868;
 
 body {
-  padding-top: 50px; //for the nav
 }
 p, ul, div {
   font-family: 'Merriweather', serif;
@@ -52,6 +51,8 @@ h5 {
   width: 65%;
   margin: 0 5% 0 0;
   float: left;
+  h1 { margin-top: 40px; }
+  h1:first-of-type { margin-top: 0; }
 }
 .secondary {
   width: 23%;

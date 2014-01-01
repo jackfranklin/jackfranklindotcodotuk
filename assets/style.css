@@ -1,4 +1,4 @@
-/* normalize.css 2012-03-11T12:53 UTC - http://github.com/necolas/normalize.css */
+/*! normalize.css 2012-03-11T12:53 UTC - http://github.com/necolas/normalize.css */
 /* =============================================================================
    HTML5 display definitions
    ========================================================================== */
@@ -169,7 +169,7 @@ code,
 kbd,
 samp {
   font-family: monospace, serif;
-  _font-family: "courier new", monospace;
+  _font-family: 'courier new', monospace;
   font-size: 1em; }
 
 /*
@@ -287,7 +287,7 @@ form {
  * Define consistent border, margin, and padding
  */
 fieldset {
-  border: 1px solid silver;
+  border: 1px solid #c0c0c0;
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em; }
 
@@ -420,11 +420,8 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-body {
-  padding-top: 50px; }
-
 p, ul, div {
-  font-family: "Merriweather", serif;
+  font-family: 'Merriweather', serif;
   font-size: 15px;
   font-weight: normal;
   line-height: 24px; }
@@ -460,6 +457,10 @@ h5 {
   width: 65%;
   margin: 0 5% 0 0;
   float: left; }
+  .primary h1 {
+    margin-top: 40px; }
+  .primary h1:first-of-type {
+    margin-top: 0; }
 
 .secondary {
   width: 23%;
@@ -529,7 +530,7 @@ nav {
   .blog-latest li {
     padding: 5px;
     background: #dcdcdc;
-    border: 1px solid gainsboro;
+    border: 1px solid #dcdcdc;
     border-radius: 3px;
     margin: 10px 0; }
     .blog-latest li:hover {
