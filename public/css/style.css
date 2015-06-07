@@ -466,6 +466,10 @@ h5 {
   width: 23%;
   float: right; }
 
+.secondary ul {
+  padding-left: 10px;
+}
+
 a:link, a:visited {
   color: #3c4868; }
 
