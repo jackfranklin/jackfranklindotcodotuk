@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+rm -r __out
+
+cannon-build
+
+cp -r public/css __out
