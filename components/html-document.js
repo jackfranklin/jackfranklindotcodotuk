@@ -16,6 +16,8 @@ export default class HtmlDocument extends React.Component {
         <head>
           <title>Jack Franklin</title>
           <link href={ cssLocation } rel="stylesheet" type="text/css" />
+          <link href='http://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'/>
+          <link href='http://fonts.googleapis.com/css?family=Pontano+Sans' rel='stylesheet' type='text/css'/>
         </head>
         <body>
           <div id="app" dangerouslySetInnerHTML={{__html: this.props.markup}}></div>
