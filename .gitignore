@@ -1,3 +1,4 @@
 .DS_Store/
+out/
 public/js/prod-bundle.js
 public/js/bundle.js

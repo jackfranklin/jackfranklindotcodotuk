@@ -1,6 +1,7 @@
 import fs from 'fs';
 import 'isomorphic-fetch';
 import denodeify from 'denodeify';
+import mkdirp from 'mkdirp';
 import path from 'path';
 
 import { routes } from '../routes';
@@ -24,6 +25,7 @@ Promise.all(fetchPromises).then((pages) => {
     } else {
       outLoc = `${page.path.substring(1)}.html`;
     }
+    mkdirp.sync('out');
     return writeFile(path.join('out', outLoc), page.text);
   });
 }).then(() => {

@@ -1,6 +1,6 @@
-./node_modules/.bin/webpack --config client/webpack.production.config.js
+echo "Run server in production on 3003 first!"
 
-NODE_ENV=production node index.js &
+./node_modules/.bin/webpack --config client/webpack.production.config.js
 
 ./node_modules/.bin/babel-node ./scripts/build.js && exit 0
 
