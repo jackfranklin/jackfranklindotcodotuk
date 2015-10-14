@@ -1,7 +1,13 @@
 import React from 'react';
+import { Link } from 'react-router';
 
 export default class IndexPage extends React.Component {
   render() {
-    return <p>Hello World</p>;
+    return (
+      <div>
+        <p>Home Page</p>
+        <Link to='/about'>About</Link>
+      </div>
+    );
   }
 }

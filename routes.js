@@ -4,6 +4,7 @@ import { fromJS } from 'immutable';
 
 import App from './pages/app';
 import IndexPage from './pages/index';
+import AboutPage from './pages/about';
 
 export const routes = {
   path: '',
@@ -12,6 +13,10 @@ export const routes = {
     {
       path: '/',
       component: IndexPage,
+    },
+    {
+      path: '/about',
+      component: AboutPage,
     }
   ],
 };
