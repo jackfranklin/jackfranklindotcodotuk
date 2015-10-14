@@ -5,7 +5,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "./scripts/start"
   },
   "repository": {
     "type": "git",
@@ -19,11 +19,14 @@
   "homepage": "https://github.com/jackfranklin/jackfranklin.github.com#readme",
   "dependencies": {
     "babel": "^5.8.23",
+    "babel-core": "^5.8.25",
+    "babel-loader": "^5.3.2",
     "express": "^4.13.3",
-    "immutable": "^3.7.5",
+    "history": "^1.12.5",
     "react": "^0.14.0",
     "react-dom": "^0.14.0",
     "react-router": "^1.0.0-rc3",
-    "webpack": "^1.12.2"
+    "webpack": "^1.12.2",
+    "webpack-dev-server": "^1.12.0"
   }
 }

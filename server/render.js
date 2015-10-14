@@ -17,8 +17,11 @@ export function render(req, res, next) {
 
       const markup = renderToString(<RoutingContext {...props} />);
 
+      const scriptLocation = process.env.NODE_ENV === 'production' ?
+        '/js/bundle.js' : 'http://localhost:8080/bundle.js'
+
       const html = renderToStaticMarkup(
-        <HtmlDocument markup={markup} />
+        <HtmlDocument markup={markup} scriptLocation={scriptLocation} />
       );
       res.status(200).send('<!DOCTYPE html>' + html);
     } else {

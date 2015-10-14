@@ -3,6 +3,7 @@ import React from 'react';
 export default class HtmlDocument extends React.Component {
   static propTypes = {
     markup: React.PropTypes.string.isRequired,
+    scriptLocation: React.PropTypes.string.isRequired,
   }
 
   render() {
@@ -14,6 +15,7 @@ export default class HtmlDocument extends React.Component {
         </head>
         <body>
           <div id="app" dangerouslySetInnerHTML={{__html: this.props.markup}}></div>
+          <script src={this.props.scriptLocation}></script>
         </body>
       </html>
     );

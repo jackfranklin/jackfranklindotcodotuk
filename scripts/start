@@ -1,0 +1,5 @@
+./node_modules/.bin/webpack-dev-server --content-base public --config client/webpack.dev.config.js &
+
+node index.js
+
+trap "trap - SIGTERM && kill -- -$$" SIGINT SIGTERM EXIT
