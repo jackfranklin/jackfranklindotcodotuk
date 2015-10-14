@@ -5,7 +5,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,14 @@
   "bugs": {
     "url": "https://github.com/jackfranklin/jackfranklin.github.com/issues"
   },
-  "homepage": "https://github.com/jackfranklin/jackfranklin.github.com#readme"
+  "homepage": "https://github.com/jackfranklin/jackfranklin.github.com#readme",
+  "dependencies": {
+    "babel": "^5.8.23",
+    "express": "^4.13.3",
+    "immutable": "^3.7.5",
+    "react": "^0.14.0",
+    "react-dom": "^0.14.0",
+    "react-router": "^1.0.0-rc3",
+    "webpack": "^1.12.2"
+  }
 }
