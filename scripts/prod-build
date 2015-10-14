@@ -1,0 +1,7 @@
+./node_modules/.bin/webpack --config client/webpack.production.config.js
+
+NODE_ENV=production node index.js &
+
+./node_modules/.bin/babel-node ./scripts/build.js && exit 0
+
+trap "trap - SIGTERM && kill -- -$$" SIGINT SIGTERM EXIT

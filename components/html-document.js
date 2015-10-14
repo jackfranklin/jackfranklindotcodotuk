@@ -6,12 +6,16 @@ export default class HtmlDocument extends React.Component {
     scriptLocation: React.PropTypes.string.isRequired,
   }
 
+
   render() {
+    const cssLocation = process.env.NODE_ENV === 'production' ?
+      '/public/css/style.css' : '/css/style.css';
+
     return (
       <html>
         <head>
           <title>Jack Franklin</title>
-          <link href="/css/style.css" rel="stylesheet" type="text/css" />
+          <link href={ cssLocation } rel="stylesheet" type="text/css" />
         </head>
         <body>
           <div id="app" dangerouslySetInnerHTML={{__html: this.props.markup}}></div>
