@@ -68,7 +68,7 @@ Why's that? Well, turns out in the `equal()` call I referenced `sayHi`, but it's
 
 Run it again, and it passes!
 
-![](http://cl.ly/1Y1l0m0T1o0T0E0t2s0H/Screen%20Shot%202012-04-13%20at%2023.15.58.png)
+![](https://cl.ly/1Y1l0m0T1o0T0E0t2s0H/Screen%20Shot%202012-04-13%20at%2023.15.58.png)
 
 Now, for our first real test, lets take a look at the Instagram API. Say I have an Instagram URL, such as `http://instagr.am/p/JYAdvJr0K9/` (which happened to be the first URL I found in my Twitter feed). And I want to get the exact URL to it. When we're testing, we first write tests, see them fail, and then make them pass. Before we dive in, I'll just do a little set up in the main implementation file:
 
@@ -95,7 +95,7 @@ The reason for the `oembed` namespace is that the bit of the API we'll be using 
 
 All these tests pass, but one thing was irritating me, and that is that by default QUnit doesn't show all the tests, but just the heading:
 
-![](http://cl.ly/0Y0M0o121t1I44403m1R/Screen%20Shot%202012-04-13%20at%2023.31.32.png)
+![](https://cl.ly/0Y0M0o121t1I44403m1R/Screen%20Shot%202012-04-13%20at%2023.31.32.png)
 
 I wanted to change this, so I delved into the QUnit JS source and on line 192 I found:
 
@@ -105,7 +105,7 @@ I wanted to change this, so I delved into the QUnit JS source and on line 192 I 
 
 I simply commented out that middle line and now it shows the full details:
 
-![](http://cl.ly/2b3S191c0Y1z011U1S13/Screen%20Shot%202012-04-13%20at%2023.32.29.png)
+![](https://cl.ly/2b3S191c0Y1z011U1S13/Screen%20Shot%202012-04-13%20at%2023.32.29.png)
 
 Obviously this is more a personal preference, so if you want to do it, feel free, but if not, that's fine too.
 
@@ -176,6 +176,6 @@ I'm not going to show you how to solve all these issues as most are straight for
 The code works by taking a callback, that it will automatically pass our data into.
 Run the tests, and I'm greeted with all greens, lovely!
 
-![](http://cl.ly/0J0c3Z3J0r1K3M2a0m0a/Screen%20Shot%202012-04-14%20at%2000.01.33.png)
+![](https://cl.ly/0J0c3Z3J0r1K3M2a0m0a/Screen%20Shot%202012-04-14%20at%2000.01.33.png)
 
 That brings us to the end of the first tutorial. In this we've achieved a great deal, learning how QUnit works, how to run async tests in QUnit and working with the Instagram API too. Not bad at all! Next time we will continue writing & testing, but at a bit more of a faster pace, now you've got the hang of QUnit. You can get all the code from the [Github Repo](https://github.com/jackfranklin/JS-Instagram-Wrapper). Each tutorial is on its own branch, for this one you want the branch _tutorial1_. The `master` branch will contain the current up to date code, whereas the tutorial branches will only contain the code from each tutorial and no more. Any questions, please leave a comment and I will answer them in part 2.

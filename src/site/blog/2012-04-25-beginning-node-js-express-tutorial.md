@@ -46,7 +46,7 @@ res.end('Hello World\n');
 }).listen(1337, '127.0.0.1');
 To run this, run `node helloworld.js` in your terminal, and then visit `http://127.0.0.1:1337` in your browser. You should see:
 
-![](http://cl.ly/3b2t2r1Z3y3o3W2u0x2O/Screen%20Shot%202012-04-25%20at%2000.03.12.png)
+![](https://cl.ly/3b2t2r1Z3y3o3W2u0x2O/Screen%20Shot%202012-04-25%20at%2000.03.12.png)
 
 It's as easy as that. However, in most real world projects, people don't tend to just use Node. There's a few frameworks that have sprung up. The most popular at the moment is [Express JS](http://expressjs.com/). I will be covering Express in much more detail in future tutorials, however for now lets see how we'd achieve the "Hello World" demo in Express. Once you start writing an app that has a lot of dependencies, it's a good idea to keep track of them. In Rails you have a Gemfile, in Node & NPM you have `package.json`. Create this in the root directory and just give it a name & version:
 

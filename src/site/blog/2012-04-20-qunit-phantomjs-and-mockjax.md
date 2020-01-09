@@ -21,7 +21,7 @@ In my case, I run the tests through a virtual host and you can see that right no
 
 Why is it failing? Unfortunately you don't get shown the failing tests in the output, which is a shame, however it's nice for a quick test, as in reality you only need to know about a test if it fails. We can head over to the browser and see:
 
-![](http://cl.ly/1q0u1G1h0n0X1E313w0B/Screen%20Shot%202012-04-20%20at%2014.23.49.png)
+![](https://cl.ly/1q0u1G1h0n0X1E313w0B/Screen%20Shot%202012-04-20%20at%2014.23.49.png)
 
 So, it seems Instagram changed the URL where this image is stored that we get from our Ajax call. This is what I want to talk about now. When testing, you can't rely on making actual external Ajax calls. Why not? Imagine that you're on a train, and fancy developing. Without internet, you're stuck when it comes to testing. You also, as we've seen above, can't rely on certain values staying the same so you can test against them. Here you can see a test that worked fine last time round doesn't anymore, all because the URL changed. Our code hasn't, at all. What we need is a way to fake Ajax calls & returned data.
 
@@ -81,7 +81,7 @@ If you run the tests in the command line, you will see the Mockjax log & that al
 
 And if you want to double check, you can load up the tests in your browser and see:
 
-![](http://cl.ly/2d2s103o352J030f0s1W/Screen%20Shot%202012-04-20%20at%2014.44.47.png).
+![](https://cl.ly/2d2s103o352J030f0s1W/Screen%20Shot%202012-04-20%20at%2014.44.47.png).
 
 So, although we didn't write any more functionality in this post, we've now got Mockjax set up so we can work on it much easier and not rely on a 3rd party service or having an internet connection when we want to do some testing. I highly recommend using Mockjax for all your Ajax queries.
 

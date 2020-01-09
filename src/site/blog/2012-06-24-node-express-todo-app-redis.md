@@ -36,7 +36,7 @@ If you're not already, run our server with `nodemon app.js`. If you haven't got 
 
 Now, if you visit `http://localhost:3000/todo`, you should see something like this:
 
-![](http://cl.ly/2D1x3R1O0H3k0U3D0O0t/Screen%20Shot%202012-06-24%20at%2012.49.08.png)
+![](https://cl.ly/2D1x3R1O0H3k0U3D0O0t/Screen%20Shot%202012-06-24%20at%2012.49.08.png)
 
 Lets build in the functionality for listing some todo items. Obviously at the minute we don't have any of them, so I'll add some fake ones in. When you render a view, you can pass in variables, as we did above to set `title`. Lets pass in an array of objects into the view to represent our items. For now they will be pretty simple:
 
@@ -61,7 +61,7 @@ All I do here is create a new unordered list, and for each item within the `todo
 
 And now our view looks like so:
 
-![](http://cl.ly/1F1l2o3h31320K2J2B3P/Screen%20Shot%202012-06-24%20at%2012.56.26.png)
+![](https://cl.ly/1F1l2o3h31320K2J2B3P/Screen%20Shot%202012-06-24%20at%2012.56.26.png)
 
 It's now time to actually implement the adding of new todos.
 

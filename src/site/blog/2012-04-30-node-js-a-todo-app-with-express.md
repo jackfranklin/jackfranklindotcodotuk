@@ -38,7 +38,7 @@ Express has set up the basic skeleton of our application for us. Lets make sure 
 
 Once that's done, lets just run it & see what we have. In the command line type `node app.js` to run the app, and then head to `http://localhost:3000`. You should, if everything's working, see this:
 
-![](http://cl.ly/3P2u133L0v2C3J3M1A2Y/Screen%20Shot%202012-04-29%20at%2017.38.26.png)
+![](https://cl.ly/3P2u133L0v2C3J3M1A2Y/Screen%20Shot%202012-04-29%20at%2017.38.26.png)
 
 One thing that confused me here is that many tutorials say that running `npm start` should run your server, but for me it didn't. This is because NPM looks for a file named server.js, and ours is called app.js. There's two choices here:
 
@@ -109,7 +109,7 @@ You can see here we set the variable `routes` to the result of loading in the `r
 
 So, quit & start the server, and head to `http://localhost:3000/about`. You will see:
 
-![](http://cl.ly/1g2r340j3H0e0p160F1y/Screen%20Shot%202012-04-29%20at%2018.34.36.png).
+![](https://cl.ly/1g2r340j3H0e0p160F1y/Screen%20Shot%202012-04-29%20at%2018.34.36.png).
 
 You might notice there we had to restart the server for these changes to take affect. This gets very annoying, very quickly. Having to stop & start the Node server whenever we make a single change is not what I want to be doing. Thankfully, others thought this too and there are solutions to stop us having to do this. One such person who thought this is Remy Sharp, who made [nodemon](http://remysharp.com/2010/10/12/nodejs-rapid-development-nodemon/) to do this for us. Install it with `npm install nodemon -g` and then launch the server again with:
 

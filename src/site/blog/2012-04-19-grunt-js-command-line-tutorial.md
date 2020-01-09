@@ -16,13 +16,13 @@ Grunt is installed as a NPM (Node Package Manager) module. If you've not got Nod
 
 Once done, Grunt is installed with a simple `npm install -g grunt`. The `-g` flag installs Grunt globally, which means it will be available from anywhere in your terminal, as it's installed to the root `node_modules` directory. If you only want Grunt to be available when you're within a specific directory, navigate to that directory & run the above command, just without `-g`. Once that's done you'll get a whole load of terminal output as Grunt & its dependencies are installed. Once done you will see something like this:
 
-![](http://cl.ly/2G1z461139080p1S3K1g/Screen%20Shot%202012-04-18%20at%2020.15.02.png)
+![](https://cl.ly/2G1z461139080p1S3K1g/Screen%20Shot%202012-04-18%20at%2020.15.02.png)
 
 You can see here that I have installed Grunt and the list of dependencies. If you get a similar output, you're all set, so we can now set up a project.
 
 The first step is to initialise a new project, through Grunt. There's a number of different types of projects we can initialise here as Grunt comes with some handy templates, including specific project set up for `commonjs`, `jquery`, and `node`. Lets create a jQuery project. Make a new directory to house your project and then enter `grunt init:jquery`. You'll be asked a few questions along the way. Grunt shows the current value set in brackets, and if you don't want to override it, just press enter. Here's what mine looks like:
 
-![](http://cl.ly/3X280k1h031O0l0Q1u2P/Screen%20Shot%202012-04-18%20at%2019.14.03.png)
+![](https://cl.ly/3X280k1h031O0l0Q1u2P/Screen%20Shot%202012-04-18%20at%2019.14.03.png)
 
 The first file we will take a look in is the `grunt.js` file, also known as `gruntfile`. Some of this is a bit overwhelming and might look a bit alien, but don't worry for now. The key bits I'd like to point out is that Grunt has added sections for `qunit` here, and generated the `test` directory for us. It's also got instructions for concatenating files, watching files & running tasks on those files automatically when it detects a change in them:
 
@@ -56,7 +56,7 @@ Unfortunately for me, this didn't go to plan:
 
 Installing PhantomJS is fairly straight forward, [instructions can be found here](http://code.google.com/p/phantomjs/wiki/Installation). PhantomJS is a headless Webkit, with a JavaScript API, which means we can run tests through it, including QUnit tests. Once you've got it installed, you should see the output look like this:
 
-![](http://cl.ly/0B0L1t2E273j1900223A/Screen%20Shot%202012-04-18%20at%2019.24.44.png)
+![](https://cl.ly/0B0L1t2E273j1900223A/Screen%20Shot%202012-04-18%20at%2019.24.44.png)
 
 _(as an aside, I will be covering PhantomJS in more depth in the very near future)_.
 
@@ -83,15 +83,15 @@ Of course, in reality running the concat & min tasks every time you save is a bi
 
 Now, lets take a look at the JS file it initially created for us, which is in `src/jquery.jsplayground-demo.js`. You will see it put in the license for us, the copyright and the URL to the Github repository - all of which we set up through `grunt init:jquery` earlier. Now, lets change this file so we can see `watch` in action. Grunt gives us a few bits of code to get us started, but I'm going to delete some of it, then save the file so I can demonstrate Grunt's watching abilities. First, get the `watch` task running by entering in the terminal `grunt watch`. Then, make an edit. I'm going to enter some invalid JS, so we can see JSLint fail. In my plugin file I've typed `some rubbish stuff`. I save it, and then my terminal automatically updates:
 
-![](http://cl.ly/2H363C2Y2z1x3B2t3B1U/Screen%20Shot%202012-04-18%20at%2019.52.40.png)
+![](https://cl.ly/2H363C2Y2z1x3B2t3B1U/Screen%20Shot%202012-04-18%20at%2019.52.40.png)
 
 I'm going to fix that but remove all the jQuery code other than the code for `$.fn.awesome`. Grunt has tests written for us, so when I save this file, you'll see tests fail. They fail because we're testing code I've just removed.
 
-![](http://cl.ly/1L343g2G3E0n2x0X1V2F/Screen%20Shot%202012-04-18%20at%2019.56.24.png)
+![](https://cl.ly/1L343g2G3E0n2x0X1V2F/Screen%20Shot%202012-04-18%20at%2019.56.24.png)
 
 I remove those tests which are not not needed, and we pass:
 
-![](http://cl.ly/1I3g3H470i2K3G401h2l/Screen%20Shot%202012-04-18%20at%2019.58.04.png).
+![](https://cl.ly/1I3g3H470i2K3G401h2l/Screen%20Shot%202012-04-18%20at%2019.58.04.png).
 
 Just imagine when working on a project, being able to run `grunt watch` and then happily working on your code, knowing it will be tested, checked & minified every time.
 
