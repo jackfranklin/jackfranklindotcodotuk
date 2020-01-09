@@ -1,5 +1,5 @@
 ---
-permalink: /blog/new-design
+permalink: /blog/new-design/index.html
 
 title: A new look
 intro: The JavaScript Playground gets a fresh lick of paint.

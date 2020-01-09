@@ -1,5 +1,5 @@
 ---
-permalink: /blog/a-jquery-plugin-in-coffeescript
+permalink: /blog/a-jquery-plugin-in-coffeescript/index.html
 
 title: "A jQuery Plugin in CoffeeScript"
 date: 2012-05-04

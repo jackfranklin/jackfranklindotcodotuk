@@ -1,5 +1,5 @@
 ---
-permalink: /blog/vscode-go-to-definition-jsx
+permalink: /blog/vscode-go-to-definition-jsx/index.html
 
 title: Enabling VSCode's "Go to Definition" for JSX imports
 intro: A quick post today on how to configure VSCode's "Go to Definition" to work when importing a JSX file.

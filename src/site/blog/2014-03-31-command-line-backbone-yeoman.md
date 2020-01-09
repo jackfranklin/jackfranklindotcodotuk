@@ -1,5 +1,5 @@
 ---
-permalink: /blog/command-line-backbone-yeoman
+permalink: /blog/command-line-backbone-yeoman/index.html
 
 title: Embracing Command Line Tooling with Backbone Applications
 intro: In this post we'll look at how we can use command line tools like Grunt, Bower and Yeoman to speed up development of complex applications.

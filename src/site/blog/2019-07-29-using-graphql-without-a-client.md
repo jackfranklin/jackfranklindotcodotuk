@@ -1,5 +1,5 @@
 ---
-permalink: /blog/using-graphql-without-a-client
+permalink: /blog/using-graphql-without-a-client/index.html
 
 title: "Getting started with GraphQL: what client to use?"
 intro: "Today we're looking into working with a GraphQL API and discussing if you need to reach for a 3rd party library or not."

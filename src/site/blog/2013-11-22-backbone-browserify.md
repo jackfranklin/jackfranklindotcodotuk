@@ -1,5 +1,5 @@
 ---
-permalink: /blog/backbone-browserify
+permalink: /blog/backbone-browserify/index.html
 
 title: "Using Browserify with npm modules"
 intro: "Today we will look at using Browserify for working with npm modules on the front end to build client-side JS applications."

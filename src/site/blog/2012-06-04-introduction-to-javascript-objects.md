@@ -1,5 +1,5 @@
 ---
-permalink: /blog/introduction-to-javascript-objects
+permalink: /blog/introduction-to-javascript-objects/index.html
 
 title: "Introduction to JavaScript Objects"
 date: 2012-06-04

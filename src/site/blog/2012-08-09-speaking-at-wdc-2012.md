@@ -1,5 +1,5 @@
 ---
-permalink: /blog/speaking-at-wdc-2012
+permalink: /blog/speaking-at-wdc-2012/index.html
 
 title: "Speaking at WDC 2012"
 date: 2012-08-09

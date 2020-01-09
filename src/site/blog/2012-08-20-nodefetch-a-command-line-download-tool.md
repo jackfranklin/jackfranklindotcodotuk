@@ -1,5 +1,5 @@
 ---
-permalink: /blog/nodefetch-a-command-line-download-tool
+permalink: /blog/nodefetch-a-command-line-download-tool/index.html
 
 title: "nodefetch, a command line download tool"
 date: 2012-08-20

@@ -1,5 +1,5 @@
 ---
-permalink: /blog/watch-me-code-screencasts
+permalink: /blog/watch-me-code-screencasts/index.html
 
 title: "Watch me Code Screencasts"
 date: 2012-07-10

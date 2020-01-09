@@ -1,5 +1,5 @@
 ---
-permalink: /blog/es6-destructuring
+permalink: /blog/es6-destructuring/index.html
 
 title: ES6 Destructuring
 intro: "Meet some more of ES6's new features: destructuring of arrays and objects"

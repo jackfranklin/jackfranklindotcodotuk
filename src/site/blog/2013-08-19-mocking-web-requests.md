@@ -1,5 +1,5 @@
 ---
-permalink: /blog/mocking-web-requests
+permalink: /blog/mocking-web-requests/index.html
 
 title: Mocking API Requests in Node tests
 intro: How to test Node modules that make lots of API requests.

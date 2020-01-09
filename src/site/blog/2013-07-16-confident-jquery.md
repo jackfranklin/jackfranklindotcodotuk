@@ -1,5 +1,5 @@
 ---
-permalink: /blog/confident-jquery
+permalink: /blog/confident-jquery/index.html
 
 title: "Announcing 'Confident jQuery'"
 intro: At the weekend I annouced my latest project, "Confident jQuery". It's going to be a book, self-published through Leanpub aimed at those who are confident enough using the jQuery API and its methods, but want to take that next step.

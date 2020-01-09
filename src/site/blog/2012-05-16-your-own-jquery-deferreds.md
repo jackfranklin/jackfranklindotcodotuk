@@ -1,5 +1,5 @@
 ---
-permalink: /blog/your-own-jquery-deferreds
+permalink: /blog/your-own-jquery-deferreds/index.html
 
 title: "Your own jQuery Deferreds"
 date: 2012-05-16

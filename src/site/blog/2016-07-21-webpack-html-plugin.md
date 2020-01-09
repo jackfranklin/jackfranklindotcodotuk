@@ -1,5 +1,5 @@
 ---
-permalink: /blog/webpack-html-plugin
+permalink: /blog/webpack-html-plugin/index.html
 
 title: Using the HTML Webpack Plugin for generating HTML files
 intro: Today we'll set up the HTML Webpack Plugin to dynamically generate the HTML files for our production builds.

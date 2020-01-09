@@ -1,5 +1,5 @@
 ---
-permalink: /blog/react-extracting-logic
+permalink: /blog/react-extracting-logic/index.html
 
 title: Extracting Logic from React Components
 intro: Today we'll refactor a React component by pulling out logic that can live in its own module that we can test more easily.

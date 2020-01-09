@@ -1,5 +1,5 @@
 ---
-permalink: /blog/introduction-to-styled-components-react
+permalink: /blog/introduction-to-styled-components-react/index.html
 
 title: An introduction to styled-components with Glen Maddern
 intro: In today's video I set up and explore styled-components with the help of Glen Maddern.

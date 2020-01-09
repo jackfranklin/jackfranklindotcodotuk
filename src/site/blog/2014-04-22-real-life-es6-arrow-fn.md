@@ -1,5 +1,5 @@
 ---
-permalink: /blog/real-life-es6-arrow-fn
+permalink: /blog/real-life-es6-arrow-fn/index.html
 
 title: Real Life ES6 - Arrow Functions
 intro: Today we'll look at one of the many new features coming to JavaScript in ES6, Arrow Functions.

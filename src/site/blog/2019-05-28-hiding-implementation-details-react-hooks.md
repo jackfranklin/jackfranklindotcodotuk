@@ -1,5 +1,5 @@
 ---
-permalink: /blog/hiding-implementation-details-react-hooks
+permalink: /blog/hiding-implementation-details-react-hooks/index.html
 
 title: "Hiding implementation details with React hooks"
 intro: Hooks are a great way to take some complex logic and hide it behind a nice facade. In this post we'll discuss the how, why and when of doing this.

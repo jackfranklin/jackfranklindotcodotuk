@@ -1,5 +1,5 @@
 ---
-permalink: /blog/node-express-todo-app-redis
+permalink: /blog/node-express-todo-app-redis/index.html
 
 title: "Node &amp; Express Todo App: Redis"
 date: 2012-06-24

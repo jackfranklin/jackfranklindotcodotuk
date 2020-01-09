@@ -1,5 +1,5 @@
 ---
-permalink: /blog/js-command-line-tooling
+permalink: /blog/js-command-line-tooling/index.html
 
 title: "JS Command Line Tooling"
 date: 2012-12-30

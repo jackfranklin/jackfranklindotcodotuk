@@ -1,5 +1,5 @@
 ---
-permalink: /blog/javascript-mv-frameworks
+permalink: /blog/javascript-mv-frameworks/index.html
 
 title: "JavaScript MV* Frameworks"
 date: 2012-12-03

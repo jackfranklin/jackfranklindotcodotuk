@@ -1,5 +1,5 @@
 ---
-permalink: /blog/black-friday-react-sale
+permalink: /blog/black-friday-react-sale/index.html
 
 title: "Black Friday sale on my React video courses"
 intro: For one week only, you can grab 40% off all my video courses.

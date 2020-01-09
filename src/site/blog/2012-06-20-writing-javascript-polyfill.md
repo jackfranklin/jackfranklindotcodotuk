@@ -1,5 +1,5 @@
 ---
-permalink: /blog/writing-javascript-polyfill
+permalink: /blog/writing-javascript-polyfill/index.html
 
 title: "Your First Polyfill"
 date: 2012-06-20

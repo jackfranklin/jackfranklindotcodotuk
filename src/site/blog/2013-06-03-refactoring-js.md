@@ -1,5 +1,5 @@
 ---
-permalink: /blog/refactoring-js
+permalink: /blog/refactoring-js/index.html
 
 title: Refactoring DOM Heavy JS
 date: 2013-06-03

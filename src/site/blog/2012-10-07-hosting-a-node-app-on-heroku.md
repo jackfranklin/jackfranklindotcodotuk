@@ -1,5 +1,5 @@
 ---
-permalink: /blog/hosting-a-node-app-on-heroku
+permalink: /blog/hosting-a-node-app-on-heroku/index.html
 
 title: "Hosting a Node app on Heroku"
 date: 2012-10-07

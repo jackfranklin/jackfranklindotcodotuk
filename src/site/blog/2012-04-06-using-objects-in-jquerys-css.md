@@ -1,5 +1,5 @@
 ---
-permalink: /blog/using-objects-in-jquerys-css
+permalink: /blog/using-objects-in-jquerys-css/index.html
 
 title: "Using objects in jQuery's .css()"
 date: 2012-04-06

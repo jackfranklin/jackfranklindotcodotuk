@@ -1,5 +1,5 @@
 ---
-permalink: /blog/refactoring-tales
+permalink: /blog/refactoring-tales/index.html
 
 title: The Refactoring Tales book
 intro: I've written up some refactoring case studies that look at improving existing code and writing maintainable code into a small ebook.

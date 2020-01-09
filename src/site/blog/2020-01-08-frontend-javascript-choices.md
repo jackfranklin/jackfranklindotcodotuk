@@ -1,5 +1,5 @@
 ---
-permalink: /blog/frontend-javascript-choices
+permalink: /blog/frontend-javascript-choices/index.html
 title: "Frontend tech choices I'm making in 2020"
 intro:
   "Today I'm looking forward to some of the technology that I'm most excited

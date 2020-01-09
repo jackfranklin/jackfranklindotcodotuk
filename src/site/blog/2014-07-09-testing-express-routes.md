@@ -1,5 +1,5 @@
 ---
-permalink: /blog/testing-express-routes
+permalink: /blog/testing-express-routes/index.html
 
 title: Unit testing ExpressJS route functions
 intro: In this post we'll look at how to unit test API endpoints within an Express 4 application.

@@ -1,5 +1,5 @@
 ---
-permalink: /blog/prefer-code-over-comments
+permalink: /blog/prefer-code-over-comments/index.html
 
 title: Preferring code over comments
 intro: A short post on refactoring code to avoid comments that could instead be code.

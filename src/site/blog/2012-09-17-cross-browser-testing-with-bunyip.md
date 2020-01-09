@@ -1,5 +1,5 @@
 ---
-permalink: /blog/cross-browser-testing-with-bunyip
+permalink: /blog/cross-browser-testing-with-bunyip/index.html
 
 title: "Cross Browser Testing with bunyip"
 date: 2012-09-17

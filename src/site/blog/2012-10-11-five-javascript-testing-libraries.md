@@ -1,5 +1,5 @@
 ---
-permalink: /blog/five-javascript-testing-libraries
+permalink: /blog/five-javascript-testing-libraries/index.html
 
 title: "Five JavaScript Testing Libraries"
 date: 2012-10-11

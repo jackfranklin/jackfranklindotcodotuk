@@ -1,5 +1,5 @@
 ---
-permalink: /blog/jquery-1-7-event-binding-on-and-off
+permalink: /blog/jquery-1-7-event-binding-on-and-off/index.html
 
 title: "jQuery 1.7 Event Binding: .on() &amp; .off()"
 date: 2012-04-09

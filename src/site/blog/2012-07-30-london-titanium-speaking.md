@@ -1,5 +1,5 @@
 ---
-permalink: /blog/london-titanium-speaking
+permalink: /blog/london-titanium-speaking/index.html
 
 title: "Come and watch me speak"
 date: 2012-07-30

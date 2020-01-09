@@ -1,5 +1,5 @@
 ---
-permalink: /blog/the-new-keyword-in-javascript
+permalink: /blog/the-new-keyword-in-javascript/index.html
 
 title: "The new keyword in JavaScript"
 date: 2012-12-28

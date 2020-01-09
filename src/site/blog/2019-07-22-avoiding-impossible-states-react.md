@@ -1,5 +1,5 @@
 ---
-permalink: /blog/avoiding-impossible-states-react
+permalink: /blog/avoiding-impossible-states-react/index.html
 
 title: "Making impossible states impossible: data structures in React"
 intro: "Today we're talking about avoiding bugs by structuring your data such that the bug can never occur."

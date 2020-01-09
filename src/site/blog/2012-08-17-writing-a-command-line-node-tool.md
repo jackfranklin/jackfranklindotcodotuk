@@ -1,5 +1,5 @@
 ---
-permalink: /blog/writing-a-command-line-node-tool
+permalink: /blog/writing-a-command-line-node-tool/index.html
 
 title: "Writing a Command Line Node Tool"
 deprecated_by: "/blog/2015/03/node-command-line-tool/"

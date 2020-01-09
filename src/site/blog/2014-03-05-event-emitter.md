@@ -1,5 +1,5 @@
 ---
-permalink: /blog/event-emitter
+permalink: /blog/event-emitter/index.html
 
 title: Pub Sub with Event Emitter
 intro: The Publish and Subscribe pattern is great for building large apps, and in this post I'll show you how to achieve it with Node's EventEmitter.

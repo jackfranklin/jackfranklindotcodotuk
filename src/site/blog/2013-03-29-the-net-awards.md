@@ -1,5 +1,5 @@
 ---
-permalink: /blog/the-net-awards
+permalink: /blog/the-net-awards/index.html
 
 title: "The .net Awards"
 date: 2013-03-29

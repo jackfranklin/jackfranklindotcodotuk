@@ -1,5 +1,5 @@
 ---
-permalink: /blog/functional-stateless-components-react
+permalink: /blog/functional-stateless-components-react/index.html
 
 title: Functional Stateless Components in React
 intro: In this post we'll explore writing React components as functional, stateless components and the benefits they can bring to your application.

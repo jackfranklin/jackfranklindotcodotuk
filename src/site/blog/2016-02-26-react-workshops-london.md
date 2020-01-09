@@ -1,5 +1,5 @@
 ---
-permalink: /blog/react-workshops-london
+permalink: /blog/react-workshops-london/index.html
 
 title: ReactJS workshops in London
 intro: Come and join me for a day of ReactJS learning in London

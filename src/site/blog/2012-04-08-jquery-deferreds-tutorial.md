@@ -1,5 +1,5 @@
 ---
-permalink: /blog/jquery-deferreds-tutorial
+permalink: /blog/jquery-deferreds-tutorial/index.html
 
 title: "An introduction to jQuery Deferreds"
 date: 2012-04-08

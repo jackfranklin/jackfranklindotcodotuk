@@ -1,5 +1,5 @@
 ---
-permalink: /blog/es5-getters-setters
+permalink: /blog/es5-getters-setters/index.html
 
 title: JavaScript Getters and Setters
 intro: Learn how to use getters and setters to clean up your JavaScript objects.

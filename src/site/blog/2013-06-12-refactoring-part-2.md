@@ -1,5 +1,5 @@
 ---
-permalink: /blog/refactoring-part-2
+permalink: /blog/refactoring-part-2/index.html
 
 title: More Refactoring
 date: 2013-06-12

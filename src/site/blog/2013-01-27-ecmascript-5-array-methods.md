@@ -1,5 +1,5 @@
 ---
-permalink: /blog/ecmascript-5-array-methods
+permalink: /blog/ecmascript-5-array-methods/index.html
 
 title: "ECMAScript 5 Array Methods"
 date: 2013-01-27

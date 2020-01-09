@@ -1,5 +1,5 @@
 ---
-permalink: /blog/contributing-to-webpack-javascript
+permalink: /blog/contributing-to-webpack-javascript/index.html
 
 title: How to contribute to open source with Webpack
 intro: In today's video I'm joined by Sean Larkin from the Webpack team as he talks me through contributing to Webpack. You'll see me write the code, run the tests and open a pull request on Github. If you've ever wondered how to get started contributing to open source, this video should help.

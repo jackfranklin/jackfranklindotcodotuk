@@ -1,5 +1,5 @@
 ---
-permalink: /blog/node-command-line-tool
+permalink: /blog/node-command-line-tool/index.html
 
 title: Writing Command Line Tools with Node
 intro: In this post I'll show you how to write a basic command line tool using Node.js

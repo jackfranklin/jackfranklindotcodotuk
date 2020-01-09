@@ -1,5 +1,5 @@
 ---
-permalink: /blog/a-site-update
+permalink: /blog/a-site-update/index.html
 
 title: "A Site Update"
 date: 2012-07-16

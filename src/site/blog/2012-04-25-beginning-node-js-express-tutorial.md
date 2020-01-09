@@ -1,5 +1,5 @@
 ---
-permalink: /blog/beginning-node-js-express-tutorial
+permalink: /blog/beginning-node-js-express-tutorial/index.html
 
 title: "Beginning Node.js"
 date: 2012-04-25

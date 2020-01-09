@@ -1,5 +1,5 @@
 ---
-permalink: /blog/remote-data-js
+permalink: /blog/remote-data-js/index.html
 
 title: Better data fetching with RemoteDataJS
 intro: In this post I introduce a library I've created for fetching data from APIs called RemoteDataJS.

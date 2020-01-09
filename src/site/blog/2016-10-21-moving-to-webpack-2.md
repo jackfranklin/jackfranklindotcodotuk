@@ -1,5 +1,5 @@
 ---
-permalink: /blog/moving-to-webpack-2
+permalink: /blog/moving-to-webpack-2/index.html
 
 title: Migrating to Webpack 2
 intro: I documented my experience updating a project from Webpack 1 to 2.

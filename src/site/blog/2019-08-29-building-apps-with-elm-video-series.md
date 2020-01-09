@@ -1,5 +1,5 @@
 ---
-permalink: /blog/building-apps-with-elm-video-series
+permalink: /blog/building-apps-with-elm-video-series/index.html
 
 title: "A free video series on building web apps with Elm"
 intro: "See how I build Elm apps in this entirely free 20 video series."

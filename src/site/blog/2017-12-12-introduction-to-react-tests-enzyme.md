@@ -1,5 +1,5 @@
 ---
-permalink: /blog/introduction-to-react-tests-enzyme
+permalink: /blog/introduction-to-react-tests-enzyme/index.html
 
 title: An introduction to testing React components with Enzyme 3
 intro: In today's post we'll introduce Enzyme and look at how to use it to test a basic React component.

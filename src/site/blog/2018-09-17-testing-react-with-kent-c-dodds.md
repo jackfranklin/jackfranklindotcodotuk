@@ -1,5 +1,5 @@
 ---
-permalink: /blog/testing-react-with-kent-c-dodds
+permalink: /blog/testing-react-with-kent-c-dodds/index.html
 
 title: Testing React with Kent C. Dodds
 intro: Kent and I sat down to chat about our approaches to testing our React applications.

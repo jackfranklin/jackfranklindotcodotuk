@@ -1,5 +1,5 @@
 ---
-permalink: /blog/a-new-js-playground-update
+permalink: /blog/a-new-js-playground-update/index.html
 
 title: "A New JS Playground Update"
 date: 2012-11-25

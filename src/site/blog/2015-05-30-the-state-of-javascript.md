@@ -1,5 +1,5 @@
 ---
-permalink: /blog/the-state-of-javascript
+permalink: /blog/the-state-of-javascript/index.html
 
 title: Predictions on JavaScript in the next 12 months
 intro: Based on a recent talk I gave, in this blog post I'll discuss my thoughts on the current state of JS and what we might see over the next 12 months.

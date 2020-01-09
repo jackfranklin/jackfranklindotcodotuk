@@ -1,5 +1,5 @@
 ---
-permalink: /blog/the-perfect-javascript-unit-test
+permalink: /blog/the-perfect-javascript-unit-test/index.html
 
 title: "The perfect unit test"
 intro: Today we're talking about how to write the perfect unit test and how to ensure your tests stay readable, usable and maintainable.

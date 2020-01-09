@@ -1,5 +1,5 @@
 ---
-permalink: /blog/state-of-frontend-tooling
+permalink: /blog/state-of-frontend-tooling/index.html
 
 title: The state of front end tooling
 intro: A post on my thoughts about the state of tooling in JavaScript

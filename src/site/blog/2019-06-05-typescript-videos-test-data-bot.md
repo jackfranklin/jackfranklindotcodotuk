@@ -1,5 +1,5 @@
 ---
-permalink: /blog/typescript-videos-test-data-bot
+permalink: /blog/typescript-videos-test-data-bot/index.html
 
 title: "Converting a JS library to TypeScript: Part 1"
 intro: A new free video series starts today where I'm recording myself as I work converting an open source project into TypeScript.

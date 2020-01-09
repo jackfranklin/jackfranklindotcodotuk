@@ -1,5 +1,5 @@
 ---
-permalink: /blog/avoiding-recursive-use-effect-hooks-react
+permalink: /blog/avoiding-recursive-use-effect-hooks-react/index.html
 
 title: "Avoiding recursive useEffect hooks in React"
 intro: A short post today about an easy tactic to avoid your useEffect calls becoming recursive when setting state.

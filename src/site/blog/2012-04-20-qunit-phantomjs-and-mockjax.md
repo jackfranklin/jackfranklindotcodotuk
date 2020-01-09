@@ -1,5 +1,5 @@
 ---
-permalink: /blog/qunit-phantomjs-and-mockjax
+permalink: /blog/qunit-phantomjs-and-mockjax/index.html
 
 title: "QUnit, PhantomJS and Mockjax"
 date: 2012-04-20

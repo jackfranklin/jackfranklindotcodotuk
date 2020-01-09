@@ -1,5 +1,5 @@
 ---
-permalink: /blog/editors-for-front-end-development
+permalink: /blog/editors-for-front-end-development/index.html
 
 title: Moving away from Vim for front-end development
 intro: Recently I've been considering a move away from Vim for front end development.

@@ -1,5 +1,5 @@
 ---
-permalink: /blog/grunt-js-command-line-tutorial
+permalink: /blog/grunt-js-command-line-tutorial/index.html
 
 title: "Grunt, a JS Command Line Tool"
 date: 2012-04-19

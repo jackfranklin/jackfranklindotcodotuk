@@ -1,5 +1,5 @@
 ---
-permalink: /blog/vim-for-javascript
+permalink: /blog/vim-for-javascript/index.html
 
 title: Setting up Vim for modern JavaScript Development
 intro: Today I'll show you how I set up Vim for JavaScript development and show you some of the key parts of my configuration that make it a great environment to write JavaScript, integrating with today's prominent tools such as ESLint and Flow.
