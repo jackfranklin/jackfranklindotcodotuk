@@ -1,5 +1,5 @@
 ---
-title: ElevenTail
+title: Jack Franklin
 layout: default
 ---
 
@@ -7,9 +7,12 @@ layout: default
   <p>Day to day you'll find me working at <a href="https://www.thread.com">Thread</a> as a frontend engineer focused on modernising our tech stack with React and Elm.</p>
   <p>This site is also where you'll also find my <a href="/blog">blog posts</a> where I write and record content on JavaScript, React, software development and more.</p>
 
-  <h3>Conference speaking</h3>
-  <p>I have a lot of experience speaking at industry conferences, meet-ups and events. I'm always keen to get involved and normally fit best into technical events with a focus on JavaScript or front end development generally. Get in touch if you'd like me to speak at an upcoming event of yours.</p>
-
-  <h3>Contact me</h3>
-  <p>If you'd like to get in touch you can find me <a href="http://www.twitter.com/Jack_Franklin">on Twitter</a> or drop an email to jack at jackfranklin dot net.</p>
+  {% set item = collections.post | last %}
+  <div class="latest-blog-post">
+    <h2>
+      <small>Latest blog post</small>
+      <a href="{{item.url}}">{{item.data.title}}</a>
+    </h2>
+    <p>{{item.data.intro}}</p>
+  </div>
 </section>

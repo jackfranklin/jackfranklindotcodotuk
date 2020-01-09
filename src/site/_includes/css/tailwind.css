@@ -58,6 +58,29 @@ section p, section li {
   @apply text-lg;
 }
 
+.latest-blog-post {
+  @apply bg-gray-200;
+  @apply px-4 py-6;
+  @apply my-4;
+  @apply text-2xl;
+  @apply my-4;
+  @apply border-l-8;
+  @apply border-blue-900;
+  @apply text-2xl;
+  @apply mt-8 mb-4;
+  @apply text-blue-900;
+  @apply pl-4;
+}
+
+.latest-blog-post h2 {
+  @apply mb-4;
+}
+
+.latest-blog-post small {
+  @apply block;
+  @apply text-sm;
+}
+
 section h3 {
   @apply text-2xl;
   @apply mt-6 mb-2;
@@ -98,12 +121,12 @@ a.naked-link:hover {
 
 }
 
-pre[class*="language-"] {
+pre[class*="language-"], pre {
   /* need importants to override prism-material */
   @apply my-4 !important;
 }
 
-code {
+code,  pre[class=""] {
   @apply bg-gray-200;
   @apply p-1;
   @apply rounded;
