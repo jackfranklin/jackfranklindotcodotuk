@@ -11,12 +11,11 @@ body {
 }
 
 header {
-  @apply justify-between;
-  @apply flex;
   @apply py-2;
   @apply mb-10;
   @apply border-b-2;
   @apply pb-6
+
 }
 
 @screen sm {
@@ -24,6 +23,19 @@ header {
     width: 80%;
     max-width: 800px;
   }
+
+}
+
+header nav > ul {
+  justify-content: flex-end;
+}
+
+@screen md {
+  header {
+    @apply justify-between;
+    @apply flex;
+  }
+
 }
 
 /*
@@ -140,9 +152,6 @@ pre > code {
   Navigation links
 */
 
-nav > ul {
-  justify-content: flex-end;
-}
 .nav-tab {
   @apply inline-block;
   @apply text-blue-900;
