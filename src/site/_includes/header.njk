@@ -1,0 +1,27 @@
+
+<header>
+  <h1 class="text-blue-800 font-medium text-3xl">
+    <a href="/" class="naked-link">Jack Franklin</a>
+    <small class="block text-xl">
+
+    {% if page.url == '/' %}
+      Software engineer, blogger and speaker.
+    {% else %}
+      {{subtitle}}
+    {% endif %}
+
+    </small>
+  </h1>
+  <nav>
+    {%
+      set linkList = [
+        { "url": "/blog" , "text": "Blog"},
+        { "url": "https://www.twitter.com/Jack_Franklin" , "text": "Twitter"}
+      ]
+    %}
+    {% include "navigation-links.njk" %}
+  </nav>
+</header>
+
+
+

@@ -1,0 +1,13 @@
+---
+title: ElevenTail - Blog
+layout: default
+subtitle: Blogging on Software Engineering, JavaScript and Systems architecture.
+---
+
+<section>
+  <ul>
+  {%- for item in collections.post | reverse -%}
+    {% include 'components/post-teaser.njk' %}
+  {%- endfor -%}
+  </ul>
+</section>

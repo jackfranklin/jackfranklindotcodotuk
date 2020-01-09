@@ -1,0 +1,141 @@
+/* purgecss start ignore */
+@tailwind  base;
+/* purgecss end ignore */
+
+html, body {
+  @apply font-serif;
+}
+
+body {
+  width: 100%;
+}
+
+header {
+  @apply justify-between;
+  @apply flex;
+  @apply py-2;
+  @apply mb-10;
+  @apply border-b-2;
+  @apply pb-6
+}
+
+@screen sm {
+  body {
+    width: 80%;
+    max-width: 800px;
+  }
+}
+
+/*
+  Content sections conventions
+*/
+section {
+  @apply pb-10;
+}
+p+p {
+  @apply mt-4;
+}
+
+section p, section li {
+  @apply text-lg;
+}
+
+section h3 {
+  @apply text-2xl;
+  @apply mt-4 mb-2;
+  @apply text-blue-900;
+}
+
+/*
+  Global headings conventions
+*/
+h1.heading {
+  @apply text-3xl;
+  @apply text-gray-900;
+  @apply mb-4;
+  @apply font-semibold;
+}
+
+/*
+  Base styles for links
+*/
+a {
+  @apply border-b-2;
+  @apply border-blue-900;
+
+  transition: border-color .2s ease-in;
+}
+a:hover,
+a:focus {
+  @apply border-blue-600;
+}
+a.naked-link:link,
+a.naked-link:visited {
+  @apply border-0;
+}
+
+a.naked-link:hover {
+  @apply border-b-2;
+  @apply border-blue-900;
+
+}
+
+.content ul,
+.content ol {
+  @apply my-6;
+}
+.content li {
+  @apply list-disc;
+  @apply ml-6;
+}
+.content ol li {
+  @apply list-decimal;
+  @apply pl-2;
+}
+
+code {
+  @apply bg-gray-200;
+  @apply text-sm;
+  @apply p-1;
+  @apply rounded;
+}
+
+/*
+  Navigation links
+*/
+
+nav > ul {
+  justify-content: flex-end;
+}
+.nav-tab {
+  @apply inline-block;
+  @apply text-blue-900;
+  @apply font-semibold;
+  @apply px-2;
+  @apply py-1;
+  @apply border-b-0;
+  @apply rounded;
+}
+.nav-tab:hover {
+  @apply bg-white;
+  @apply text-teal-500;
+  @apply border-b-0;
+}
+
+
+.filter-bw-800 {
+  filter: grayscale(0.8);
+}
+
+.mb--2 {
+  margin-bottom: -0.5rem;
+}
+.mb--4 {
+  margin-bottom: -1rem;
+}
+
+/* purgecss start ignore */
+@tailwind  components;
+/* purgecss end ignore */
+
+@tailwind utilities;
