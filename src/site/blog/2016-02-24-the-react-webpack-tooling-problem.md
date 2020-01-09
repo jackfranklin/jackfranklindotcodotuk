@@ -69,7 +69,7 @@ Finally, we can compile our files by calling `./node_modules/.bin/babel`:
 
 And then we _don't even need a file server_ to run our app - simply opening `index.html` in the browser does the trick.
 
-![](http://i.imgur.com/Galeap0.jpg)
+![](https://i.imgur.com/Galeap0.jpg)
 
 At this point we could stop now and tell the developer that every time they change their code they need to rerun the above command, but we can do so much better than that.
 
