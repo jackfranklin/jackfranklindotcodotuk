@@ -1,6 +1,7 @@
 ---
 
 title: "Testing with QUnit: Part 1"
+date: 2012-04-14
 ---
 
 Recently I was asked on Twitter to do a tutorial on [QUnit](http://qunitjs.com/), a JavaScript Unit Testing framework, and the one used by jQuery. What I wanted to do however, is use it with a real project, rather than set up some fake project. So, I've done just that. Having worked with the [Instagr.am API](http://instagr.am/developer/) recently, I'm going to use this series of tutorials to write a JavaScript wrapper for the Instagram API & test it with QUnit. Unlike most content on this site, this is going to be a multi-part tutorial, but I hope to still manage to achieve 1-2 specific things within each post. If you've any questions, please leave a comment & I will answer all questions at the beginning of the next tutorial. I'll presume you're vaguely familiar with the idea of Unit Testing in general. At the end of the series you should have a working knowledge of QUnit and how to use it. I'll also open source the Instagram Wrapper we create onto Github. As this series is mainly focusing on testing, I wont highlight how I do everything in terms of querying the Instagram API but I will point out specific bits that I think are useful.

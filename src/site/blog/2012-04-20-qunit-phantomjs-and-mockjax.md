@@ -1,6 +1,7 @@
 ---
 
 title: "QUnit, PhantomJS and Mockjax"
+date: 2012-04-20
 ---
 
 Following on from last week's [introduction to QUnit](http://javascriptplayground.com/blog/2012/04/javascript-testing-qunit-1) today I want to talk less about how to use QUnit but ways to make it easier to use or integrate it into your development workflow.

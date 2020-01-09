@@ -3,6 +3,7 @@
 title: Using React Fragments for the first time
 intro: Today we'll look at a new feature introduced in React 16, fragments, and how we can use them to tidy up the DOM that our components create.
 githubPath: 2017-12-18-react-fragments
+date: 2017-12-18
 ---
 
 React v16 was a very exciting release for React, and included many new features. In the recent [React 16.2 release](https://reactjs.org/blog/2017/11/28/react-v16.2.0-fragment-support.html), improved support for Fragments was announced, and it's this feature that I want to talk about today.

@@ -1,6 +1,7 @@
 ---
 
 title: "Hosting a Node app on Heroku"
+date: 2012-10-07
 ---
 
 _Note: I apologise for the lack of updates on JS Playground recently, but happy to announce the site is now returning to at least one post per week. Any requests for content, please get in touch._

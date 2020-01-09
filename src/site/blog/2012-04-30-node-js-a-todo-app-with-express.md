@@ -1,6 +1,7 @@
 ---
 
 title: "Node.js: A Todo App with Express"
+date: 2012-04-30
 ---
 
 So [last time](http://javascriptplayground.com/blog/2012/04/beginning-node-js-express-tutorial) we installed Node & did the traditional "Hello World" example with Node & then using the Express framework. Today we're going to make a simple app using Express from the beginning. We will generate the app with Express & then explore Express further, including Unit testing. This will most likely be a multi-part tutorial. The app we're building is a very simple "To Do" application. I know it's boring, but it's simple enough that we can focus on Express & Node rather than the implementation of the app.

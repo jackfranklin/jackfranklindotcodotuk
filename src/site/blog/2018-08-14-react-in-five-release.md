@@ -3,6 +3,7 @@
 title: "React in Five: a new video course to level up your React"
 intro: Today I'm launching a new video course to help you take the next step learning React.
 githubPath: 2018-08-14-react-in-five-release
+date: 2018-08-14
 ---
 
 Today I'm releasing my brand new video series titled "React in Five"

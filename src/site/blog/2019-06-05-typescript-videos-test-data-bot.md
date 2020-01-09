@@ -2,6 +2,7 @@
 
 title: "Converting a JS library to TypeScript: Part 1"
 intro: A new free video series starts today where I'm recording myself as I work converting an open source project into TypeScript.
+date: 2019-06-05
 ---
 
 I've been wanting a project to dive into to help me learn TypeScript, and the

@@ -1,6 +1,7 @@
 ---
 
 title: "JavaScript MV* Frameworks"
+date: 2012-12-03
 ---
 
 > "The massive growth in rich, JavaScript-heavy web applications has lead to a huge array of frameworks designed to help you build apps. There are so many that it can often be difficult to choose which best suits your needs, so in this article I'll discuss five of the most popular, and look at where each of their strengths lie. You shouldn't base your decision entirely on this article - I encourage you to play further with a framework before committing - but I hope this sets you off in the right direction."

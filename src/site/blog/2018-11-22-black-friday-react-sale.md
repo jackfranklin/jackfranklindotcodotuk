@@ -3,6 +3,7 @@
 title: "Black Friday sale on my React video courses"
 intro: For one week only, you can grab 40% off all my video courses.
 githubPath: 2018-11-22-black-friday-react-sale
+date: 2018-11-22
 ---
 
 In the past year I've launched two video courses on React, and today I'm offering 40% off them over the Black Friday period.

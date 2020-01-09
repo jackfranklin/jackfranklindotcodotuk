@@ -2,6 +2,7 @@
 
 title: ES6 Destructuring
 intro: "Meet some more of ES6's new features: destructuring of arrays and objects"
+date: 2014-10-16
 ---
 
 ES6 comes both with huge new features like generators or classes, but also packs in a lot of smaller features that are going to make a big difference to how your JavaScript looks. Today I want to explore some of the new destructuring abilities ES6 adds, and how it can reduce the amount of code we have to write.

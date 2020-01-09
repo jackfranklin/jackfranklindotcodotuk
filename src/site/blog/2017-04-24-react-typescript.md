@@ -3,6 +3,7 @@
 title: Getting started with TypeScript and React
 intro: I've recently been learning TypeScript and today I'll take you through how I set up a TypeScript project using React, Babel and Webpack.
 githubPath: 2017-04-24-react-typescript
+date: 2017-04-24
 ---
 
 I've recently been getting into TypeScript following a lot of positive blogs about it from [Tom Dale](https://medium.com/@tomdale/glimmer-js-whats-the-deal-with-typescript-f666d1a3aad0) and others. Today I'll show you how I've set up a TypeScript project from scratch that uses React, and Webpack for managing the build process. I'll also discuss my initial impressions of TypeScript and in particular working with TypeScript and ReactJS.

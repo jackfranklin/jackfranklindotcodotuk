@@ -2,6 +2,7 @@
 
 title: Pub Sub with Event Emitter
 intro: The Publish and Subscribe pattern is great for building large apps, and in this post I'll show you how to achieve it with Node's EventEmitter.
+date: 2014-03-05
 ---
 
 I'm a big fan of the Pub Sub (Publish, Subscribe) design pattern, and it's one that I tend to reach for often. I've [written previously](/blog/2012/04/a-jquery-pub-sub-implementation/) about it, but that was using jQuery and was frontend specific. Today I'd like to swap and look at using this pattern in Node.js environments.

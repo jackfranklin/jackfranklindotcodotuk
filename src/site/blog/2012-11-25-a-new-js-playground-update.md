@@ -1,6 +1,7 @@
 ---
 
 title: "A New JS Playground Update"
+date: 2012-11-25
 ---
 
 Today I spent a bit of time updating the site, and as such it seemed like a good time to write a small blog post with some updates.

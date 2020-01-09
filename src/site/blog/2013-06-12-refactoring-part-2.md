@@ -1,6 +1,7 @@
 ---
 
 title: More Refactoring
+date: 2013-06-12
 ---
 
 Last week's [refactoring post](http://javascriptplayground.com/blog/2013/06/refactoring-js/) turned out more popular than expected and I wasn't going to revisit it. However, it got so much interest that I'd like to.

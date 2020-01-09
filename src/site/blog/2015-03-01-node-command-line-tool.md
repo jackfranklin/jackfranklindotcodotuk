@@ -2,6 +2,7 @@
 
 title: Writing Command Line Tools with Node
 intro: In this post I'll show you how to write a basic command line tool using Node.js
+date: 2015-03-01
 ---
 
 Back in August 2012 I wrote a post on [building a command line tool in NodeJS](/blog/2012/08/writing-a-command-line-node-tool/). That post is now over two years old and plenty has changed, hence I thought it worth writing a new post building the same tool, showing how I'd do it now.

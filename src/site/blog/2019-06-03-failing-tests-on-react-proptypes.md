@@ -2,6 +2,7 @@
 
 title: "Making unit tests fail when PropTypes error"
 intro: Documenting components with React's PropTypes library is a great way to be notified when you've forgotten to pass a certain prop. Today we're going to see how we can leverage these to make our tests fail when our PropTypes are incorrect.
+date: 2019-06-03
 ---
 
 PropTypes are a great way to document your components and I generally advise

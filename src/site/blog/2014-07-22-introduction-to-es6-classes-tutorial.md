@@ -2,6 +2,7 @@
 
 title: An introduction to ES6 classes.
 intro: Today we'll look at another new feature of ES6, classes.
+date: 2014-07-22
 ---
 
 ## Support

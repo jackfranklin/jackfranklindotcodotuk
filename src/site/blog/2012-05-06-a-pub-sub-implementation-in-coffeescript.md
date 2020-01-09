@@ -1,6 +1,7 @@
 ---
 
 title: "A Pub Sub implementation in CoffeeScript"
+date: 2012-05-06
 ---
 
 A while back I wrote about creating a [Pub/Sub implementation in jQuery](http://javascriptplayground.com/blog/2012/04/a-jquery-pub-sub-implementation) and said that I'd revist the subject without relying on jQuery. Today I'm going to do that but once again use [CoffeeScript](http://www.coffeescript.org). As always I will be Unit testing, this time with Mocha, the [same library I covered in the last tutorial](http://javascriptplayground.com/blog/2012/05/a-jquery-plugin-in-coffeescript). I will not be going over the very basics of using Mocha, so if you haven't used it before, please read that post first. Similarly, I will not be covering basic CoffeeScript, so please refer to that article if you're not familiar with the basics. For those not fans of CoffeeScript, in the future I'll be writing this from scratch with just JavaScript. The reason I use CoffeeScript today is that I've had a lot of requests for it, so I thought I'd merge a tutorial on "Advanced Coffeescript" into this Pub/Sub one.

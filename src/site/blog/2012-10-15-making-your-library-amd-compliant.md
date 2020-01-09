@@ -1,6 +1,7 @@
 ---
 
 title: "Making your library AMD compliant"
+date: 2012-10-15
 ---
 
 Previously on this blog I've written about an AMD approach with [Require.js](http://javascriptplayground.com/blog/2012/07/requirejs-amd-tutorial-introduction) and about package management with [Jam JS](http://javascriptplayground.com/blog/2012/07/package-management-with-jam-js). Jam uses Require.js so what I thought would be a nice way to tie these two posts together would be to write on how to make your JS library AMD compliant and how to publish it with Jam, for use in other projects.

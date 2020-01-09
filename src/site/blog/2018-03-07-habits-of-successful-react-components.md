@@ -3,6 +3,7 @@
 title: Habits of Successful React components
 intro: In this post we'll look at some approaches and methods you can apply to your React components to keep them easy to use, test, edit and maintain.
 githubPath: 2018-03-07-habits-of-successful-react-components
+date: 2018-03-07
 ---
 
 One of the best features of React, and one of the reasons I think so many people

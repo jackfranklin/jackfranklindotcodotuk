@@ -3,6 +3,7 @@
 title: "Testing React with Enzyme and Jest: a new video course"
 intro: Today I'm launching a new video course on Testing React applications.
 githubPath: 2018-02-12-testing-react
+date: 2018-02-12
 ---
 
 Today I'm releasing my brand new video series titled "Testing React with Jest

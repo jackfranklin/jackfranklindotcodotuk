@@ -2,6 +2,7 @@
 
 title: Using ES6 Modules Today
 intro: Continuing our theme of exploring ES6, today we'll use the Square ES6 transpiler to use the ES6 modules syntax in our applications today.
+date: 2014-06-8-
 ---
 
 Continuing with the theme of playing with new features of ES6, today we're going to look at how we can use the new ES6 module syntax today, using Square's [ES6 Module Transpiler](https://github.com/square/es6-module-transpiler). **Remember, this syntax is not set in stone yet and could change**, but that's no reason to not have a play with the new syntax today.

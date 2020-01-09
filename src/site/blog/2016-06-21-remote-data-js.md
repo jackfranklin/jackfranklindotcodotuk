@@ -2,6 +2,7 @@
 
 title: Better data fetching with RemoteDataJS
 intro: In this post I introduce a library I've created for fetching data from APIs called RemoteDataJS.
+date: 2016-06-21
 ---
 
 One of the things that most of us have to do in our applications is fetch data from a remote data source, typically an API that gives us back some JSON data. This is something that's pretty straight forward, particularly with the newer `fetch` API, and I'm willing to bet most developers would be quite happy writing the code to do this.

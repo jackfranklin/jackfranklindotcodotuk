@@ -2,6 +2,7 @@
 
 title: Better bundles with Rollup
 intro: In this post we'll play with Rollup, a new bundling tool that can eliminate dead code and produce smaller bundles.
+date: 2016-02-05
 ---
 
 Recently I've been hearing a lot about [Rollup](https://github.com/rollup/rollup), a new JavaScript bundling tool that aims to produce smaller bundling sizes through _tree shaking_, which is the process of taking an application and figuring out which code is actually used.

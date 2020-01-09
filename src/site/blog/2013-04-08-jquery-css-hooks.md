@@ -1,6 +1,7 @@
 ---
 
 title: "jQuery CSS Hooks"
+date: 2013-04-08
 ---
 
 Did you know that jQuery gives you a way to write your own custom CSS methods? I didn't until recently and I'd like to show you why they are useful in this short tutorial.

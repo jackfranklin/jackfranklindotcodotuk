@@ -1,6 +1,7 @@
 ---
 
 title: "Conditional Loading with YepNope"
+date: 2012-06-11
 ---
 
 In today's tutorial I want to take a look at [yepnope](http://yepnopejs.com), which is an asynchronous resource loader that works on conditions. That is, you give it a test, and depending on the result of that test, you can load in additional scripts.

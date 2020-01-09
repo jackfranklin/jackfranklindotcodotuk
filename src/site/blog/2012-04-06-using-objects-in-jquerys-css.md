@@ -1,6 +1,7 @@
 ---
 
 title: "Using objects in jQuery's .css()"
+date: 2012-04-06
 ---
 
 Something I will be focusing on on a regular basis here at JSP is producing tidy code that's easier to maintain in the future as well as nicer to work with. One such area where people often produce messy code is when using jQuery's `.css()` method.

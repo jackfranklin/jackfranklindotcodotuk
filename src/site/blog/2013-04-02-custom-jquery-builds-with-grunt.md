@@ -1,6 +1,7 @@
 ---
 
 title: "Custom jQuery Builds with Grunt"
+date: 2013-04-02
 ---
 
 A lot has been made of how, in the future versions of jQuery, it will be possible to easily build your own version of jQuery, without the parts you know you're not going to use.

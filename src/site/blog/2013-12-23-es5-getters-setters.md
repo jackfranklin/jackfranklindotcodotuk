@@ -2,6 +2,7 @@
 
 title: JavaScript Getters and Setters
 intro: Learn how to use getters and setters to clean up your JavaScript objects.
+date: 2013-12-23
 ---
 
 For the most part, in JavaScript, what you see is what you get. A value's a value; there are no tricks. Sometimes however, you want a value that's based on some other values: someone's full name, for example, is a concatenation of their first and last names. If you have a `person` object, and you want the users of that object to be able to set the full, first or last name, and see that change immediately reflected in the other values, you'd conventionally build it with functions:

@@ -1,6 +1,7 @@
 ---
 
 title: "Cross Browser Testing with bunyip"
+date: 2012-09-17
 ---
 
 Today we're going to take a look at [bunyip](https://github.com/ryanseddon/bunyip), a tool from [Ryan Seddon](http://twitter.com/ryanseddon) to make running your test specs in multiple browsers really easy.

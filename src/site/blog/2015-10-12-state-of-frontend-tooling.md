@@ -2,6 +2,7 @@
 
 title: The state of front end tooling
 intro: A post on my thoughts about the state of tooling in JavaScript
+date: 2015-10-12
 ---
 
 There's been a lot of posts written recently on the web about the state of tooling in front-end development and the opinion that many share that the environment has become overwhelming both for the beginner developer and the more experienced developer.

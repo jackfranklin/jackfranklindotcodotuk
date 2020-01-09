@@ -2,6 +2,7 @@
 
 title: Embracing Command Line Tooling with Backbone Applications
 intro: In this post we'll look at how we can use command line tools like Grunt, Bower and Yeoman to speed up development of complex applications.
+date: 2014-03-31
 ---
 
 In this article I'll take you through how we can use command line tools such as [Grunt](http://gruntjs.com/), [Bower](http://bower.io/) and [Yeoman](http://yeoman.io) to speed up our typical development workflow. Today I'll be using the example of a Backbone application, but it's easily applied to any other type of front-end application or web site you might be building.

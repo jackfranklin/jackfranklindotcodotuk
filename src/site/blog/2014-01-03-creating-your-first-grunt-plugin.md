@@ -5,6 +5,7 @@ intro: Learn how to automate your tedious development tasks by writing your own 
 author: James Cryer
 author_twitter: jrcryer
 author_img: https://2.gravatar.com/avatar/473f78620d2f09df591fc90bf3108d2b
+date: 2014-01-03
 ---
 
 Today we're taking a look at writing your first Grunt plugin. For those unfamiliar with Grunt, Grunt is a JavaScript task runner and you can read Jack's previous [tutorials](/archives/) to find out more information.

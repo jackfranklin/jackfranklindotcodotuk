@@ -1,6 +1,7 @@
 ---
 
 title: "A jQuery Plugin in CoffeeScript"
+date: 2012-05-04
 ---
 
 So [last week](http://javascriptplayground.com/blog/2012/04/a-jquery-plugin-with-grunt-qunit) I showed you how to write a basic jQuery plugin and today I want to take that plugin & convert it into CoffeeScript.

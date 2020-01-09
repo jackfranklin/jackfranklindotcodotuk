@@ -3,6 +3,7 @@
 title: Preferring code over comments
 intro: A short post on refactoring code to avoid comments that could instead be code.
 githubPath: 2018-02-15-prefer-code-over-comments
+date: 2018-02-15
 ---
 
 I think we'd all agree that code comments are a good way to document code that

@@ -2,6 +2,7 @@
 
 title: "Things I was wrong about when I started programming"
 intro: In today's post I want to talk about some things I thought to be true when I started as a programmer, or habits I had, that I've now changed as I learn and reflect on my career so far.
+date: 2019-06-10
 ---
 
 When I got my first job after university I was ready to get stuck in. Through

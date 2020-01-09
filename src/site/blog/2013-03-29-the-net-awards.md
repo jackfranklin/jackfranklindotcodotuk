@@ -1,6 +1,7 @@
 ---
 
 title: "The .net Awards"
+date: 2013-03-29
 ---
 
 Recently I found out that I had been nominated for two of [.net awards](http://www.thenetawards.com/). I've been nominated for "Young Developer of the Year" and "Brilliant Newcomer of the Year".

@@ -1,6 +1,7 @@
 ---
 
 title: "Scope and this in JavaScript"
+date: 2012-04-16
 ---
 
 Today I want to talk a little about scope in JavaScript and the `this` variable. The idea of "scope" is that it's where certain functions or variables are accessible from in our code, & the context in which they exist & are executed in.

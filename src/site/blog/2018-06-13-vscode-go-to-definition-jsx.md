@@ -3,6 +3,7 @@
 title: Enabling VSCode's "Go to Definition" for JSX imports
 intro: A quick post today on how to configure VSCode's "Go to Definition" to work when importing a JSX file.
 githubPath: 2018-06-13-vscode-go-to-definition-jsx
+date: 2018-06-13
 ---
 
 I have recently been trialling using Microsoft's VSCode editor as my primary code editor, and so far I've been very happy with it. One feature that I've particularly enjoyed is "Go to Definition". This lets you hover over any variable/class/object/etc and be taken to the place where it is defined, even if it's in another file.

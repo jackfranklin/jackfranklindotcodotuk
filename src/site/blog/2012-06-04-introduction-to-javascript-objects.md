@@ -1,6 +1,7 @@
 ---
 
 title: "Introduction to JavaScript Objects"
+date: 2012-06-04
 ---
 
 Today I'd like to talk a little bit about Objects in JavaScript. When I first started using JavaScript (my first experience of it was through jQuery), I was initially confused with this whole idea of passing in objects to functions, in particular to jQuery functions like `animate()` or `css()`:

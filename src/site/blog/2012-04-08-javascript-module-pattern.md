@@ -1,6 +1,7 @@
 ---
 
 title: "The JavaScript Module Pattern"
+date: 2012-04-08
 ---
 
 Lets say you've got a little library like this, that just increments a number:

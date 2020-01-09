@@ -1,6 +1,7 @@
 ---
 
 title: "Watch me Code Screencasts"
+date: 2012-07-10
 ---
 
 I have had a lot of tweets recently asking about how I work, the tools I use, the workflow I've adopted and lots of related questions. I regularly tweet about tools and what I'm up to; some people get annoyed by it but to me one of the best things you can do is to see how other developers do things & integrate bits into a workflow that suits you.

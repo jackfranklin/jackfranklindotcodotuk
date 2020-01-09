@@ -3,6 +3,7 @@
 title: Moving away from Vim for front-end development
 intro: Recently I've been considering a move away from Vim for front end development.
 githubPath: 2017-09-10-editors-for-frontend-development
+date: 2017-09-10
 ---
 
 I've been a Vim user now consistently for about 6 years. My extensive [dotfiles][dotfiles] repository and (now badly outdated) blog on [TIL Vim][tilvim] demonstrate pretty well that I've spent a lot of time using, learning and tweaking my Vim set up to be exactly how I'd like.

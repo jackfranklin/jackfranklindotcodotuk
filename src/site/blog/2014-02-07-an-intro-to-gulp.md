@@ -2,6 +2,7 @@
 
 title: An introduction to Gulp
 intro: Gulp has been doing the rounds as a good alternative to Grunt, and this article gives you an introduction to this different approach to tooling.
+date: 2014-02-07
 ---
 
 [Gulp](https://github.com/wearefractal/gulp) has been doing the rounds recently online through Twitter as an alternative to Grunt in the JS build tooling space. Whilst I am a huge fan of Grunt, looking at other options never hurts, so I thought a quick introduction to Gulp might be fun to do.

@@ -3,6 +3,7 @@
 title: Context in ReactJS Applications
 intro: Today we'll dive into context in ReactJS, a feature that's often misunderstood and not used correctly by developers.
 githubPath: 2017-02-13-context-in-reactjs-applications
+date: 2017-02-13
 ---
 
 There is a lot of confusion amongst React developers on what context is, and why it exists. It's also a feature that's been hidden in the React documentation in the past and, [although it is now documented on the React site](https://facebook.github.io/react/docs/context.html) I thought a post on its usage and when to use it would be of use.

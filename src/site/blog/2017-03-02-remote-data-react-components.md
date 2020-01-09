@@ -3,6 +3,7 @@
 title: Dealing with APIs in React with ReactRemoteData
 intro: Today I'll talk about a new library I've written for React called ReactRemoteData, which makes working with API data in React.
 githubPath: 2017-03-02-remote-data-react-components
+date: 2017-03-02
 ---
 
 Last year I wrote about [RemoteDataJS](http://javascriptplayground.com/blog/2016/06/remote-data-js/), a [library I released on GitHub](https://github.com/jackfranklin/remote-data-js) that made it really easy to deal with data from APIs in JavaScript.

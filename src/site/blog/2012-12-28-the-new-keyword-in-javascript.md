@@ -1,6 +1,7 @@
 ---
 
 title: "The new keyword in JavaScript"
+date: 2012-12-28
 ---
 
 The `new` keyword in JavaScript was an enigma to me for a long while, and only recently have I really begun to grasp it. In this article I'm going to attempt to succintly summarise the `new` keyword in JavaScript and the use cases.

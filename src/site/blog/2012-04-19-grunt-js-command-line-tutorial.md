@@ -1,6 +1,7 @@
 ---
 
 title: "Grunt, a JS Command Line Tool"
+date: 2012-04-19
 ---
 
 Grunt describes itself as:

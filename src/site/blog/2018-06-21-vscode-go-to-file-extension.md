@@ -3,6 +3,7 @@
 title: Introducing VSCode GoToFile
 intro: Introducing a plugin I've built to enable quicker jumping of files in VSCode.
 githubPath: 2018-06-21-vscode-go-to-file-extension
+date: 2018-06-21
 ---
 
 As mentioned in [my last post on VSCode](/vscode-go-to-definition-jsx/), I've

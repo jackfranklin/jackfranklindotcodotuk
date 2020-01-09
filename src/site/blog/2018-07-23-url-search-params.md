@@ -3,6 +3,7 @@
 title: Reading and updating query params with URLSearchParams
 intro: In this post we will look at the URLSearchParams API which makes it really easy to read, delete and set query parameters.
 githubPath: 2018-07-23-url-search-params
+date: 2018-07-23
 ---
 
 One of the most common tasks in building a frontend application is to update

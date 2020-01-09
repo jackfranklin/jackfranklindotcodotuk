@@ -1,6 +1,7 @@
 ---
 
 title: "Beginning Node.js"
+date: 2012-04-25
 ---
 
 Unless you've been living under a rock for the past 12 months or so, you've probably heard of [Node.js](http://nodejs.org). Simply put, Node is JavaScript on the server.

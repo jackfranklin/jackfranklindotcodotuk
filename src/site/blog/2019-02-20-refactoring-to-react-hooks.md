@@ -3,6 +3,7 @@
 title: "Refactoring a component to use React hooks"
 intro: To start getting familiar with React hooks, I decided to refactor a component from setState to hooks and see how it went.
 githubPath: 2019-02-20-refactoring-to-react-hooks
+date: 2019-02-20
 ---
 
 [React 16.8](https://reactjs.org/blog/2019/02/06/react-v16.8.0.html) introduced

@@ -2,6 +2,7 @@
 
 title: Slides from "An introduction to ES6"
 intro: Last weekend I spoke at Front End London on introducting ES6.
+date: 2014-10-07
 ---
 
 I had the pleasure last weekend of speaking at [Epic FEL](http://epic.frontendlondon.co.uk/), a single day, single track conference in the heart of London, run by [Made by Many](http://madebymany.com/). They did an absolutely fantastic job and if you are ever in London, I recommend their monthly [Front End London meetup](http://www.frontendlondon.co.uk/) too.

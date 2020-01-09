@@ -1,6 +1,7 @@
 ---
 
 title: "Exploring Backbone.js - Part 3"
+date: 2013-02-03
 ---
 
 Way back in June last year I published [part two of my Backbone series](http://javascriptplayground.com/blog/2012/06/exploring-backbone-js-part-2) and today, at long last, it's time to pick up the pieces. I apologise for such a lull between articles and hopefully it wont be quite so long between this and the next episode! I recommend you go back and skim [Part 1](http://javascriptplayground.com/blog/2012/04/backbone-js-tutorial-1) and [Part 2](http://javascriptplayground.com/blog/2012/06/exploring-backbone-js-part-2) first just to get up to speed.

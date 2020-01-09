@@ -3,6 +3,7 @@
 title: An introduction to styled-components with Glen Maddern
 intro: In today's video I set up and explore styled-components with the help of Glen Maddern.
 githubPath: 2017-08-29-introduction-to-styled-components-react
+date: 2017-08-29
 ---
 
 CSS in JavaScript has been something I've been meaning to explore for a while now; it's also one the questions I get asked most when I talk about my experience with React.

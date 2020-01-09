@@ -2,6 +2,7 @@
 
 title: "Hiding implementation details with React hooks"
 intro: Hooks are a great way to take some complex logic and hide it behind a nice facade. In this post we'll discuss the how, why and when of doing this.
+date: 2019-05-28
 ---
 
 It's fair to say that the

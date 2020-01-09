@@ -2,6 +2,7 @@
 
 title: ReactJS workshops in London
 intro: Come and join me for a day of ReactJS learning in London
+date: 2016-02-26
 ---
 
 If you've ever been interested in learning more about React and getting to grips with the framework then I have some good news for you! I've teamed up with [White October Events](http://www.whiteoctoberevents.co.uk/) to run two one day ReactJS workshops in London.

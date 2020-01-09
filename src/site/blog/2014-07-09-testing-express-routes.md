@@ -2,6 +2,7 @@
 
 title: Unit testing ExpressJS route functions
 intro: In this post we'll look at how to unit test API endpoints within an Express 4 application.
+date: 2014-07-09
 ---
 
 I've recently been working on an application which has two distinct parts: an Angular front-end, and an API powered by ExpressJS. Something I was keen to do from the beginning was to look at how I could test these API endpoints - not through an integration test, where we fire up the app and make sure hitting an endpoint gives back a response, but through isolated unit tests, where we test the inputs and outputs of the endpoint functions.

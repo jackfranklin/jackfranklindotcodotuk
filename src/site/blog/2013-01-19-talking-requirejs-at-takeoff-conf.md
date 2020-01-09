@@ -1,6 +1,7 @@
 ---
 
 title: "Talking RequireJS at TakeOff Conf"
+date: 2013-01-19
 ---
 
 So this week I attended my first conference outside of the UK and travelled to a freezing Lille, in Northern France (it's been below freezing every day!) and spoke on [RequireJS](http://requirejs.org), something I have [written about before](http://javascriptplayground.com/blog/category/requirejs).

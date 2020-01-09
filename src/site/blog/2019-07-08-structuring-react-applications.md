@@ -1,6 +1,7 @@
 ---
 title: "Structuring React applications"
 intro: "Today's post lays out my current thinking and approach to structuring React applications: the folder structure I use, my naming conventions, where I write tests, and so on."
+date: 2019-07-08
 ---
 
 One of the best features of React is that it doesn't force much convention and

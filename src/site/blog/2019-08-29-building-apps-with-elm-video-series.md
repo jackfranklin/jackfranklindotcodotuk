@@ -2,6 +2,7 @@
 
 title: "A free video series on building web apps with Elm"
 intro: "See how I build Elm apps in this entirely free 20 video series."
+date: 2019-08-29
 ---
 
 If you've followed me on the internet for a while you'll know that I'm a big fan

@@ -2,6 +2,7 @@
 
 title: "Misconceptions of Tooling in JavaScript"
 intro: Today I'll discuss what I think is a misunderstanding of how tools should be used in the JS development workflow.
+date: 2016-02-24
 ---
 
 I wrote back in 2015 about the [state of front end tooling](http://javascriptplayground.com/blog/2015/10/state-of-frontend-tooling) and since that post it's continued to be a topic I follow with interest. I'm particularly interested in other people's perceptions of where the JS community is up to in terms of tooling and what people expect to be provided when they start working with a library.

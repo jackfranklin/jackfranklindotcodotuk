@@ -1,6 +1,7 @@
 ---
 
 title: "A jQuery Pub Sub Implementation"
+date: 2012-04-12
 ---
 
 Having [discussed the Module pattern](http://javascriptplayground.com/blog/2012/04/javascript-module-pattern) briefly a few days ago, today I want to tackle another pattern, the Pub Sub (or _Publish_ and _Subscribe_) pattern, also known as the Observer Pattern. If you've not heard of this implementation, it's pretty straight forward. It allows different aspects of your application, usually called _modules_, to both subscribe to events other modules might publish, & publish events itself. This means no two modules of your system are directly linked, as each module just relies on events to know what to do & when to do it. In the future we'll look into this pattern using plain JavaScript, but as an introduction to it it makes sense to use jQuery, a framework that allows us to publish & subscribe to events really easily, using `.on()` [which I covered very recently on this very blog](http://javascriptplayground.com/blog/2012/04/jquery-1-7-event-binding-on-and-off) and then `.trigger()`, which lets us trigger events. Most people will use this to trigger events like `click` or `submit`, but did you know you can use it to trigger your own, custom events? It's this functionality we will use today.

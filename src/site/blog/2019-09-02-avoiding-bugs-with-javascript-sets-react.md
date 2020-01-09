@@ -2,6 +2,7 @@
 
 title: "Avoiding bugs with data structures: using Sets in JavaScript"
 intro: "Today we're looking at how you can avoid bugs for free by picking the right data structures for what you're working with."
+date: 2019-09-02
 ---
 
 When working on a part of a user interface I like to constantly try to think

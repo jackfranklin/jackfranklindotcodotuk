@@ -1,6 +1,7 @@
 ---
 
 title: Refactoring DOM Heavy JS
+date: 2013-06-03
 ---
 
 One of the things I've been getting more into recently is refactoring. It's something that is heavily talked about in the Ruby world, but seems to be a bit less so in the JS world. In this post what I've done is write some of my own (crappy) JavaScript for some simple JS tabs, using bad habits and code smells. I'll then look at how, if I was new to this code, I might start refactoring.

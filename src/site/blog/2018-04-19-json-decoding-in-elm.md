@@ -3,6 +3,7 @@
 title: Getting started with JSON Decoding in Elm
 intro: In this post I'll talk you through getting started with JSON Decoding in Elm and look at breaking down how decoders work.
 githubPath: 2018-04-19-json-decoding-in-elm
+date: 2018-04-19
 ---
 
 _This post was first published on ElmPlayground.com but has now been updated and

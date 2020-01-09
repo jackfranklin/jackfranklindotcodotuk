@@ -1,6 +1,7 @@
 ---
 
 title: "Exploring Backbone.js - Part 2"
+date: 2012-06-15
 ---
 
 A while ago I kicked off a planned series of Backbone.js tutorials with [Part 1](http://javascriptplayground.com/blog/2012/04/backbone-js-tutorial-1), which introduced Backbone as we set up a "shopping cart" - albeit an overly simplified one. Although it's been too long coming, today I've got part 2! I ended part 1 with some bullet points as things I wanted to cover:

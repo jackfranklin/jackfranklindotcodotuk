@@ -1,6 +1,7 @@
 ---
 
 title: "Exploring Backbone: Part 1"
+date: 2012-04-23
 ---
 
 [Backbone.js](http://documentcloud.github.com/backbone/) is a framework that lets us structure our applications using a pattern similiar to MVC (technically Backbone is not pure MVC as the C stands for "Collection"). However, Backbone is a powerful system to use when creating apps that are beyond very basic. When passing & manipulating a lot of data, you should consider using something like Backbone.

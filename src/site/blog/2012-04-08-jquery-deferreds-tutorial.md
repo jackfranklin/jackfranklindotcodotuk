@@ -1,6 +1,7 @@
 ---
 
 title: "An introduction to jQuery Deferreds"
+date: 2012-04-08
 ---
 
 Prior to jQuery 1.5, Ajax requests could get a bit messy. You'd probably do something like this, if we were making a simple `get` request:

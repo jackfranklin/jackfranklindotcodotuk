@@ -1,6 +1,7 @@
 ---
 
 title: "ECMAScript 5 Array Methods"
+date: 2013-01-27
 ---
 
 Something I've not covered much so far is some of the newer parts of JavaScript. That is, methods in ECMASscript 5 that are not so commonly used due to browser support, and of course the new features in ECMAScript 6. Today I want to take a look at the new Array methods in ES5, such as `map` and `filter`.

@@ -2,6 +2,7 @@
 
 title: Upcoming JavaScript Workshops
 intro: Later in the year I'm going to be doing workshops in Bristol and London and I'd love to see you there!
+date: 2014-09-02
 ---
 
 Coming up in October and November I'm doing two different workshops; the first in Bristol and the second in London.

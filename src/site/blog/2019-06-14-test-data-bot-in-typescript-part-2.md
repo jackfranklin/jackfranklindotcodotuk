@@ -2,6 +2,7 @@
 
 title: "Converting a JS library to TypeScript: Part 2"
 intro: Today we're continuing to convert test-data-bot into TypeScript.
+date: 2019-06-14
 ---
 
 > If you missed part one, you can

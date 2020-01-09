@@ -1,6 +1,7 @@
 ---
 
 title: "Come and watch me speak"
+date: 2012-07-30
 ---
 
 This coming Tuesday, July 31st, I'm going to be talking at the [London Titanium Meetup](http://www.meetup.com/London-Titanium/events/72065822/). If you're not a Titanium developer please don't be put off, I'm doing a talk on an introduction to Node.js, that is not Titanium based at all. The event is free but spaces are limited so please do sign up on the above URL to register if you plan to attend. The event is free and if you're based in London and fancy an evening of JavaScript please do come along, it would be great to chat.

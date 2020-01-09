@@ -1,6 +1,7 @@
 ---
 
 title: "Node.js workshops, March, London"
+date: 2013-01-04
 ---
 
 I've teamed up with the lovely folks at Event Handler, who run an array of events in London, to run two JavaScript workshops in March 2013 which I'm really excited about.

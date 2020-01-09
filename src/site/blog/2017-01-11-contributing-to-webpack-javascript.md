@@ -3,6 +3,7 @@
 title: How to contribute to open source with Webpack
 intro: In today's video I'm joined by Sean Larkin from the Webpack team as he talks me through contributing to Webpack. You'll see me write the code, run the tests and open a pull request on Github. If you've ever wondered how to get started contributing to open source, this video should help.
 githubPath: 2017-01-11-contributing-to-webpack-javascript
+date: 2017-01-11
 ---
 
 [Webpack](http://github.com/webpack/webpack) is one of the most prominent open source projects in the JavaScript and they are always looking for more people to help contribute back to the project. Speaking from personal experience, it's incredibly daunting to even think about contributing back to such a large project, but in this video we'll demonstrate that it's actually no where near as tricky as you might imagine.

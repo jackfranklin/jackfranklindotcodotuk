@@ -3,6 +3,7 @@
 title: Refactoring React with Tests
 intro: In today's video we'll see how we can take a React component that is doing too much and split it into multiple components. We'll look at how you can spot if a component needs breaking up and how we can use the tests to ensure we're maintaining functionality and how they help guide us towards a better implementation.
 githubPath: 2017-06-30-refactoring-react-tests
+date: 2017-06-30
 ---
 
 As you work on a React application it's highly likely that you'll encounter components that have grown over time. They may have started with just one particular use case in mind, but will have been added to since. This can lead to complex `render` methods and code that's hard to follow.

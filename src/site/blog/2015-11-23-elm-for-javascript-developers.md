@@ -2,6 +2,7 @@
 
 title: Elm for JavaScript Developers
 intro: In this post we'll explore Elm, a new programming language aimed at frontend developers, and some of its major features.
+date: 2015-11-23
 ---
 
 If you follow me on GitHub or Twitter you'll have noticed that I've been doing a lot of work with [Elm](http://elm-lang.org/) recently. Elm is a new language aimed at making it easier to build more robust, complex applications. It compiles to JavaScript but shares very little in common with the language, and its syntax will look familiar to anyone who's worked with Haskell. In the first of many posts about Elm, I'll talk through some of the major features of the language and why you should consider giving it a try. Don't be put off by its different syntax; once you get used to it you'll realise that it's a pleasure to work with.

@@ -2,6 +2,7 @@
 
 title: "Getting started with GraphQL: what client to use?"
 intro: "Today we're looking into working with a GraphQL API and discussing if you need to reach for a 3rd party library or not."
+date: 2019-07-29
 ---
 
 When I first started working with GraphQL APIs my first challenge was to decide

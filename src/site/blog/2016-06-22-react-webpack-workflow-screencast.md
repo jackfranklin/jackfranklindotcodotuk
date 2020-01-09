@@ -2,6 +2,7 @@
 
 title: "Screencast: Creating a React and Webpack Project"
 intro: Today I'll show you how to create a Webpack and ReactJS project complete with ES2015, JSX and Hot loading.
+date: 2016-06-22
 ---
 
 Last week at the [London JavaScript Community Meetup](http://www.meetup.com/London-JavaScript-Community/events/227578573/) I did a live coding presentation where I created a React project from scratch and configured Webpack to build my application. I also added hot loading to my development workflow and configured ES2015 and JSX support through Babel, along with building a production Webpack file too.

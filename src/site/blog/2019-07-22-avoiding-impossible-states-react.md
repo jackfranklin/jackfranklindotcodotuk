@@ -2,6 +2,7 @@
 
 title: "Making impossible states impossible: data structures in React"
 intro: "Today we're talking about avoiding bugs by structuring your data such that the bug can never occur."
+date: 2019-07-22
 ---
 
 One of the things I like to spend a lot of time on is data structures. It's one

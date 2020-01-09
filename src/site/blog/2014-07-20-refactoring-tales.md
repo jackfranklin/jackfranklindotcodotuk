@@ -2,6 +2,7 @@
 
 title: The Refactoring Tales book
 intro: I've written up some refactoring case studies that look at improving existing code and writing maintainable code into a small ebook.
+date: 2014-07-20
 ---
 
 Something that I've been researching into a lot recently is refactoring - one of the most popular posts on this blog was [the one on refactoring](http://javascriptplayground.com/blog/2013/06/refactoring-js/). I really have enjoyed getting stuck into the principles of large systems development, and how to keep code maintainable over time and as it grows.

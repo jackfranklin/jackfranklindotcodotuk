@@ -1,6 +1,7 @@
 ---
 
 title: "A jQuery Plugin with Grunt &amp; QUnit"
+date: 2012-04-27
 ---
 
 Today we're going to take a look at writing a jQuery plugin. There's a number of different ways to go about structuring jQuery plugins & hence a lot of tutorials differ. I'll show you how I would do it but also show examples of how others would do it & link you to alternative views. Along with developing the plugin, we will test it with unit tests through QUnit (my new favourite thing [which I covered a couple of weeks back](http://javascriptplayground.com/blog/2012/04/javascript-testing-qunit-1)) and build it all with Grunt.js, [which I covered last week](http://javascriptplayground.com/blog/2012/04/grunt-js-command-line-tutorial). I'll be presuming some basic knowledge of jQuery, QUnit & Grunt; if you're not familiar with either Grunt or QUnit, those links above to previous tutorials should get you going.

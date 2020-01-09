@@ -2,6 +2,7 @@
 title: Authoring JavaScript modules with ES6
 intro: Learn how to be able to write your modules in ES6 before publishing them in a generic way to npm for others to consume.
 redirect_from: "/blog/2016/10/authoring-modules-in-es6/"
+date: 2015-10-15
 ---
 
 **Update: this post was updated on 09/11/2015 to use Babel 6, rather than Babel 5.**

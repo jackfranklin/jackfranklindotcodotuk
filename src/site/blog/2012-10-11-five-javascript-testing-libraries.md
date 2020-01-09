@@ -1,6 +1,7 @@
 ---
 
 title: "Five JavaScript Testing Libraries"
+date: 2012-10-11
 ---
 
 _Jack Franklin explores five popular JavaScript testing libraries and provides examples of how to use them so you'll be able to choose the best one for the task in hand when your next JS project comes round._

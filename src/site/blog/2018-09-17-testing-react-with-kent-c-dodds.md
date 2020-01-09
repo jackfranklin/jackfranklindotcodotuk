@@ -3,6 +3,7 @@
 title: Testing React with Kent C. Dodds
 intro: Kent and I sat down to chat about our approaches to testing our React applications.
 githubPath: 2018-09-17-testing-react-with-kent-c-dodds
+date: 2018-09-17
 ---
 
 I'm sure that [Kent](http://twitter.com/kentcdodds) needs no introduction, he's a prolific contributor to the React community and ecosystem. One of the things he talks a lot about is testing, which just so happens to be one of my favourite topics, too!

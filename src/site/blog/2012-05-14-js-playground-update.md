@@ -1,6 +1,7 @@
 ---
 
 title: "A JS Playground Update"
+date: 2012-05-14
 ---
 
 JavaScript Playground is now just over one month old, so I thought it would be a good time to write a quick post with some updates about the site.

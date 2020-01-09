@@ -3,6 +3,7 @@
 title: Building Langton's Ant in Elm
 intro: Today we'll look at using Elm to build a browser version of Langton's Ant in the browser.
 githubPath: 2017-03-14-langtons-ant-elm-lang
+date: 2017-03-14
 ---
 
 Last week I attended the [Elm London meetup](https://www.meetup.com/Elm-London-Meetup/), arranged by [Kris Jenkins](http://twitter.com/krisajenkins), who always produces a great selection of challenges for people to take on for all skill levels. Along with [Isaac](http://twitter.com/isaacseymour), we decided to take on Kris' challenge to build Langton's Ant in Elm.

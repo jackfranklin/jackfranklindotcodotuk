@@ -3,6 +3,7 @@
 title: Setting up Vim for modern JavaScript Development
 intro: Today I'll show you how I set up Vim for JavaScript development and show you some of the key parts of my configuration that make it a great environment to write JavaScript, integrating with today's prominent tools such as ESLint and Flow.
 githubPath: 2017-02-01-vim-for-javascript
+date: 2017-01-30
 ---
 
 I've been using Vim solidly for about six years now, and do all of my editing in it. This blog post, all the open source code on GitHub, and all my code at work is written in Vim. I keep all my configuration in my [dotfiles repo on GitHub](http://github.com/jackfranklin/dotfiles) which means it's easily synced between computers, and I'm really happy with this set up.

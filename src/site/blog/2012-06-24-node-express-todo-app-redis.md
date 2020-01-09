@@ -1,6 +1,7 @@
 ---
 
 title: "Node &amp; Express Todo App: Redis"
+date: 2012-06-24
 ---
 
 Today I'll pick off where [Part 1](http://javascriptplayground.com/blog/2012/04/node-js-a-todo-app-with-express) left off, and start working on the to-do part of our application. This tutorial literally starts where Part 1 stops, so if you haven't read Part 1 or need a refresher, I highly recommend reading that before this.

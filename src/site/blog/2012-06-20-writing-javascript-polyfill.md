@@ -1,6 +1,7 @@
 ---
 
 title: "Your First Polyfill"
+date: 2012-06-20
 ---
 
 In today's tutorial I want to introduce you to the concepts behind polyfills, a word you see used a lot in today's JS world. I'll demonstrate just what a polyfill is and then write one ourselves.

@@ -2,6 +2,7 @@
 
 title: "Announcing 'Confident jQuery'"
 intro: At the weekend I annouced my latest project, "Confident jQuery". It's going to be a book, self-published through Leanpub aimed at those who are confident enough using the jQuery API and its methods, but want to take that next step.
+date: 2013-07-16
 ---
 
 At the weekend I annouced my latest project, "Confident jQuery". It's going to be a book, self-published through Leanpub aimed at those who are confident enough using the jQuery API and its methods, but want to take that next step. From the book's about page:

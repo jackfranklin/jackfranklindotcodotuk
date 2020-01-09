@@ -3,6 +3,7 @@
 title: "Configuring ESLint on a TypeScript project"
 intro: A quick post today on how to configure ESLint to run on a TypeScript project.
 githubPath: 2019-01-28-typescript-eslint
+date: 2019-01-28
 ---
 
 Whenever I've used TypeScript in the past, I've set up

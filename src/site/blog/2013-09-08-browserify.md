@@ -2,6 +2,7 @@
 
 title: Dependency Management with Browserify
 intro: Browserify brings CommonJS style modules to the browser and enables you to load in files just like you would in NodeJS.
+date: 2013-09-08
 ---
 
 If you've been a long time reader of this blog you'll know that I'm a fan of RequireJS, and have written about it before. This past weekend I was doing a JS workshop and someone mentioned Browserify to me as a potential alternative. I'd not used it, so thought it was a good excuse to learn more and write up my experience.

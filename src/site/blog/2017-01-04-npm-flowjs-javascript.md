@@ -3,6 +3,7 @@
 title: Authoring and publishing JavaScript modules with Flow
 intro: Today we'll see how we can author and publish JS packages with Flow, adding types to our JavaScript in order to have more confidence in our code and improve the development experience. We'll also see how we can publish types so developers using our code can benefit from the fact that it's typed.
 githubPath: 2017-01-04-npm-flowjs-javascript
+date: 2017-01-04
 ---
 
 [Flow](https://flowtype.org/) is a static type checker for JavaScript which adds the ability to annotate our JavaScript code with extra information on what types we're expecting values to be, what types functions can return, and so on. Having done a lot of work in [Elm](https://elm-lang.org), a language that is typed, I began to recently explore the popular options for adding types to JavaScript. Along with Flow there is also [TypeScript](https://www.typescriptlang.org/), which is very popular and used extensively in the Angular 2 community.

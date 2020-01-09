@@ -3,6 +3,7 @@
 title: Extracting Logic from React Components
 intro: Today we'll refactor a React component by pulling out logic that can live in its own module that we can test more easily.
 githubPath: 2017-07-17-react-extracting-logic
+date: 2017-07-17
 ---
 
 In the [previous screencast](https://javascriptplayground.com/blog/2017/06/refactoring-react-tests/) we took a React component that was doing too much and refactored it, splitting it into two components that are easier to maintain, use and test. Although I'd recommend watching that video first, you don't need to have watched it to read this blog post. [You can find all the code on GitHub](https://github.com/javascript-playground/react-refactoring-with-tests) if you'd like to run it locally.

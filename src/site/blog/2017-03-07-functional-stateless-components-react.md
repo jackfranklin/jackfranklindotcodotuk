@@ -3,6 +3,7 @@
 title: Functional Stateless Components in React
 intro: In this post we'll explore writing React components as functional, stateless components and the benefits they can bring to your application.
 githubPath: 2017-03-07-functional-stateless-components-react
+date: 2017-03-07
 ---
 
 ## What are functional, stateless components?

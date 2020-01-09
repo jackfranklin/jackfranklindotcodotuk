@@ -2,6 +2,7 @@
 
 title: Mocking API Requests in Node tests
 intro: How to test Node modules that make lots of API requests.
+date: 2013-08-19
 ---
 
 Recently I sat down with my [Pulldown Project](https://github.com/jackfranklin/pulldown), aiming to rewrite the tests. The problem with them was that they were network dependent. Each test would hit the real API and download the real file. This was not good for a number of reasons:

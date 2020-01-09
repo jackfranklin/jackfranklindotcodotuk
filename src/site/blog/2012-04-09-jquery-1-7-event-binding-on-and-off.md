@@ -1,6 +1,7 @@
 ---
 
 title: "jQuery 1.7 Event Binding: .on() &amp; .off()"
+date: 2012-04-09
 ---
 
 From jQuery 1.7 new methods were added for binding events, `.on()` and `.off()` which, unsurprisingly, does the opposite of `.on()`. Amongst the community, there seems to have been a bit of confusion over these methods & in this post I want to clear this up, once & for all.

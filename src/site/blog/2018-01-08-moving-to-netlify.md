@@ -3,6 +3,7 @@
 title: Moving the JS Playground from GitHub Pages to Netlify
 intro: A short post on why and how I've moved the JS Playground from GitHub Pages to Netlify.
 githubPath: 2018-01-08-moving-to-netlify
+date: 2018-01-08
 ---
 
 Over the weekend I moved this blog from GitHub Pages to Netlify and in this blog

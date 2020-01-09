@@ -4,6 +4,7 @@ title: "Frontend tech choices I'm making in 2020"
 intro:
   "Today I'm looking forward to some of the technology that I'm most excited
   about using or experimenting with in the next year."
+date: 2020-01-08
 ---
 
 Happy New Year! The world of frontend web development is continually changing

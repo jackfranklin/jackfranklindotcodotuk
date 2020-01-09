@@ -1,6 +1,7 @@
 ---
 
 title: "Essential JavaScript Script Loaders"
+date: 2012-09-03
 ---
 
 For those who don't follow me on Twitter or perhaps missed it, one of the reasons I've not been blogging on JSPlayground as much recently is down to writing for other sites too.

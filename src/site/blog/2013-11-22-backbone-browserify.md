@@ -2,6 +2,7 @@
 
 title: "Using Browserify with npm modules"
 intro: "Today we will look at using Browserify for working with npm modules on the front end to build client-side JS applications."
+date: 2013-11-22
 ---
 
 Recently I covered [Browserify](http://javascriptplayground.com/blog/2013/09/browserify/) in another post, but did not go into much detail. I discussed how to use Browserify with your own modules, but what I didn't discuss was how Browserify can work with modules that have been published to npm too. In short: you can use Node modules on the client side.

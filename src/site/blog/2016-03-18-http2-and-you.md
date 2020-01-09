@@ -5,6 +5,7 @@ intro: Introducing a new version of the web's network protocol and it's implicat
 author: Adam Henson
 author_twitter: adamhenson1979
 author_img: "https://www.gravatar.com/avatar/0af18cf327acab3a0a5146bf0a256b09?s=420"
+date: 2016-03-18
 ---
 
 Twenty years ago (March of 1996), Internet Explorer 2.0 was "cutting edge" in its early adoption of pre-standard HTTP/1.1. In May of 2015 the HTTP/2 specification was published as [RFC 7540](http://httpwg.org/specs/rfc7540.html).

@@ -2,6 +2,7 @@
 
 title: Using ReactJS without Webpack
 intro: In this post I'll discuss how you can get started with React without needing Webpack.
+date: 2016-04-25
 ---
 
 Webpack is a fantastic tool but there's no doubting that as a newcomer to React it's can be a challenge to get started with. I've met numerous developers who have been stumped in their efforts to learn React because they fell into the rabbit hole of Webpack and its configuration.

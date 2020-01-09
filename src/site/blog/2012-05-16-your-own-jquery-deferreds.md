@@ -1,6 +1,7 @@
 ---
 
 title: "Your own jQuery Deferreds"
+date: 2012-05-16
 ---
 
 One of the first and most well received posts on the JavaScript Playground [introduced jQuery Deferreds](http://javascriptplayground.com/blog/2012/04/jquery-deferreds-tutorial), a new feature in jQuery 1.5 to enable us to manage Ajax requests much easier. Today I want to build on that post by showing you how you can construct your own deferreds, enabling you to run callbacks much more efficiently on any piece of code.

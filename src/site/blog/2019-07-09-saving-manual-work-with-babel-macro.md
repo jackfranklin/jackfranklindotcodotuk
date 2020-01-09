@@ -2,6 +2,7 @@
 
 title: "Saving manual work with babel-plugin-macros"
 intro: "Today I used babel-plugin-macros for the first time to save some heavy lifting and I wanted to share my experience using it."
+date: 2019-07-09
 ---
 
 [babel-plugin-macros](https://github.com/kentcdodds/babel-plugin-macros) is a

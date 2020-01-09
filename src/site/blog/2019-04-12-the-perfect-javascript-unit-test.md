@@ -2,6 +2,7 @@
 
 title: "The perfect unit test"
 intro: Today we're talking about how to write the perfect unit test and how to ensure your tests stay readable, usable and maintainable.
+date: 2019-04-12
 ---
 
 There's a common theme I find with people who tell me that they don't find unit

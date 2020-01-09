@@ -2,6 +2,7 @@
 
 title: JavaScript Modules and Dependencies with jspm
 intro: In this post I'll show you how to manage your application's dependencies and structure it using JSPM.
+date: 2014-11-10
 ---
 
 [jspm](http://jspm.io/) is a package manager for JavaScript applications that sits on top of the [SystemJS](https://github.com/systemjs/systemjs). Both were written and are maintained by [Guy Bedford](http://twitter.com/guybedford). SystemJS builds on top of the [es6-module-loader](https://github.com/ModuleLoader/es6-module-loader) and adds the capability to load in modules that are defined using a variety of syntaxes:

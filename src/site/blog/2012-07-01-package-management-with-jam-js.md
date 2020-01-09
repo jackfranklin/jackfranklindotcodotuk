@@ -1,6 +1,7 @@
 ---
 
 title: "Package Management with Jam JS"
+date: 2012-07-01
 ---
 
 Today we'll take a look at [Jam JS](http://jamjs.org/), a JavaScript Package Manager. This uses [RequireJS](http://requirejs.org/) to load in your required packages and makes using JavaScript libraries much easier.

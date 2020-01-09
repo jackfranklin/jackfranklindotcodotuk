@@ -1,6 +1,7 @@
 ---
 
 title: "Introduction to RequireJS"
+date: 2012-07-30
 ---
 
 In this tutorial we are going to take a look at [RequireJS][1], an AMD compatible asynchronous script loader that is incredibly powerful. In my experiments with RequireJS I've hugely enjoyed working with it and will be using it heavily in my future development. This is a fairly heavy post as far as complexity goes, but please do stick with it. I struggled to get my head around RequireJS and AMD for a long time but once it "clicks" it is really awesome.

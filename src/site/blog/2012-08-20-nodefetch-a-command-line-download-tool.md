@@ -1,6 +1,7 @@
 ---
 
 title: "nodefetch, a command line download tool"
+date: 2012-08-20
 ---
 
 As part of me wanting to spend some time playing with command line Node.js tools, last week I sat down and wrote [nodefetch](https://github.com/jackfranklin/nodefetch). Whilst I don&#39;t usually blog about my projects on here, I thought this one might be of use to a few people, so thought I&#39;d quickly write up about it. If you enjoyed last week&#39;s tutorial on [creating a command line Node tool](http://javascriptplayground.com/blog/2012/08/writing-a-command-line-node-tool), this is a great chance for you to dive into the source of a little more complex tool.
