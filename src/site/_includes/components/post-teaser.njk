@@ -2,6 +2,6 @@
   <h4 class="text-3xl font-bold text-blue-900 mb--2"><a href="{{ item.url }}" class="naked-link">{{ item.data.title }}</a></h4>
   <time value="{{ item.date }}" class="text-gray-600">{{ item.date | readableDate }}</time>
   <div class="mt-2">
-    {{ item.intro | safe }}
+    {{ item.data.intro | safe }}
   </div>
 </li>

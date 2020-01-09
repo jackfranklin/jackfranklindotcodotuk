@@ -32,8 +32,26 @@ header {
 section {
   @apply pb-10;
 }
-p+p {
+p+p, p+blockquote {
   @apply mt-4;
+}
+
+blockquote {
+  @apply bg-gray-200;
+  @apply px-4 py-6;
+  @apply my-4;
+  @apply italic;
+}
+
+.post h2 {
+  @apply text-2xl;
+  @apply my-4;
+  @apply border-l-8;
+  @apply border-blue-900;
+  @apply text-2xl;
+  @apply mt-8 mb-4;
+  @apply text-blue-900;
+  @apply pl-4;
 }
 
 section p, section li {
@@ -41,9 +59,7 @@ section p, section li {
 }
 
 section h3 {
-  @apply text-2xl;
-  @apply mt-4 mb-2;
-  @apply text-blue-900;
+  @apply text-xl;
 }
 
 /*
@@ -80,22 +96,8 @@ a.naked-link:hover {
 
 }
 
-.content ul,
-.content ol {
-  @apply my-6;
-}
-.content li {
-  @apply list-disc;
-  @apply ml-6;
-}
-.content ol li {
-  @apply list-decimal;
-  @apply pl-2;
-}
-
 code {
   @apply bg-gray-200;
-  @apply text-sm;
   @apply p-1;
   @apply rounded;
 }
@@ -132,6 +134,38 @@ nav > ul {
 }
 .mb--4 {
   margin-bottom: -1rem;
+}
+
+.pagination {
+  @apply bg-blue-900;
+  @apply flex;
+}
+
+.pagination ol {
+  @apply flex flex-wrap;
+}
+
+.pagination ol li {
+  @apply list-none;
+}
+
+
+.pagination a, .pagination span {
+  @apply block;
+  @apply px-4 py-2;
+  @apply bg-blue-900;
+  @apply border-b-0;
+  @apply text-white;
+}
+
+.pagination a[aria-current] {
+  @apply bg-blue-600;
+
+}
+
+.pagination a:hover {
+  @apply bg-white;
+  @apply text-gray-800;
 }
 
 /* purgecss start ignore */

@@ -23,6 +23,7 @@
     "tailwindcss": "^1.1.4"
   },
   "devDependencies": {
-    "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.1"
+    "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.1",
+    "glob": "^7.1.6"
   }
 }

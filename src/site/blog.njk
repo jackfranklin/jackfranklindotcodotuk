@@ -2,12 +2,23 @@
 title: ElevenTail - Blog
 layout: default
 subtitle: Blogging on Software Engineering, JavaScript and Systems architecture.
+permalink: "{% if pagination.pageNumber == 0 %}blog/index.html{% else %}blog/{{ pagination.pageNumber + 1 }}/index.html{% endif %}"
+
 ---
 
 <section>
   <ul>
-  {%- for item in collections.post | reverse -%}
+  {%- for item in pagination.items -%}
     {% include 'components/post-teaser.njk' %}
   {%- endfor -%}
   </ul>
 </section>
+
+<nav class="pagination">
+  <span>Pages:</span>
+  <ol>
+{%- for pageEntry in pagination.items %}
+    <li><a href="{{ pagination.hrefs[ loop.index0 ] }}"{% if page.url == pagination.hrefs[ loop.index0 ] %} aria-current="page"{% endif %}>{{ loop.index }}</a></li>
+{%- endfor %}
+  </ol>
+</nav>
