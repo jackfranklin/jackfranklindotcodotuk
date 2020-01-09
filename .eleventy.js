@@ -1,7 +1,10 @@
 const { DateTime }  = require('luxon');
 const util          = require('util');
+const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight')
 
 module.exports = function(eleventyConfig) {
+
+  eleventyConfig.addPlugin(syntaxHighlight)
 
 
   // Layout aliases for convenience
@@ -24,9 +27,6 @@ module.exports = function(eleventyConfig) {
       zone: 'utc'
     }).toFormat('y-MM-dd');
   });
-
-  // Grab excerpts and sections from a file
-  eleventyConfig.addFilter("section", require("./src/utils/section.js") );
 
   // compress and combine js files
   eleventyConfig.addFilter("jsmin", require("./src/utils/minify-js.js") );
