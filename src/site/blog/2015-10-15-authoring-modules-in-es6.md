@@ -1,4 +1,5 @@
 ---
+permalink: /blog/authoring-modules-in-es6
 title: Authoring JavaScript modules with ES6
 intro: Learn how to be able to write your modules in ES6 before publishing them in a generic way to npm for others to consume.
 redirect_from: "/blog/2016/10/authoring-modules-in-es6/"

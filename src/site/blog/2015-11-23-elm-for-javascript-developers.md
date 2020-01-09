@@ -1,4 +1,5 @@
 ---
+permalink: /blog/elm-for-javascript-developers
 
 title: Elm for JavaScript Developers
 intro: In this post we'll explore Elm, a new programming language aimed at frontend developers, and some of its major features.

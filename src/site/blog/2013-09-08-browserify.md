@@ -1,4 +1,5 @@
 ---
+permalink: /blog/browserify
 
 title: Dependency Management with Browserify
 intro: Browserify brings CommonJS style modules to the browser and enables you to load in files just like you would in NodeJS.

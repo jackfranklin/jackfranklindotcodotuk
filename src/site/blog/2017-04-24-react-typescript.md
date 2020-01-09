@@ -1,4 +1,5 @@
 ---
+permalink: /blog/react-typescript
 
 title: Getting started with TypeScript and React
 intro: I've recently been learning TypeScript and today I'll take you through how I set up a TypeScript project using React, Babel and Webpack.

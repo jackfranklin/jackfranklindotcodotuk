@@ -1,4 +1,5 @@
 ---
+permalink: /blog/json-decoding-in-elm
 
 title: Getting started with JSON Decoding in Elm
 intro: In this post I'll talk you through getting started with JSON Decoding in Elm and look at breaking down how decoders work.

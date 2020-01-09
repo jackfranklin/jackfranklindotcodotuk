@@ -1,4 +1,5 @@
 ---
+permalink: /blog/talking-requirejs-at-takeoff-conf
 
 title: "Talking RequireJS at TakeOff Conf"
 date: 2013-01-19

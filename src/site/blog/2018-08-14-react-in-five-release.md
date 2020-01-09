@@ -1,4 +1,5 @@
 ---
+permalink: /blog/react-in-five-release
 
 title: "React in Five: a new video course to level up your React"
 intro: Today I'm launching a new video course to help you take the next step learning React.

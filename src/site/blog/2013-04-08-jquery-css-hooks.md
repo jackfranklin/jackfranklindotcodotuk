@@ -1,4 +1,5 @@
 ---
+permalink: /blog/jquery-css-hooks
 
 title: "jQuery CSS Hooks"
 date: 2013-04-08

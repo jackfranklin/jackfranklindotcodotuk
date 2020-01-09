@@ -1,4 +1,5 @@
 ---
+permalink: /blog/context-in-reactjs-applications
 
 title: Context in ReactJS Applications
 intro: Today we'll dive into context in ReactJS, a feature that's often misunderstood and not used correctly by developers.

@@ -1,4 +1,5 @@
 ---
+permalink: /blog/the-net-awards
 
 title: "The .net Awards"
 date: 2013-03-29

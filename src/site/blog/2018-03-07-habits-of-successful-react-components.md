@@ -1,4 +1,5 @@
 ---
+permalink: /blog/habits-of-successful-react-components
 
 title: Habits of Successful React components
 intro: In this post we'll look at some approaches and methods you can apply to your React components to keep them easy to use, test, edit and maintain.

@@ -1,4 +1,5 @@
 ---
+permalink: /blog/es6-introduction
 
 title: Slides from "An introduction to ES6"
 intro: Last weekend I spoke at Front End London on introducting ES6.

@@ -1,4 +1,5 @@
 ---
+permalink: /blog/introduction-to-javascript-objects
 
 title: "Introduction to JavaScript Objects"
 date: 2012-06-04

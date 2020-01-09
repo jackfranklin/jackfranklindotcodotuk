@@ -1,4 +1,5 @@
 ---
+permalink: /blog/langtons-ant-elm-lang
 
 title: Building Langton's Ant in Elm
 intro: Today we'll look at using Elm to build a browser version of Langton's Ant in the browser.

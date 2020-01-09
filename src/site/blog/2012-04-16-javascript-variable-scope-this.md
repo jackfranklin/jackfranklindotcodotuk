@@ -1,4 +1,5 @@
 ---
+permalink: /blog/javascript-variable-scope-this
 
 title: "Scope and this in JavaScript"
 date: 2012-04-16

@@ -1,4 +1,5 @@
 ---
+permalink: /blog/essential-javascript-script-loaders
 
 title: "Essential JavaScript Script Loaders"
 date: 2012-09-03

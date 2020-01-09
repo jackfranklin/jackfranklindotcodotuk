@@ -1,4 +1,5 @@
 ---
+permalink: /blog/an-intro-to-gulp
 
 title: An introduction to Gulp
 intro: Gulp has been doing the rounds as a good alternative to Grunt, and this article gives you an introduction to this different approach to tooling.

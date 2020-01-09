@@ -1,4 +1,5 @@
 ---
+permalink: /blog/a-jquery-plugin-with-grunt-qunit
 
 title: "A jQuery Plugin with Grunt &amp; QUnit"
 date: 2012-04-27

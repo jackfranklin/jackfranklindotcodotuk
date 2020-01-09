@@ -1,4 +1,5 @@
 ---
+permalink: /blog/js-playground-update
 
 title: "A JS Playground Update"
 date: 2012-05-14

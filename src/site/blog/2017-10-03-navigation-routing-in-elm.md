@@ -1,4 +1,5 @@
 ---
+permalink: /blog/navigation-routing-in-elm
 
 title: Adding URL support to an Elm app with elm-lang/navigation
 intro: In this 12 minute video I'll show you how to make your Elm application support URLs with the Navigation package.

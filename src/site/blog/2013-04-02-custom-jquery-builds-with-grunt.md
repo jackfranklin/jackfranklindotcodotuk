@@ -1,4 +1,5 @@
 ---
+permalink: /blog/custom-jquery-builds-with-grunt
 
 title: "Custom jQuery Builds with Grunt"
 date: 2013-04-02

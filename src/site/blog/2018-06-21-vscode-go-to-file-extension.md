@@ -1,4 +1,5 @@
 ---
+permalink: /blog/vscode-go-to-file-extension
 
 title: Introducing VSCode GoToFile
 intro: Introducing a plugin I've built to enable quicker jumping of files in VSCode.

@@ -1,4 +1,5 @@
 ---
+permalink: /blog/js-modules-jspm-systemjs
 
 title: JavaScript Modules and Dependencies with jspm
 intro: In this post I'll show you how to manage your application's dependencies and structure it using JSPM.

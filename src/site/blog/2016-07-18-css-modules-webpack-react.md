@@ -1,4 +1,5 @@
 ---
+permalink: /blog/css-modules-webpack-react
 
 title: Setting up CSS Modules with React and Webpack
 intro: In this post we'll look at how to use CSS Modules in React using Webpack. We'll configure Webpack and the CSS Loader to parse CSS and load it in the browser. By keeping the CSS scoped to each component we can avoid any CSS conflicts and make CSS much easier to deal with.

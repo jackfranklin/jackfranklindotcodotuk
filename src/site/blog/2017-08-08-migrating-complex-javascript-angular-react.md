@@ -1,4 +1,5 @@
 ---
+permalink: /blog/migrating-complex-javascript-angular-react
 
 title: Migrating complex JavaScript applications
 intro: A write up of a conference talk given about lessons learned migrating complex JavaScript applications.

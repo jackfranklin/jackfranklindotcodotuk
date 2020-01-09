@@ -1,4 +1,5 @@
 ---
+permalink: /blog/typescript-eslint
 
 title: "Configuring ESLint on a TypeScript project"
 intro: A quick post today on how to configure ESLint to run on a TypeScript project.

@@ -1,4 +1,5 @@
 ---
+permalink: /blog/moving-to-netlify
 
 title: Moving the JS Playground from GitHub Pages to Netlify
 intro: A short post on why and how I've moved the JS Playground from GitHub Pages to Netlify.

@@ -1,4 +1,5 @@
 ---
+permalink: /blog/making-your-library-amd-compliant
 
 title: "Making your library AMD compliant"
 date: 2012-10-15

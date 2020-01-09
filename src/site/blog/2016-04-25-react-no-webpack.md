@@ -1,4 +1,5 @@
 ---
+permalink: /blog/react-no-webpack
 
 title: Using ReactJS without Webpack
 intro: In this post I'll discuss how you can get started with React without needing Webpack.

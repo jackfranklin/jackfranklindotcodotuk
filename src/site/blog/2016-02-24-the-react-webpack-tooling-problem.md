@@ -1,4 +1,5 @@
 ---
+permalink: /blog/the-react-webpack-tooling-problem
 
 title: "Misconceptions of Tooling in JavaScript"
 intro: Today I'll discuss what I think is a misunderstanding of how tools should be used in the JS development workflow.

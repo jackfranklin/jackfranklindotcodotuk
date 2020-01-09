@@ -1,4 +1,5 @@
 ---
+permalink: /blog/a-pub-sub-implementation-in-coffeescript
 
 title: "A Pub Sub implementation in CoffeeScript"
 date: 2012-05-06

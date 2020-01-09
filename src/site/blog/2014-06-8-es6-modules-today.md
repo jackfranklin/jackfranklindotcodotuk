@@ -1,4 +1,5 @@
 ---
+permalink: /blog/s6-modules-today
 
 title: Using ES6 Modules Today
 intro: Continuing our theme of exploring ES6, today we'll use the Square ES6 transpiler to use the ES6 modules syntax in our applications today.

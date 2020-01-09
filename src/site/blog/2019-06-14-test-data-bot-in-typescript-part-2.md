@@ -1,4 +1,5 @@
 ---
+permalink: /blog/test-data-bot-in-typescript-part-2
 
 title: "Converting a JS library to TypeScript: Part 2"
 intro: Today we're continuing to convert test-data-bot into TypeScript.

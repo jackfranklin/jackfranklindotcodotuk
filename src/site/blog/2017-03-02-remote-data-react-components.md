@@ -1,4 +1,5 @@
 ---
+permalink: /blog/remote-data-react-components
 
 title: Dealing with APIs in React with ReactRemoteData
 intro: Today I'll talk about a new library I've written for React called ReactRemoteData, which makes working with API data in React.

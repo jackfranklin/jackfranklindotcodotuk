@@ -1,4 +1,5 @@
 ---
+permalink: /blog/package-management-with-jam-js
 
 title: "Package Management with Jam JS"
 date: 2012-07-01

@@ -1,4 +1,5 @@
 ---
+permalink: /blog/requirejs-amd-tutorial-introduction
 
 title: "Introduction to RequireJS"
 date: 2012-07-30

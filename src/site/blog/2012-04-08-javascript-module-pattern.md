@@ -1,4 +1,5 @@
 ---
+permalink: /blog/javascript-module-pattern
 
 title: "The JavaScript Module Pattern"
 date: 2012-04-08

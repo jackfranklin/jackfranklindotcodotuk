@@ -1,4 +1,5 @@
 ---
+permalink: /blog/testing-react
 
 title: "Testing React with Enzyme and Jest: a new video course"
 intro: Today I'm launching a new video course on Testing React applications.

@@ -1,4 +1,5 @@
 ---
+permalink: /blog/introduction-to-es6-classes-tutorial
 
 title: An introduction to ES6 classes.
 intro: Today we'll look at another new feature of ES6, classes.

@@ -1,4 +1,5 @@
 ---
+permalink: /blog/react-webpack-workflow-screencast
 
 title: "Screencast: Creating a React and Webpack Project"
 intro: Today I'll show you how to create a Webpack and ReactJS project complete with ES2015, JSX and Hot loading.

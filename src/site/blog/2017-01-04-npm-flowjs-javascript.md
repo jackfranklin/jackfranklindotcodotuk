@@ -1,4 +1,5 @@
 ---
+permalink: /blog/npm-flowjs-javascript
 
 title: Authoring and publishing JavaScript modules with Flow
 intro: Today we'll see how we can author and publish JS packages with Flow, adding types to our JavaScript in order to have more confidence in our code and improve the development experience. We'll also see how we can publish types so developers using our code can benefit from the fact that it's typed.

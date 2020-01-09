@@ -1,4 +1,5 @@
 ---
+permalink: /blog/exploring-backbone-js-part-3
 
 title: "Exploring Backbone.js - Part 3"
 date: 2013-02-03

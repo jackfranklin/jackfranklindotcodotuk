@@ -1,4 +1,5 @@
 ---
+permalink: /blog/url-search-params
 
 title: Reading and updating query params with URLSearchParams
 intro: In this post we will look at the URLSearchParams API which makes it really easy to read, delete and set query parameters.

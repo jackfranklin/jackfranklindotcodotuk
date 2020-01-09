@@ -1,4 +1,5 @@
 ---
+permalink: /blog/http-requests-reactjs
 
 title: Loading data from APIs in React
 intro: In today's video we'll see how to make HTTP requests in React and show data to the users. We'll see how to show a loading spinner, deal with success and error cases, and use the fetch API to make requests.

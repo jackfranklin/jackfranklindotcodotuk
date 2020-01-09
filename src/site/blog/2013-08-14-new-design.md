@@ -1,4 +1,5 @@
 ---
+permalink: /blog/new-design
 
 title: A new look
 intro: The JavaScript Playground gets a fresh lick of paint.

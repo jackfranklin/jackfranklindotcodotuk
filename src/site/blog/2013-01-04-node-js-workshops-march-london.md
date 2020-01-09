@@ -1,4 +1,5 @@
 ---
+permalink: /blog/node-js-workshops-march-london
 
 title: "Node.js workshops, March, London"
 date: 2013-01-04

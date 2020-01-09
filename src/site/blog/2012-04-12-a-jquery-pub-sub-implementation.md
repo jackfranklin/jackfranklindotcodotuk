@@ -1,4 +1,5 @@
 ---
+permalink: /blog/a-jquery-pub-sub-implementation
 
 title: "A jQuery Pub Sub Implementation"
 date: 2012-04-12

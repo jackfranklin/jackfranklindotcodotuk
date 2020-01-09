@@ -1,4 +1,5 @@
 ---
+permalink: /blog/your-own-jquery-deferreds
 
 title: "Your own jQuery Deferreds"
 date: 2012-05-16

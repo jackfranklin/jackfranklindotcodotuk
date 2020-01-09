@@ -1,4 +1,5 @@
 ---
+permalink: /blog/javascript-testing-qunit-1
 
 title: "Testing with QUnit: Part 1"
 date: 2012-04-14

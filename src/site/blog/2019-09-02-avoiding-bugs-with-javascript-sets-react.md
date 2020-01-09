@@ -1,4 +1,5 @@
 ---
+permalink: /blog/avoiding-bugs-with-javascript-sets-react
 
 title: "Avoiding bugs with data structures: using Sets in JavaScript"
 intro: "Today we're looking at how you can avoid bugs for free by picking the right data structures for what you're working with."

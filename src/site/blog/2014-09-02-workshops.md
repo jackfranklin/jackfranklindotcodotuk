@@ -1,4 +1,5 @@
 ---
+permalink: /blog/workshops
 
 title: Upcoming JavaScript Workshops
 intro: Later in the year I'm going to be doing workshops in Bristol and London and I'd love to see you there!

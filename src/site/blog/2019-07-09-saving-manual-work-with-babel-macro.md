@@ -1,4 +1,5 @@
 ---
+permalink: /blog/saving-manual-work-with-babel-macro
 
 title: "Saving manual work with babel-plugin-macros"
 intro: "Today I used babel-plugin-macros for the first time to save some heavy lifting and I wanted to share my experience using it."

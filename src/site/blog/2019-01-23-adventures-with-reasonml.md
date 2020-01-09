@@ -1,4 +1,5 @@
 ---
+permalink: /blog/adventures-with-reasonml
 
 title: "Adventures with ReasonML"
 intro: Over Christmas, I tackled an Advent of Code in ReasomML and in this post I'll share my solution along with my experience of Reason and its ecosystem.

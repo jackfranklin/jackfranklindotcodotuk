@@ -1,4 +1,5 @@
 ---
+permalink: /blog/refactoring-to-react-hooks
 
 title: "Refactoring a component to use React hooks"
 intro: To start getting familiar with React hooks, I decided to refactor a component from setState to hooks and see how it went.

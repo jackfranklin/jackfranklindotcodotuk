@@ -1,4 +1,5 @@
 ---
+permalink: /blog/better-bundles-rollup
 
 title: Better bundles with Rollup
 intro: In this post we'll play with Rollup, a new bundling tool that can eliminate dead code and produce smaller bundles.

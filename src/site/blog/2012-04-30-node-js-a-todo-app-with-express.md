@@ -1,4 +1,5 @@
 ---
+permalink: /blog/node-js-a-todo-app-with-express
 
 title: "Node.js: A Todo App with Express"
 date: 2012-04-30

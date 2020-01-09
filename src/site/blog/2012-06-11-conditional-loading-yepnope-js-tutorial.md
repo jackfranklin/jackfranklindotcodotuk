@@ -1,4 +1,5 @@
 ---
+permalink: /blog/conditional-loading-yepnope-js-tutorial
 
 title: "Conditional Loading with YepNope"
 date: 2012-06-11
