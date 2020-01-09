@@ -59,15 +59,17 @@ section p, section li {
 }
 
 section h3 {
-  @apply text-xl;
+  @apply text-2xl;
+  @apply mt-6 mb-2;
+  @apply font-bold;
+  @apply text-blue-900;
+  @apply tracking-tight;
 }
 
-/*
-  Global headings conventions
-*/
 h1.heading {
   @apply text-3xl;
-  @apply text-gray-900;
+  @apply leading-snug;
+  @apply text-blue-900;
   @apply mb-4;
   @apply font-semibold;
 }
@@ -96,10 +98,19 @@ a.naked-link:hover {
 
 }
 
+pre[class*="language-"] {
+  /* need importants to override prism-material */
+  @apply my-4 !important;
+}
+
 code {
   @apply bg-gray-200;
   @apply p-1;
   @apply rounded;
+}
+
+pre > code {
+  padding: 0 !important;
 }
 
 /*
