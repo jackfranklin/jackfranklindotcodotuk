@@ -12,13 +12,9 @@
   </head>
   <body class="mb-12 px-4">
     {% include "header.njk" %}
-    <div class="content leading-relaxed">
+    <div class="content">
       {{ content | safe }}
     </div>
-    {% set js %}
-      {% include "js/core.js" %}
-    {% endset %}
-    <script>{{ js | jsmin | safe }}</script>
   </body>
 </html>
 
