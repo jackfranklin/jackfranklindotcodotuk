@@ -181,7 +181,12 @@ pre > code {
 
 .pagination {
   @apply bg-blue-900;
-  @apply flex;
+}
+
+@screen md {
+  .pagination {
+    @apply flex;
+  }
 }
 
 .pagination ol {
@@ -194,11 +199,18 @@ pre > code {
 
 
 .pagination a, .pagination span {
-  @apply block;
-  @apply px-4 py-2;
   @apply bg-blue-900;
+  @apply py-2;
+  @apply px-6;
   @apply border-b-0;
   @apply text-white;
+  @apply block;
+}
+
+@screen md {
+  .pagination a, .pagination span {
+    @apply px-4;
+  }
 }
 
 .pagination a[aria-current] {
