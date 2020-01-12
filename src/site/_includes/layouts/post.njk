@@ -1,0 +1,21 @@
+---
+layout: default
+pageClass: posts
+templateEngineOverride: njk, md
+---
+<section class="post">
+  <time value="{{ item.date }}" class="text-gray-600">{{ page.date | readableDate }}</time>
+  <h1 class="heading">{{ title }}</h1>
+  <div>
+    {{ content | safe }}
+  </div>
+  <div class="mt-12 pt-4 text-gray-600 text-sm border-t border-gray-300">
+    <p>
+      <a href="/blog">Blog home</a>
+    </p>
+    <p>
+      Thanks for reading! If you enjoyed this post, be sure to <a href="https://www.twitter.com/jack_franklin">follow me on Twitter</a> to not miss any new posts.
+    </p>
+  </div>
+</section>
+

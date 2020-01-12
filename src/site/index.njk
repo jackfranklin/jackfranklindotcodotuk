@@ -1,0 +1,18 @@
+---
+title: Jack Franklin
+layout: default
+---
+
+<section>
+  <p>Day to day you'll find me working at <a href="https://www.thread.com">Thread</a> as a frontend engineer focused on modernising our tech stack with React and Elm.</p>
+  <p>This site is also where you'll also find my <a href="/blog">blog posts</a> where I write and record content on JavaScript, React, software development and more.</p>
+
+  {% set item = collections.post | last %}
+  <div class="latest-blog-post">
+    <h2>
+      <small>Latest blog post</small>
+      <a href="{{item.url}}">{{item.data.title}}</a>
+    </h2>
+    <p>{{item.data.intro}}</p>
+  </div>
+</section>

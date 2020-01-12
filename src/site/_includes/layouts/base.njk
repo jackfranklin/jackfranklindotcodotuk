@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    {% if page.url.indexOf('blog') > -1 %}
+      <link rel="stylesheet" href="/css/prism-material.css">
+    {% endif %}
+    <title>{{ title }}</title>
+    {% include "social.njk" %}
+  </head>
+  <body class="mb-12 px-4">
+    {% include "header.njk" %}
+    <div class="content leading-relaxed">
+      {{ content | safe }}
+    </div>
+    {% set js %}
+      {% include "js/core.js" %}
+    {% endset %}
+    <script>{{ js | jsmin | safe }}</script>
+  </body>
+</html>
+
+
+
