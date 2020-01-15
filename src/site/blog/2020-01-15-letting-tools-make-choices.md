@@ -12,7 +12,7 @@ In my
 I finished with a point about letting tools make choices for you:
 
 > I've become a fan of putting more of that burden onto the technologies I'm
-> chosing such that I can focus in on the actual application. I would be
+> choosing such that I can focus in on the actual application. I would be
 > surprised if the tools that catch my eye in 2020 aren't ones that follow this
 > pattern.
 
@@ -23,11 +23,11 @@ to use this post to expand on it.
 
 I would never have written a post like this a few years ago. One of my main
 decisions when deciding what tools to use was how much control I had over the
-entire surface area of the tool and just how much I could customise it to my
-every desire.
+entire surface area of the tool and how much I could customise it to my every
+need.
 
 My logic at the time was that if I could configure my environment and tools to
-_precisely_ what I wanted, I would create this zen like application that was set
+_precisely_ what I wanted, I would create this zen-like application that was set
 up to enable me to be the most productive I could be.
 
 ### Time spent configuring
@@ -37,16 +37,16 @@ My approach wasn't correct because of two things that are true of all software:
 1. Software is never finished.
 2. Software is never perfect.
 
-That is to say I could never get to this perfect setup of tools because there
-would _always_ be something left to do! Anyone who has worked on an engineering
-team knows this; teams create sprint boards and backlogs and those backlogs
-inevitably end up with far more items in than your team could ever achieve. I
-remember sitting down one evening after work to focus on a side project and
-losing the best part of the evening trying to get two different tools that I'd
-chosen to use playing nicely alongside each other. I finished for the night and
-realised that I'd made _no progress_. I didn't even need those tools to work
-together to allow me to make progress, but I was so concerned about having the
-perfect setup that I forgot about building the actual application.
+I could never get to this perfect setup of tools because there would _always_ be
+something left to do! Anyone who has worked on an engineering team knows this;
+teams create sprint boards and backlogs and those backlogs inevitably end up
+with far more items in than your team could ever achieve. I remember sitting
+down one evening after work to focus on a side project and losing the best part
+of the evening trying to get two different tools that I'd chosen to use playing
+nicely alongside each other. I finished for the night and realised that I'd made
+_no progress_. I didn't even need those tools to work together to allow me to
+make progress, but I was so concerned about having the perfect setup that I
+forgot about building the actual application.
 
 Once I had everything playing nicely, one of the tools would have an update
 which broke something and I'd repeat the process all over again.
@@ -124,6 +124,27 @@ For small side projects these days I'll often reach for
 handles anything I throw at it without much effort, and it's not surprise that
 [Jest](https://jestjs.io/) has become my testing framework of choice for the
 same reason.
+
+### Opinions are still encouraged!
+
+Whilst I may not dedicate as much time and energy to configuring a project to
+within an inch of its life that doesn't mean that I don't have opinions. I still
+have strong opinions and preferences about how code should be formatted, which
+ESLint rules are good (or bad) and which test framework is my favourite. I spend
+a lot of time thinking about software design and what "clean code" really means.
+My colleagues and I regularly debate exactly how to write a piece of code and we
+definitely don't always agree.
+
+I've learned that it's not about not having opinions, but instead holding onto
+them less strongly.
+[Strong opinions, weakly held](https://medium.com/@ameet/strong-opinions-weakly-held-a-framework-for-thinking-6530d417e364)
+is a great way to frame these discussions and allow you to have opinions but be
+open to discussing them and having those opinions challenged. This process,
+coupled with the practice of
+[Disagree and Commit](https://en.wikipedia.org/wiki/Disagree_and_commit) has
+enabled me and my team at work to continually challenge our thoughts, opinions
+and ideas whilst not getting bogged down in debating for the sake of it, or
+becoming frustrated with anyone refusing to budge on their viewpoint.
 
 ### Tools that make decisions help beginners get up and running
 
