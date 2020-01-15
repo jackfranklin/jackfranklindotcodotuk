@@ -15,7 +15,6 @@ header {
   @apply py-2;
   @apply mb-10;
   @apply border-b-2;
-  @apply pb-6;
 }
 
 @screen sm {
