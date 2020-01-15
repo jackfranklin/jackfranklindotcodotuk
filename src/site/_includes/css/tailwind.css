@@ -70,6 +70,13 @@ section p, section li {
   @apply text-lg;
 }
 
+section ol {
+  @apply ml-4;
+  @apply pl-4;
+  @apply my-4;
+  list-style-type: decimal;
+}
+
 .latest-blog-post {
   @apply bg-gray-200;
   @apply px-4 py-6;
