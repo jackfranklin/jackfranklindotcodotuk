@@ -20,3 +20,7 @@
 [[redirects]]
   from = "/blog/feed.xml"
   to = "/feed.xml"
+
+[[redirects]]
+  from = "/blog/the-refactoring-tales/refactoring-tales.html"
+  to = "/refactoring-tales"
