@@ -12,3 +12,11 @@
   port = 3000
   targetPort = 8181
   NODE_ENV = "development"
+
+[[redirects]]
+  from = "/blog/blog/rss/all.rss"
+  to = "/feed.xml"
+
+[[redirects]]
+  from = "/blog/feed.xml"
+  to = "/feed.xml"
