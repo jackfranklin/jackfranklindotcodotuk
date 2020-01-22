@@ -3,7 +3,7 @@ layout: default
 pageClass: posts
 templateEngineOverride: njk, md
 ---
-<meta name="twitter:image" content="{{title|blogCard}}" />
+<meta name="twitter:card" content="{{title|blogCard}}" />
 <section class="post">
   <time value="{{ item.date }}" class="text-gray-600">{{ page.date | readableDate }}</time>
   <h1 class="heading">{{ title }}</h1>
