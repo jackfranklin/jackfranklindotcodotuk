@@ -44,6 +44,8 @@ section {
   @apply pb-10;
 }
 p + p,
+ul + p,
+p + ul,
 p + blockquote {
   @apply mt-4;
 }
@@ -71,11 +73,19 @@ section li {
   @apply text-lg;
 }
 
-section ol {
+section ol,
+section ul {
   @apply ml-4;
   @apply pl-4;
   @apply my-4;
+}
+
+section ol {
   list-style-type: decimal;
+}
+
+section ul {
+  list-style-type: disc;
 }
 
 .latest-blog-post {
