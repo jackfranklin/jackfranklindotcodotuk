@@ -9,7 +9,7 @@ templateEngineOverride: njk, md
 <section class="post">
   <time value="{{ item.date }}" class="text-gray-600">{{ page.date | readableDate }}</time>
   <h1 class="heading">{{ title }}</h1>
-  <div>
+  <div class="post-content">
     {{ content | safe }}
   </div>
   <div class="mt-12 pt-4 text-gray-600 text-sm border-t border-gray-300">

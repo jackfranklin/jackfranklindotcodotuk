@@ -73,18 +73,18 @@ section li {
   @apply text-lg;
 }
 
-section ol,
-section ul {
+.post-content ol,
+.post-content ul {
   @apply ml-4;
   @apply pl-4;
   @apply my-4;
 }
 
-section ol {
+.post-content ol {
   list-style-type: decimal;
 }
 
-section ul {
+.post-content ul {
   list-style-type: disc;
 }
 
