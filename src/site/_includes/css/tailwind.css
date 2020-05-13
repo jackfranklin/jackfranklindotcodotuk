@@ -26,17 +26,6 @@ header {
   }
 }
 
-header nav > ul {
-  justify-content: flex-end;
-}
-
-@screen md {
-  header {
-    @apply justify-between;
-    @apply flex;
-  }
-}
-
 /*
   Content sections conventions
 */
@@ -80,12 +69,23 @@ section li {
   @apply my-4;
 }
 
+
 .post-content ol {
   list-style-type: decimal;
 }
 
 .post-content ul {
   list-style-type: disc;
+}
+
+.post-content img {
+  @apply block;
+  @apply mx-auto;
+  @apply my-0;
+  @apply p-4;
+  @apply border-2;
+  @apply border-blue-900;
+  margin: 0 auto;
 }
 
 .latest-blog-post {
@@ -127,9 +127,6 @@ h1.heading {
   @apply font-semibold;
 }
 
-/*
-  Base styles for links
-*/
 a {
   @apply border-b-2;
   @apply border-blue-900;
@@ -180,6 +177,12 @@ pre > code {
   @apply border-b-0;
   @apply rounded;
 }
+
+
+nav li:first-child .nav-tab {
+  padding-left: 0 !important;
+}
+
 .nav-tab:hover {
   @apply bg-white;
   @apply text-teal-500;
