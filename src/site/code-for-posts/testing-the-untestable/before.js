@@ -16,7 +16,7 @@ class Publisher {
 
     fileName += target.isPersonal ? target.ageRange : ''
 
-    let truncatedTitle = target.title.replace(/[^\[a-z]]]/gi, '').toLowerCase()
+    let truncatedTitle = target.title.replace(/[^\[a-z\]]/gi, '').toLowerCase()
     let truncateTo = truncatedTitle.length > 9 ? 9 : truncatedTitle.length
     fileName += `-${truncatedTitle.slice(0, truncateTo)}`
     fileName += '.jpg'
@@ -24,13 +24,4 @@ class Publisher {
     return fileName
   }
 }
-
-const result = Publisher.generateFilename({
-  publishOn: new Date(2021, 3, 1),
-  kind: 'software_design',
-  categoryPrefix: 'tech',
-  id: 123,
-  title: 'Designing Good JavaScript',
-})
-
-console.log(result)
+exports.Publisher = Publisher
