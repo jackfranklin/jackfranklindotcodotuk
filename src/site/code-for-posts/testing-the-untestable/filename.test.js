@@ -39,4 +39,48 @@ describe('Publisher', () => {
     })
     expect(fileName).toMatch(/2021-4biobiography123[0-9]{5}-jack\.jpg/)
   })
+
+  it('removes the first underscore from the kind', () => {
+    const fileName = Publisher.generateFilename({
+      publishOn: new Date(2021, 3, 1),
+      categoryPrefix: 'bio',
+      kind: 'self_biography',
+      id: 123,
+      title: 'Title',
+    })
+    expect(fileName).toMatch(/2021-4bioselfbiography123[0-9]{5}-title\.jpg/)
+  })
+
+  it('does not remove any subsequent underscores from the kind', () => {
+    const fileName = Publisher.generateFilename({
+      publishOn: new Date(2021, 3, 1),
+      categoryPrefix: 'bio',
+      kind: 'self_bio_graphy',
+      id: 123,
+      title: 'Title',
+    })
+    expect(fileName).toMatch(/2021-4bioselfbio_graphy123[0-9]{5}-title\.jpg/)
+  })
+
+  it('does not remove braces or letters from the book title', () => {
+    const fileName = Publisher.generateFilename({
+      publishOn: new Date(2021, 3, 1),
+      categoryPrefix: 'bio',
+      kind: 'biography',
+      id: 123,
+      title: 'My [Title]',
+    })
+    expect(fileName).toMatch(/2021-4biobiography123[0-9]{5}-my\[title\]\.jpg/)
+  })
+
+  it('removes other special characters from the book title', () => {
+    const fileName = Publisher.generateFilename({
+      publishOn: new Date(2021, 3, 1),
+      categoryPrefix: 'bio',
+      kind: 'biography',
+      id: 123,
+      title: '(My) <title$>',
+    })
+    expect(fileName).toMatch(/2021-4biobiography123[0-9]{5}-mytitle\.jpg/)
+  })
 })

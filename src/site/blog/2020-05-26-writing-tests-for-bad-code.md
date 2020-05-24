@@ -228,3 +228,109 @@ not all of them. This would be the sort of thing I'd note down for later; to
 check if this is desired or a bug in the implementation. **When you're writing
 tests for code you don't understand, don't fix anything at first. Get good test
 coverage and note down any potential bugs you find along the way**.
+
+Here I make sure I write a test where `kind` has an underscore and assert that
+it's been removed in the output. I then also write a test that confirms if there
+are multiple underscores only the first is removed, because I'd like to document
+that behaviour even if we then ultimately decide that it's a bug (at which point
+we can update the test).
+
+```js
+it('removes the first underscore from the kind', () => {
+  const fileName = Publisher.generateFilename({
+    publishOn: new Date(2021, 3, 1),
+    categoryPrefix: 'bio',
+    kind: 'self_biography',
+    id: 123,
+    title: 'Title',
+  })
+  expect(fileName).toMatch(/2021-4bioselfbiography123[0-9]{5}-title\.jpg/)
+})
+
+it('does not remove any subsequent underscores from the kind', () => {
+  const fileName = Publisher.generateFilename({
+    publishOn: new Date(2021, 3, 1),
+    categoryPrefix: 'bio',
+    kind: 'self_bio_graphy',
+    id: 123,
+    title: 'Title',
+  })
+  expect(fileName).toMatch(/2021-4bioselfbio_graphy123[0-9]{5}-title\.jpg/)
+})
+```
+
+The next thing that strikes me is this line:
+
+```js
+let truncatedTitle = target.title.replace(/[^\[a-z\]]/gi, '').toLowerCase()
+```
+
+Or specifically, _this regex_:
+
+```js
+[^\[a-z\]]/gi
+```
+
+This regex (we think) is supposed to match anything that isn't a letter. In the
+code anything that matches is replaced by nothing, and we note that the `/gi`
+makes it global (every match will be replaced) and case insensitive. But what's
+curious here is that the inner braces are escaped:
+
+```bash
+\[a-z\]
+```
+
+So this regex also looks like it will leave any braces in the title. This _seems
+unlikely_ so we note this as a potential bug, but given it is coded behaviour,
+let's write a test to prove that braces do remain. We'll also write another test
+that has a funky title full of special characters to ensure they get removed:
+
+```js
+it('does not remove braces or letters from the book title', () => {
+  const fileName = Publisher.generateFilename({
+    publishOn: new Date(2021, 3, 1),
+    categoryPrefix: 'bio',
+    kind: 'biography',
+    id: 123,
+    title: 'My [Title]',
+  })
+  expect(fileName).toMatch(/2021-4biobiography123[0-9]{5}-my\[title\]\.jpg/)
+})
+
+it('removes other special characters from the book title', () => {
+  const fileName = Publisher.generateFilename({
+    publishOn: new Date(2021, 3, 1),
+    categoryPrefix: 'bio',
+    kind: 'biography',
+    id: 123,
+    title: '(My) <title$>',
+  })
+  expect(fileName).toMatch(/2021-4biobiography123[0-9]{5}-mytitle\.jpg/)
+})
+```
+
+And that's the last part of behaviour that leaps out at us as worth testing.
+
+### Conclusion
+
+With that we now have 7 tests that describe and specify the functionality that
+`generateFilename` gives us:
+
+```js
+it('truncates titles greater than 9 characters long', () => {})
+it('includes the age range if the book is personal', () => {})
+it('does not truncate titles less than 9 characters long', () => {})
+it('removes the first underscore from the kind', () => {})
+it('does not remove any subsequent underscores from the kind', () => {})
+it('does not remove braces or letters from the book title', () => {})
+it('removes other special characters from the book title', () => {})
+```
+
+We also think we might have found some bugs along the way:
+
+- Is it deliberate that only the first `_` gets removed from the `kind` of the
+  `target`?
+- Similarly, are braces meant to be included as part of the title's output? Or
+  is that a typo when defining the regex?
+
+GitHub: TODOJACK
