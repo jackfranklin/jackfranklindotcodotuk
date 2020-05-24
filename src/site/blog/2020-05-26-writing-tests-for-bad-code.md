@@ -40,7 +40,7 @@ class Publisher {
     fileName += target.kind.replace('_', '')
     fileName += String(target.id)
     fileName += Array.from({ length: 5 }, _ =>
-      Math.floor(Math.random() * Math.floor(10))
+      Math.floor(Math.random() * 10);
     ).join('')
 
     let truncatedTitle = target.title.replace(/[^\[a-z\]]/gi, '').toLowerCase()
@@ -122,3 +122,109 @@ a great position. We have at least one test, and now we're ready to figure out
 the other set of tests that we'll need.
 
 ### Finding branches in the code
+
+When you're trying to write test cases that flush out all the possible edge
+cases you should look for conditionals in the code. These are effectively all
+the branches that you're trying to test. Each `if` becomes two test cases: one
+that tests the positive side and one for the negative side.
+
+The first conditional we hit adds the `ageRange` to the file name if the book is
+personal:
+
+```js
+fileName += target.isPersonal ? target.ageRange : ''
+```
+
+Our first test case didn't include this, so let's make sure we test this and
+include the age range in the assertion:
+
+```js
+it('includes the age range if the book is personal', () => {
+  const fileName = Publisher.generateFilename({
+    publishOn: new Date(2021, 3, 1),
+    ageRange: 10,
+    isPersonal: true,
+    categoryPrefix: 'kids',
+    kind: 'childrens-book',
+    id: 123,
+    title: 'Five go on an Adventure',
+  })
+  expect(fileName).toMatch(
+    /2021-4kidschildrens-book123[0-9]{5}10-fivegoona\.jpg/
+  )
+})
+```
+
+The next conditional is the truncation:
+
+```js
+let truncatedTitle = target.title.replace(/[^\[a-z\]]/gi, '').toLowerCase()
+let truncateTo = truncatedTitle.length > 9 ? 9 : truncatedTitle.length
+fileName += `-${truncatedTitle.slice(0, truncateTo)}`
+```
+
+Our first test case used the title 'Software Design' which is greater than 9
+characters long, so this behaviour is being tested already. So let's add another
+test case that uses a really short title and confirms it does not get truncated.
+
+```js
+it('does not truncate titles less than 9 characters long', () => {
+  const fileName = Publisher.generateFilename({
+    publishOn: new Date(2021, 3, 1),
+    categoryPrefix: 'bio',
+    kind: 'biography',
+    id: 123,
+    title: 'Jack',
+  })
+  expect(fileName).toMatch(/2021-4biobiography123[0-9]{5}-jack\.jpg/)
+})
+```
+
+> There's other behaviour here yet to be tested - that regex in particular looks
+> interesting - but right now we are only after branches.
+
+Those are all the conditionals that we've come across so let's have a look at
+where we're up to with our tests:
+
+```js
+describe('Publisher', () => {
+  it('does a thing', () => {})
+
+  it('includes the age range if the book is personal', () => {})
+
+  it('does not truncate titles less than 9 characters long', () => {});
+```
+
+We can now rename the `'it does a thing'` test; that test actually tests that
+truncation works with titles greater than 9 characters long. Notice how we
+didn't know that at the time but we do now. Let's update it's description
+accordingly:
+
+```js
+it('truncates titles greater than 9 characters long', () => {
+```
+
+Now we have three passing tests and our conditionals dealt with, let's look at
+other edge cases or particularly interesting bits of behaviour that we'd like to
+test.
+
+### Looking for other edge cases and changes in behaviour
+
+Now we're scanning the code looking for things that we'd like to test. And we
+hit a good candidate on line 1; including the year and month in the output. What
+we now have to consider is is this worth writing a specific test for, or are the
+current suite of tests sufficient? This is where some personal preference comes
+in; I'd argue that every test will test this date logic, as it's not conditional
+on anything else, so we can leave this be.
+
+```js
+fileName += target.kind.replace('_', '')
+```
+
+This is the first line that makes me want to write a test. If the `kind` has an
+underscore in, it will be removed. We also hit a curious issue here: what if
+there are multiple underscores? This code will only replace the first instance,
+not all of them. This would be the sort of thing I'd note down for later; to
+check if this is desired or a bug in the implementation. **When you're writing
+tests for code you don't understand, don't fix anything at first. Get good test
+coverage and note down any potential bugs you find along the way**.

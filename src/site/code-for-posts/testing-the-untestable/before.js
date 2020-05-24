@@ -11,7 +11,7 @@ class Publisher {
     fileName += target.kind.replace('_', '')
     fileName += String(target.id)
     fileName += Array.from({ length: 5 }, _ =>
-      Math.floor(Math.random() * Math.floor(10))
+      Math.floor(Math.random() * 10)
     ).join('')
 
     fileName += target.isPersonal ? target.ageRange : ''
