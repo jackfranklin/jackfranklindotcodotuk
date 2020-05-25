@@ -333,4 +333,18 @@ We also think we might have found some bugs along the way:
 - Similarly, are braces meant to be included as part of the title's output? Or
   is that a typo when defining the regex?
 
-GitHub: TODOJACK
+Although it's tempting to fix these "bugs" as you go, remember that the entire
+point of this work is to clarify the code's behaviour in order to make
+improvements. Resist the urge to make improvements as you go; once you have a
+thorough test suite it's much easier to make decisions on where to go and if you
+start making changes you've got a good set of tests to ensure you don't break
+any functionality.
+
+Now we have the tests it's time to look at the feature request we've been asked
+to implement and how we go about doing that. Keep an eye out for next week's
+blog post where we'll do just that!
+
+> Thanks again to Katrina Owen and her
+> [Therapeutic Refactoring talk](https://www.youtube.com/watch?v=J4dlF0kcThQ)
+> which was the inspiration for writing up this blog post. I highly recommend
+> watching it!
