@@ -27,6 +27,7 @@
     "tailwindcss": "^1.4.6"
   },
   "devDependencies": {
-    "glob": "^7.1.6"
+    "glob": "^7.1.6",
+    "jest": "^26.0.1"
   }
 }
