@@ -1,4 +1,4 @@
-const { Publisher } = require('./before')
+const { Publisher } = require('./after')
 
 describe('Publisher', () => {
   it('truncates titles greater than 9 characters long', () => {
@@ -10,7 +10,7 @@ describe('Publisher', () => {
       title: 'Software Design',
     })
     expect(fileName).toMatch(
-      /2021-4techsoftware-design123[0-9]{5}-softwared\.jpg/
+      /2021-4-tech-software-design-123-[0-9]{5}-softwared\.jpg/
     )
   })
 
@@ -25,7 +25,7 @@ describe('Publisher', () => {
       title: 'Five go on an Adventure',
     })
     expect(fileName).toMatch(
-      /2021-4kidschildrens-book123[0-9]{5}10-fivegoona\.jpg/
+      /2021-4-kids-childrens-book-123-[0-9]{5}-10-fivegoona\.jpg/
     )
   })
 
@@ -37,7 +37,7 @@ describe('Publisher', () => {
       id: 123,
       title: 'Jack',
     })
-    expect(fileName).toMatch(/2021-4biobiography123[0-9]{5}-jack\.jpg/)
+    expect(fileName).toMatch(/2021-4-bio-biography-123-[0-9]{5}-jack\.jpg/)
   })
 
   it('removes the first underscore from the kind', () => {
@@ -48,7 +48,7 @@ describe('Publisher', () => {
       id: 123,
       title: 'Title',
     })
-    expect(fileName).toMatch(/2021-4bioselfbiography123[0-9]{5}-title\.jpg/)
+    expect(fileName).toMatch(/2021-4-bio-selfbiography-123-[0-9]{5}-title\.jpg/)
   })
 
   it('does not remove any subsequent underscores from the kind', () => {
@@ -59,7 +59,9 @@ describe('Publisher', () => {
       id: 123,
       title: 'Title',
     })
-    expect(fileName).toMatch(/2021-4bioselfbio_graphy123[0-9]{5}-title\.jpg/)
+    expect(fileName).toMatch(
+      /2021-4-bio-selfbio_graphy-123-[0-9]{5}-title\.jpg/
+    )
   })
 
   it('does not remove braces or letters from the book title', () => {
@@ -70,7 +72,9 @@ describe('Publisher', () => {
       id: 123,
       title: 'My [Title]',
     })
-    expect(fileName).toMatch(/2021-4biobiography123[0-9]{5}-my\[title\]\.jpg/)
+    expect(fileName).toMatch(
+      /2021-4-bio-biography-123-[0-9]{5}-my\[title\]\.jpg/
+    )
   })
 
   it('removes other special characters from the book title', () => {
@@ -81,6 +85,6 @@ describe('Publisher', () => {
       id: 123,
       title: '(My) <title$>',
     })
-    expect(fileName).toMatch(/2021-4biobiography123[0-9]{5}-mytitle\.jpg/)
+    expect(fileName).toMatch(/2021-4-bio-biography-123-[0-9]{5}-mytitle\.jpg/)
   })
 })
