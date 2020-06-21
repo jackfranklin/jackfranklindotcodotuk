@@ -162,6 +162,16 @@ pre {
   @apply my-4 !important;
 }
 
+/* youtube video embeds */
+.youtube {
+  @apply my-8;
+  margin-left: auto;
+  margin-right: auto;
+  @apply border;
+  @apply border-blue-900;
+  @apply p-2;
+}
+
 code,
 pre {
   @apply bg-gray-200;
