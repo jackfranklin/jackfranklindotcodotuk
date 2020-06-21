@@ -147,6 +147,17 @@ a.naked-link:hover {
   @apply border-blue-900;
 }
 
+a.formkit-powered-by {
+  border-bottom: none !important;
+  text-align: right !important;
+  color: #fff !important;
+}
+
+formkit-form[data-uid="ad41405733"] [data-style="clean"] {
+  padding: 0 !important;
+}
+
+
 pre[class*='language-'],
 pre {
   /* need importants to override prism-material */
