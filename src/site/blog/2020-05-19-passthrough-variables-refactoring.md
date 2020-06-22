@@ -1,7 +1,7 @@
 ---
 permalink: /blog/refactoring-to-remove-passthrough-variables/index.html
 title: 'Refactoring to remove passthrough variables'
-intro: "A discovery of a pretty basic Vim feature that I've never used."
+intro: 'Getting rid of passthrough variables.'
 date: 2020-05-19
 ---
 
