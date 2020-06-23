@@ -69,7 +69,6 @@ section li {
   @apply my-4;
 }
 
-
 .post-content ol {
   list-style-type: decimal;
 }
@@ -153,10 +152,9 @@ a.formkit-powered-by {
   color: #fff !important;
 }
 
-formkit-form[data-uid="ad41405733"] [data-style="clean"] {
+.formkit-form[data-uid='ad41405733'] [data-style='clean'] {
   padding: 0 !important;
 }
-
 
 pre[class*='language-'],
 pre {
@@ -188,7 +186,6 @@ pre > code {
   @apply border-b-0;
   @apply rounded;
 }
-
 
 nav li:first-child .nav-tab {
   padding-left: 0 !important;
