@@ -62,6 +62,10 @@ section li {
   @apply text-lg;
 }
 
+section li {
+  @apply mb-2;
+}
+
 .post-content ol,
 .post-content ul {
   @apply ml-4;
