@@ -4,7 +4,8 @@
 
 html,
 body {
-  @apply font-serif;
+  /* loaded in layouts/base.njk */
+  font-family: 'Noto Sans', sans-serif;
 }
 
 body {
@@ -26,9 +27,6 @@ header {
   }
 }
 
-/*
-  Content sections conventions
-*/
 section {
   @apply pb-10;
 }
@@ -36,7 +34,7 @@ p + p,
 ul + p,
 p + ul,
 p + blockquote {
-  @apply mt-4;
+  @apply mt-6;
 }
 
 blockquote {
@@ -59,7 +57,7 @@ blockquote {
 
 section p,
 section li {
-  @apply text-lg;
+  @apply text-lg leading-relaxed;
 }
 
 section li {
