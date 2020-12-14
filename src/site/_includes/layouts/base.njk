@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     {% set css %}
       {% include "styles.css" %}
+      {% if page.url.indexOf('blog') > -1 %}
+        {% include "prism-material.css" %}
+      {% endif %}
     {% endset %}
     <style>
       {{ css | cssmin | safe }}
     </style>
-    {% if page.url.indexOf('blog') > -1 %}
-      <link rel="stylesheet" href="/css/prism-material.css">
-    {% endif %}
     <title>{% if title %}{{ title }} - {% endif %}Jack Franklin</title>
     {% include "social.njk" %}
     <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png">
