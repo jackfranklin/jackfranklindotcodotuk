@@ -1,6 +1,7 @@
 const { DateTime } = require('luxon')
 const util = require('util')
 const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight')
+const CleanCSS = require('clean-css')
 const rss = require('@11ty/eleventy-plugin-rss')
 const getSharingImage = require('@jlengstorf/get-share-image').default
 
@@ -56,6 +57,10 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy('./src/site/images')
   eleventyConfig.addPassthroughCopy('./src/site/code-for-posts')
   eleventyConfig.addPassthroughCopy('./src/site/css')
+
+  eleventyConfig.addFilter("cssmin", function(code) {
+    return new CleanCSS({}).minify(code).styles;
+  });
 
   return {
     dir: {
