@@ -3,7 +3,6 @@
 
 # build artefacts
 /dist
-/src/site/css/styles.css
 
 # secrets
 .env

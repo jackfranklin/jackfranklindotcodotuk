@@ -10,11 +10,10 @@ pagination:
   <p>Day to day you'll find me working on <a href="https://developers.google.com/web/tools/chrome-devtools/">Chrome DevTools</a> as a frontend engineer.</p>
   <p>This site is also where you'll also find my <a href="/blog">blog posts</a> where I write and record content on JavaScript, React, software development and more.</p>
 
-  <h3 class="font-normal text-2xl">From the <a href="/blog">blog:</a></h3>
   <ul class="latest-blog-posts">
     {%- for item in pagination.items -%}
-      <li class="mb-4">
-        <h2 class="text-xl"><a href="{{item.url}}">{{item.data.title}}</a></h2>
+      <li>
+        <h4><a href="{{item.url}}">{{item.data.title}}</a></h4>
         <p>{{item.data.intro}}</p>
       </li>
     {%- endfor -%}
