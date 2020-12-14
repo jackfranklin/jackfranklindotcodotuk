@@ -7,18 +7,18 @@ templateEngineOverride: njk, md
 <meta name="twitter:title" content="{{title}}" />
 <meta name="twitter:image" content="{{title|blogCard}}" />
 <section class="post">
-  <time value="{{ item.date }}" class="text-gray-600">{{ page.date | readableDate }}</time>
+  <time value="{{ item.date }}">{{ page.date | readableDate }}</time>
   <h1 class="heading">{{ title }}</h1>
   <div class="post-content">
     {{ content | safe }}
   </div>
-  <div class="my-10 py-4 px-8 text-white text-sm border-solid border border-blue-900 bg-blue-700">
-    <p class="py-4">If you enjoyed this post, join the newsletter to get updates on new content 😎.</p>
+  <div class="formkit-wrapper">
+    <p class="formkit-teaser">If you enjoyed this post, join the newsletter to get updates on new content 😎.</p>
     <script async data-uid="ad41405733" src="https://astounding-speaker-5952.ck.page/ad41405733/index.js"></script>
   </div>
-  <div class="mt-4 pt-4 text-gray-600 text-sm border-t border-gray-300">
+  <div class="post-footer">
     <p>
-      <a href="/blog">Blog home</a>
+      <a href="/blog">All blog posts</a>
     </p>
     <p>
       If you enjoyed this post, be sure to <a href="https://www.twitter.com/jack_franklin">follow me on Twitter</a>.

@@ -9,7 +9,7 @@ pagination:
 ---
 
 <section>
-  <ul>
+  <ul class="archives">
   {%- for item in pagination.items -%}
     {% include 'components/post-teaser.njk' %}
   {%- endfor -%}
@@ -17,7 +17,6 @@ pagination:
 </section>
 
 <nav class="pagination">
-  <span>Pages:</span>
   <ol>
 {%- for pageEntry in pagination.hrefs %}
     <li><a href="{{ pagination.hrefs[ loop.index0 ] }}"{% if page.url == pagination.hrefs[ loop.index0 ] %} aria-current="page"{% endif %}>{{ loop.index }}</a></li>
