@@ -255,8 +255,15 @@ header nav li:first-child {
   color: var(--blue);
   background: var(--grey);
   padding: var(--space-l);
-  font-size: 1.2em;
+  margin-left: var(--space-xl);
+  font-size: 1.1em;
   border-left: 5px solid var(--green);
+}
+
+@media (max-width: 700px) {
+  .post-content blockquote {
+    margin-left: var(--space-m);
+  }
 }
 
 a.formkit-powered-by {
