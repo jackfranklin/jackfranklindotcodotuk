@@ -17,7 +17,7 @@ with, and with
 could run VSCode in Windows connected to the Linux environment provided by WSL,
 and things felt very familiar.
 
-# Shortcomings of WSL
+### Shortcomings of WSL
 
 That said, there were some minor issues and frustrations with WSL and this
 workflow. The main one was that WSL 1 was known to be much slower at file reads
@@ -32,7 +32,7 @@ reach for - and at times I found the VSCode WSL integration to be slightly
 laggy. Not much, and not often, but everything wasn't _quite_ as smooth as it
 would be on the MacBook I usually worked on.
 
-# Enter WSL 2
+### Enter WSL 2
 
 WSL 2 (see an [intro video here](https://www.youtube.com/watch?v=MrZolfGm8Zk))
 promised major improvements over WSL 1. I can't go into the details of the
@@ -50,7 +50,7 @@ Docker is now possible.
 And, you could upgrade a WSL 1 install to WSL 2, so the upgrade path was super
 smooth!
 
-# Starting fresh
+### Starting fresh
 
 Given all the experimenting I'd done when I first got the laptop to get WSL 1
 installed (I had to install a Windows Insider build to get it, whereas now WSL
@@ -62,7 +62,7 @@ For my future reference, for when I do it again or get a new machine, and for
 others who may be interested in doing software development on Windows 10, I
 decided to document the steps I took. Spoiler: there actually aren't that many!
 
-# Reinstalling Windows 10
+### Reinstalling Windows 10
 
 You can install Windows however you like; my XPS came with a recovery disk,
 which I got at via "Reset this PC" in System Settings. That let me do a factory
@@ -72,14 +72,14 @@ Windows that was over a year out of date, so the first thing I did was let the
 software updater do its thing. Many downloads and restarts later, I had a fresh,
 up to date Windows 10 all ready to go.
 
-# Browser and 1Password
+### Browser and 1Password
 
 I'm a big fan of [1Password](https://www.1password.com) for storing all my
 passwords and the main way I access it is via the Google Chrome extension, so my
 first port of call is to download Chrome and sign in so all my extensions,
 including 1Password, get synced.
 
-# WSL 2 and Ubuntu
+### WSL 2 and Ubuntu
 
 I run the Ubuntu distro on WSL 2, but these steps should be the same regardless
 of which distro you'd like to run. I followed
@@ -96,7 +96,7 @@ This process is a bit manual and takes a few minutes as some of the steps
 require a restart of your machine, but it's just a case of following the
 instructions carefully and you'll be up and running.
 
-# The Windows Terminal
+### The Windows Terminal
 
 One of my major sticking points for Windows was the lack of a good terminal
 application. On OS X / Linux there's a great choice between the built in
@@ -111,7 +111,7 @@ a Windows Powershell by default, but you can
 [customise the default profile](https://docs.microsoft.com/en-us/windows/terminal/customize-settings/global-settings#default-profile),
 so I've set it to load my Ubuntu WSL 2 environment by default.
 
-# VSCode
+### VSCode
 
 VSCode is my editor of choice and is really the best option on Windows for me
 because of the previously mentioned WSL integration. I donwload this onto
@@ -124,7 +124,7 @@ you use VSCode, I highly recommend syncing your settings. Even if you only use
 one machine at all times, it's a great way to back up your settings should you
 have to reformat your machine in the future.
 
-# Diving into Ubuntu
+### Diving into Ubuntu
 
 At this point I've now got everything set up on the Windows side, and I fire up
 the Windows Terminal to get the Ubuntu environment configured. These steps are
@@ -157,7 +157,7 @@ largely personal preference, but the tools I reach for are:
    my GitHub profile, so I'm ready to clone, push and pull against both my
    public and private repositories.
 
-# Conclusion
+### Conclusion
 
 I find Windows 10 a great environment to be productive in; the improvements to
 WSL 2 along with the ability of VS Code to connect seamlessly to it to create an

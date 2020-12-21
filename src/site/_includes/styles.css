@@ -234,12 +234,17 @@ header nav li:first-child {
 }
 
 .post h1 {
-  font-size: 1.75em;
+  font-size: 2em;
   font-weight: bold;
 }
 
 .post-content {
   margin: var(--space-l) 0;
+}
+
+.post-content h3,
+.post-content h4 {
+  font-weight: bold;
 }
 
 .post-content code {
