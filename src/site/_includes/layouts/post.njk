@@ -23,4 +23,11 @@ templateEngineOverride: njk, md
     </p>
   </div>
 </section>
+{% set js %}
+  {% include "js/out/app.js" %}
+{% endset %}
+<script>
+  {{ js | jsmin | safe }}
+</script>
+
 
