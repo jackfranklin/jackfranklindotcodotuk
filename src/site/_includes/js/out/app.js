@@ -273,13 +273,13 @@ class SvelteComponent {
 
 function add_css() {
 	var style = element("style");
-	style.id = "svelte-6wlymn-style";
-	style.textContent = ".wrapper.svelte-6wlymn.svelte-6wlymn{width:90vw;max-width:1000px}.header.svelte-6wlymn.svelte-6wlymn{display:flex;align-items:center;width:100%}.header.svelte-6wlymn ul.svelte-6wlymn{display:flex;list-style:none;margin:0;padding:0}.header.svelte-6wlymn ul a.svelte-6wlymn{display:block;padding:var(--space-s) var(--space-m);border-bottom:4px solid transparent}.header.svelte-6wlymn ul a.is-active.svelte-6wlymn{border-bottom:4px solid var(--green)}.header.svelte-6wlymn button.svelte-6wlymn:first-of-type{margin-left:auto}.code-block.svelte-6wlymn.svelte-6wlymn:not(.is-active){display:none}";
+	style.id = "svelte-1s5f16h-style";
+	style.textContent = ".wrapper.svelte-1s5f16h.svelte-1s5f16h{width:90vw;max-width:1000px;margin-top:var(--space-m);margin-bottom:var(--space-m)}.header.svelte-1s5f16h.svelte-1s5f16h{display:flex;align-items:center;width:100%;height:40px}.header.svelte-1s5f16h ul.svelte-1s5f16h{display:flex;list-style:none;margin:0;padding:0}.side-by-side.svelte-1s5f16h .header ul.svelte-1s5f16h{display:none}.header.svelte-1s5f16h ul a.svelte-1s5f16h{display:block;padding:var(--space-s) var(--space-m);border-bottom:4px solid transparent}.header.svelte-1s5f16h ul a.is-active.svelte-1s5f16h{border-bottom:4px solid var(--green)}.header.svelte-1s5f16h button.svelte-1s5f16h:first-of-type{margin-left:auto}.code-block.svelte-1s5f16h.svelte-1s5f16h:not(.is-active){display:none}.side-by-side.svelte-1s5f16h .code-wrapper.svelte-1s5f16h{display:grid;grid-template-columns:repeat(2, 1fr);grid-template-rows:1fr;column-gap:10px;align-items:start;align-content:start}.tabs.svelte-1s5f16h .inline-code-title.svelte-1s5f16h{display:none}.side-by-side.svelte-1s5f16h .code-block.svelte-1s5f16h{position:relative}.side-by-side.svelte-1s5f16h .inline-code-title.svelte-1s5f16h{user-select:none;display:block;z-index:3;background:#fff;position:absolute;top:-10px;padding:var(--space-m) var(--space-l);font-size:var(--font-m);left:0}";
 	append(document.head, style);
 }
 
 function create_fragment(ctx) {
-	let div4;
+	let div5;
 	let div1;
 	let div0;
 	let ul;
@@ -301,15 +301,22 @@ function create_fragment(ctx) {
 	let t6;
 	let button1_disabled_value;
 	let t7;
+	let div4;
 	let div2;
+	let span0;
+	let t8_value = /*firstBlock*/ ctx[0].title + "";
 	let t8;
+	let t9;
 	let div3;
+	let span1;
+	let t10_value = /*secondBlock*/ ctx[1].title + "";
+	let t10;
 	let mounted;
 	let dispose;
 
 	return {
 		c() {
-			div4 = element("div");
+			div5 = element("div");
 			div1 = element("div");
 			div0 = element("div");
 			ul = element("ul");
@@ -327,40 +334,48 @@ function create_fragment(ctx) {
 			button1 = element("button");
 			t6 = text("Tabs");
 			t7 = space();
+			div4 = element("div");
 			div2 = element("div");
-			t8 = space();
+			span0 = element("span");
+			t8 = text(t8_value);
+			t9 = space();
 			div3 = element("div");
+			span1 = element("span");
+			t10 = text(t10_value);
 			attr(a0, "href", "/");
-			attr(a0, "class", "svelte-6wlymn");
+			attr(a0, "class", "svelte-1s5f16h");
 			toggle_class(a0, "is-active", /*activeTab*/ ctx[5] === 0);
 			attr(a1, "href", "/");
-			attr(a1, "class", "svelte-6wlymn");
+			attr(a1, "class", "svelte-1s5f16h");
 			toggle_class(a1, "is-active", /*activeTab*/ ctx[5] === 1);
-			attr(ul, "class", "svelte-6wlymn");
+			attr(ul, "class", "svelte-1s5f16h");
 			button0.disabled = button0_disabled_value = /*mode*/ ctx[4] === "side-by-side";
-			attr(button0, "class", "svelte-6wlymn");
+			attr(button0, "class", "svelte-1s5f16h");
 			button1.disabled = button1_disabled_value = /*mode*/ ctx[4] === "tabs";
-			attr(button1, "class", "svelte-6wlymn");
-			attr(div0, "class", "header svelte-6wlymn");
-			attr(div2, "class", "code-block svelte-6wlymn");
+			attr(button1, "class", "svelte-1s5f16h");
+			attr(div0, "class", "header svelte-1s5f16h");
+			attr(span0, "class", "inline-code-title svelte-1s5f16h");
+			attr(div2, "class", "code-block svelte-1s5f16h");
 
 			toggle_class(div2, "is-active", /*mode*/ ctx[4] === "tabs"
 			? /*activeTab*/ ctx[5] === 0
 			: true);
 
-			attr(div3, "class", "code-block svelte-6wlymn");
+			attr(span1, "class", "inline-code-title svelte-1s5f16h");
+			attr(div3, "class", "code-block svelte-1s5f16h");
 
 			toggle_class(div3, "is-active", /*mode*/ ctx[4] === "tabs"
 			? /*activeTab*/ ctx[5] === 1
 			: true);
 
-			attr(div4, "class", "wrapper svelte-6wlymn");
-			toggle_class(div4, "tabs", /*mode*/ ctx[4] === "tabs");
-			toggle_class(div4, "side-by-side", /*mode*/ ctx[4] === "side-by-side");
+			attr(div4, "class", "code-wrapper svelte-1s5f16h");
+			attr(div5, "class", "wrapper svelte-1s5f16h");
+			toggle_class(div5, "tabs", /*mode*/ ctx[4] === "tabs");
+			toggle_class(div5, "side-by-side", /*mode*/ ctx[4] === "side-by-side");
 		},
 		m(target, anchor) {
-			insert(target, div4, anchor);
-			append(div4, div1);
+			insert(target, div5, anchor);
+			append(div5, div1);
 			append(div1, div0);
 			append(div0, ul);
 			append(ul, li0);
@@ -376,11 +391,16 @@ function create_fragment(ctx) {
 			append(div0, t5);
 			append(div0, button1);
 			append(button1, t6);
-			append(div4, t7);
+			append(div5, t7);
+			append(div5, div4);
 			append(div4, div2);
+			append(div2, span0);
+			append(span0, t8);
 			/*div2_binding*/ ctx[10](div2);
-			append(div4, t8);
+			append(div4, t9);
 			append(div4, div3);
+			append(div3, span1);
+			append(span1, t10);
 			/*div3_binding*/ ctx[11](div3);
 
 			if (!mounted) {
@@ -415,11 +435,15 @@ function create_fragment(ctx) {
 				button1.disabled = button1_disabled_value;
 			}
 
+			if (dirty & /*firstBlock*/ 1 && t8_value !== (t8_value = /*firstBlock*/ ctx[0].title + "")) set_data(t8, t8_value);
+
 			if (dirty & /*mode, activeTab*/ 48) {
 				toggle_class(div2, "is-active", /*mode*/ ctx[4] === "tabs"
 				? /*activeTab*/ ctx[5] === 0
 				: true);
 			}
+
+			if (dirty & /*secondBlock*/ 2 && t10_value !== (t10_value = /*secondBlock*/ ctx[1].title + "")) set_data(t10, t10_value);
 
 			if (dirty & /*mode, activeTab*/ 48) {
 				toggle_class(div3, "is-active", /*mode*/ ctx[4] === "tabs"
@@ -428,17 +452,17 @@ function create_fragment(ctx) {
 			}
 
 			if (dirty & /*mode*/ 16) {
-				toggle_class(div4, "tabs", /*mode*/ ctx[4] === "tabs");
+				toggle_class(div5, "tabs", /*mode*/ ctx[4] === "tabs");
 			}
 
 			if (dirty & /*mode*/ 16) {
-				toggle_class(div4, "side-by-side", /*mode*/ ctx[4] === "side-by-side");
+				toggle_class(div5, "side-by-side", /*mode*/ ctx[4] === "side-by-side");
 			}
 		},
 		i: noop,
 		o: noop,
 		d(detaching) {
-			if (detaching) detach(div4);
+			if (detaching) detach(div5);
 			/*div2_binding*/ ctx[10](null);
 			/*div3_binding*/ ctx[11](null);
 			mounted = false;
@@ -450,7 +474,6 @@ function create_fragment(ctx) {
 function instance($$self, $$props, $$invalidate) {
 	let { firstBlock } = $$props;
 	let { secondBlock } = $$props;
-	console.log(firstBlock, secondBlock);
 	let svelteFirstBlock;
 	let svelteSecondBlock;
 
@@ -459,16 +482,11 @@ function instance($$self, $$props, $$invalidate) {
 		svelteSecondBlock.appendChild(secondBlock.code);
 	});
 
-	let mode = "tabs";
+	let mode = window.innerWidth < 650 ? "tabs" : "side-by-side";
 	let activeTab = 0;
 	const click_handler = () => $$invalidate(5, activeTab = 0);
 	const click_handler_1 = () => $$invalidate(5, activeTab = 1);
-
-	const click_handler_2 = () => {
-		console.log("here");
-		$$invalidate(4, mode = "side-by-side");
-	};
-
+	const click_handler_2 = () => $$invalidate(4, mode = "side-by-side");
 	const click_handler_3 = () => $$invalidate(4, mode = "tabs");
 
 	function div2_binding($$value) {
@@ -509,7 +527,7 @@ function instance($$self, $$props, $$invalidate) {
 class SideBySide extends SvelteComponent {
 	constructor(options) {
 		super();
-		if (!document.getElementById("svelte-6wlymn-style")) add_css();
+		if (!document.getElementById("svelte-1s5f16h-style")) add_css();
 		init(this, options, instance, create_fragment, safe_not_equal, { firstBlock: 0, secondBlock: 1 });
 	}
 }

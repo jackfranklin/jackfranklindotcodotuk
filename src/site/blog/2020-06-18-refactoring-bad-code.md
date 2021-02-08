@@ -75,13 +75,15 @@ function:
 <side-by-side first="Svelte" second="React">
 
 ```js
-const publishDatePart = (target) => {
-  return `${target.publishOn.getFullYear()}-${target.publishOn.getMonth() + 1}`
+onMount(() => {
+  console.log('Foo')
+})
 ```
 
 ```js
-const publishDatePart = (target) => {
- return `SECOND`;
+useEffect(() => {
+  console.log('Foo')
+}, [])
 ```
 
 </side-by-side>

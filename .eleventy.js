@@ -42,9 +42,6 @@ module.exports = function (eleventyConfig) {
     return url
   })
 
-  // compress and combine js files
-  eleventyConfig.addFilter('jsmin', require('./src/utils/minify-js.js'))
-
   // minify the html output when running in prod
   if (process.env.NODE_ENV == 'production') {
     eleventyConfig.addTransform(
@@ -67,12 +64,16 @@ module.exports = function (eleventyConfig) {
     code,
     callback
   ) {
-    try {
-      const minified = await minify(code)
-      callback(null, minified.code)
-    } catch (err) {
-      console.error('Terser error: ', err)
-      // Fail gracefully.
+    if (process.env.NODE_ENV == 'production') {
+      try {
+        const minified = await minify(code)
+        callback(null, minified.code)
+      } catch (err) {
+        console.error('Terser error: ', err)
+        // Fail gracefully.
+        callback(null, code)
+      }
+    } else {
       callback(null, code)
     }
   })

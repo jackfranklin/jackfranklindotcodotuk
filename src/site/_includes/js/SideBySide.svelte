@@ -2,7 +2,6 @@
   import { onMount } from 'svelte'
   export let firstBlock
   export let secondBlock
-  console.log(firstBlock, secondBlock)
 
   let svelteFirstBlock
   let svelteSecondBlock
@@ -12,7 +11,7 @@
     svelteSecondBlock.appendChild(secondBlock.code)
   })
 
-  let mode = 'tabs'
+  let mode = window.innerWidth < 650 ? 'tabs' : 'side-by-side'
   let activeTab = 0
 </script>
 
@@ -42,10 +41,8 @@
 
       <button
         disabled={mode === 'side-by-side'}
-        on:click|preventDefault={() => {
-          console.log('here')
-          mode = 'side-by-side'
-        }}>Side by side</button
+        on:click|preventDefault={() => (mode = 'side-by-side')}
+        >Side by side</button
       >
       <button
         disabled={mode === 'tabs'}
@@ -54,27 +51,37 @@
     </div>
   </div>
 
-  <div
-    bind:this={svelteFirstBlock}
-    class="code-block"
-    class:is-active={mode === 'tabs' ? activeTab === 0 : true}
-  />
-  <div
-    bind:this={svelteSecondBlock}
-    class="code-block"
-    class:is-active={mode === 'tabs' ? activeTab === 1 : true}
-  />
+  <div class="code-wrapper">
+    <div
+      bind:this={svelteFirstBlock}
+      class="code-block"
+      class:is-active={mode === 'tabs' ? activeTab === 0 : true}
+    >
+      <span class="inline-code-title">{firstBlock.title}</span>
+    </div>
+
+    <div
+      bind:this={svelteSecondBlock}
+      class="code-block"
+      class:is-active={mode === 'tabs' ? activeTab === 1 : true}
+    >
+      <span class="inline-code-title">{secondBlock.title}</span>
+    </div>
+  </div>
 </div>
 
 <style>
   .wrapper {
     width: 90vw;
     max-width: 1000px;
+    margin-top: var(--space-m);
+    margin-bottom: var(--space-m);
   }
   .header {
     display: flex;
     align-items: center;
     width: 100%;
+    height: 40px;
   }
 
   .header ul {
@@ -82,6 +89,10 @@
     list-style: none;
     margin: 0;
     padding: 0;
+  }
+
+  .side-by-side .header ul {
+    display: none;
   }
 
   .header ul a {
@@ -100,5 +111,32 @@
 
   .code-block:not(.is-active) {
     display: none;
+  }
+
+  .side-by-side .code-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    column-gap: 10px;
+    align-items: start;
+    align-content: start;
+  }
+  .tabs .inline-code-title {
+    display: none;
+  }
+
+  .side-by-side .code-block {
+    position: relative;
+  }
+  .side-by-side .inline-code-title {
+    user-select: none;
+    display: block;
+    z-index: 3;
+    background: #fff;
+    position: absolute;
+    top: -10px;
+    padding: var(--space-m) var(--space-l);
+    font-size: var(--font-m);
+    left: 0;
   }
 </style>
