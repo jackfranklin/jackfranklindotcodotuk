@@ -6,12 +6,10 @@ templateEngineOverride: njk, md
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="{{title}}" />
 <meta name="twitter:image" content="{{title|blogCard}}" />
-<section class="post">
-  <time value="{{ item.date }}">{{ page.date | readableDate }}</time>
+<section class="post flow">
+  <time class="time" value="{{ item.date }}">{{ page.date | readableDate }}</time>
   <h1 class="heading">{{ title }}</h1>
-  <div class="post-content">
-    {{ content | safe }}
-  </div>
+  {{ content | safe }}
   <div class="formkit-wrapper">
     <p class="formkit-teaser">If you enjoyed this post, join the newsletter to get updates on new content 😎.</p>
     <script async data-uid="ad41405733" src="https://astounding-speaker-5952.ck.page/ad41405733/index.js"></script>
