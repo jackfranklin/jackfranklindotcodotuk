@@ -16,6 +16,7 @@ class SideBySide extends HTMLElement {
         title: titles[1],
         code: secondCodeBlock,
       },
+      isWideExample: this.getAttribute('is-wide-example') !== null,
     }
     new SideBySideSvelte({
       target: this,

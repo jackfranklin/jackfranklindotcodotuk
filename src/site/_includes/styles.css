@@ -112,8 +112,9 @@ h4 {
     font-size: var(--size-700);
   }
 
-  p {
-    font-size: var(--size-500);
+  p,
+  li {
+    font-size: var(--size-500) !important;
   }
 
   figcaption {

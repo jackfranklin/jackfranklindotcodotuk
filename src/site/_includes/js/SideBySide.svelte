@@ -2,6 +2,9 @@
   import { onMount } from 'svelte'
   export let firstBlock
   export let secondBlock
+  export let isWideExample
+
+  console.log('isWideExample', isWideExample)
 
   let svelteFirstBlock
   let svelteSecondBlock
@@ -11,7 +14,7 @@
     svelteSecondBlock.appendChild(secondBlock.code)
   })
 
-  let mode = window.innerWidth < 650 ? 'tabs' : 'side-by-side'
+  let mode = window.innerWidth < 650 || isWideExample ? 'tabs' : 'side-by-side'
   let activeTab = 0
 </script>
 
@@ -20,35 +23,33 @@
   class:tabs={mode === 'tabs'}
   class:side-by-side={mode === 'side-by-side'}
 >
-  <div>
-    <div class="header">
-      <ul>
-        <li>
-          <a
-            href="/"
-            on:click|preventDefault={() => (activeTab = 0)}
-            class:is-active={activeTab === 0}>{firstBlock.title}</a
-          >
-        </li>
-        <li>
-          <a
-            href="/"
-            on:click|preventDefault={() => (activeTab = 1)}
-            class:is-active={activeTab === 1}>{secondBlock.title}</a
-          >
-        </li>
-      </ul>
+  <div class="header">
+    <ul>
+      <li>
+        <a
+          href="/"
+          on:click|preventDefault={() => (activeTab = 0)}
+          class:is-active={activeTab === 0}>{firstBlock.title}</a
+        >
+      </li>
+      <li>
+        <a
+          href="/"
+          on:click|preventDefault={() => (activeTab = 1)}
+          class:is-active={activeTab === 1}>{secondBlock.title}</a
+        >
+      </li>
+    </ul>
 
-      <button
-        disabled={mode === 'side-by-side'}
-        on:click|preventDefault={() => (mode = 'side-by-side')}
-        >Side by side</button
-      >
-      <button
-        disabled={mode === 'tabs'}
-        on:click|preventDefault={() => (mode = 'tabs')}>Tabs</button
-      >
-    </div>
+    <button
+      disabled={mode === 'side-by-side'}
+      on:click|preventDefault={() => (mode = 'side-by-side')}
+      >Side by side</button
+    >
+    <button
+      disabled={mode === 'tabs'}
+      on:click|preventDefault={() => (mode = 'tabs')}>Tabs</button
+    >
   </div>
 
   <div class="code-wrapper">
@@ -89,6 +90,11 @@
     list-style: none;
     margin: 0;
     padding: 0;
+    max-width: auto;
+  }
+
+  .header ul li {
+    margin-top: initial;
   }
 
   .side-by-side .header ul {
@@ -121,12 +127,14 @@
     align-items: start;
     align-content: start;
   }
+
   .tabs .inline-code-title {
     display: none;
   }
 
   .side-by-side .code-block {
     position: relative;
+    min-width: 0;
   }
   .side-by-side .inline-code-title {
     user-select: none;
@@ -134,9 +142,16 @@
     z-index: 3;
     background: #fff;
     position: absolute;
-    top: -10px;
+    top: -15px;
     padding: var(--space-m) var(--space-l);
     font-size: var(--font-m);
     left: 0;
+  }
+
+  @media (min-width: 45em) {
+    .side-by-side .inline-code-title {
+      font-size: var(--size-500);
+      top: -25px;
+    }
   }
 </style>
