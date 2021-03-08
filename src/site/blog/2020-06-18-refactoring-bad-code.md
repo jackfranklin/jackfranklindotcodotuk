@@ -72,22 +72,6 @@ The first change I'm going to do is to split each part of the filename
 generation into its own function. Let's take that first part and pull it into a
 function:
 
-<side-by-side first="Svelte" second="React">
-
-```js
-onMount(() => {
-  console.log('Foo')
-})
-```
-
-```js
-useEffect(() => {
-  console.log('Foo')
-}, [])
-```
-
-</side-by-side>
-
 And then call it:
 
 ```js
