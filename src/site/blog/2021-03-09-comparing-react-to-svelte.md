@@ -380,6 +380,15 @@ time, often pulling out the logic into a function:
 
 ### Styling
 
+I enjoy that Svelte has an opinion about styling; especially in the context of
+small side projects like Pomodone, it's great to have that decision made for me.
+The fact that Svelte can also detect unused CSS is great, and this is one of the
+reasons why I suspect I'll reach more for Svelte in future projects.
+
+This isn't really a downside to React; one of React's strengths is that it lets
+you control so much and slot React into your environment, but I like that Svelte
+comes with a good CSS story out the box.
+
 ### Conclusion
 
 #### I don't miss useEffect
