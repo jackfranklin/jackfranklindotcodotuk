@@ -3,7 +3,7 @@
   "author": "Jack Franklin",
   "license": "MIT",
   "scripts": {
-    "build": "eleventy && rollup",
+    "build": "npm run rollup && eleventy",
     "watch": "eleventy --serve --port=8181",
     "start": "npm run watch",
     "rollup": "rollup --config rollup.config.js"
