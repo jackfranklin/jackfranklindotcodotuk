@@ -31,8 +31,8 @@ a change to this output. Each individual section in the filename should be
 separated by a dash (`-`). In the above output you can see that this happens
 inconsistently on different parts of the output. Right now this would be a very
 manual bit of work to take all the string concatenation and add dashes. Let's
-see if we can follow [Kent Beck](https://twitter.com/KentBeck)'s advice and do
-our work as two separate steps:
+see if we can follow [Kent Beck](https://twitter.com/KentBeck)'s advice and do our work
+as two separate steps:
 
 1. Do the work to make the change easy (note: this may be hard).
 2. Do the easy change.
@@ -71,6 +71,11 @@ class Publisher {
 The first change I'm going to do is to split each part of the filename
 generation into its own function. Let's take that first part and pull it into a
 function:
+
+```js
+const publishDatePart = (target) => {
+  return `${target.publishOn.getFullYear()}-${target.publishOn.getMonth() + 1}`
+```
 
 And then call it:
 
