@@ -4,8 +4,9 @@ const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight')
 const CleanCSS = require('clean-css')
 const rss = require('@11ty/eleventy-plugin-rss')
 const getSharingImage = require('@jlengstorf/get-share-image').default
+const { minify } = require('terser')
 
-module.exports = function(eleventyConfig) {
+module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(syntaxHighlight)
   eleventyConfig.addPlugin(rss)
 
@@ -13,23 +14,23 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addLayoutAlias('default', 'layouts/base.njk')
 
   // a debug utility
-  eleventyConfig.addFilter('dump', obj => {
+  eleventyConfig.addFilter('dump', (obj) => {
     return util.inspect(obj)
   })
 
   // Date helpers
-  eleventyConfig.addFilter('readableDate', dateObj => {
+  eleventyConfig.addFilter('readableDate', (dateObj) => {
     return DateTime.fromJSDate(dateObj, {
       zone: 'utc',
     }).toFormat('LLLL d, y')
   })
-  eleventyConfig.addFilter('htmlDate', dateObj => {
+  eleventyConfig.addFilter('htmlDate', (dateObj) => {
     return DateTime.fromJSDate(dateObj, {
       zone: 'utc',
     }).toFormat('y-MM-dd')
   })
 
-  eleventyConfig.addFilter('blogCard', title => {
+  eleventyConfig.addFilter('blogCard', (title) => {
     const url = getSharingImage({
       title,
       tagline: 'jackfranklin.co.uk',
@@ -40,9 +41,6 @@ module.exports = function(eleventyConfig) {
     })
     return url
   })
-
-  // compress and combine js files
-  eleventyConfig.addFilter('jsmin', require('./src/utils/minify-js.js'))
 
   // minify the html output when running in prod
   if (process.env.NODE_ENV == 'production') {
@@ -58,9 +56,27 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy('./src/site/code-for-posts')
   eleventyConfig.addPassthroughCopy('./src/site/css')
 
-  eleventyConfig.addFilter("cssmin", function(code) {
-    return new CleanCSS({}).minify(code).styles;
-  });
+  eleventyConfig.addFilter('cssmin', function (code) {
+    return new CleanCSS({}).minify(code).styles
+  })
+
+  eleventyConfig.addNunjucksAsyncFilter('jsmin', async function (
+    code,
+    callback
+  ) {
+    if (process.env.NODE_ENV == 'production') {
+      try {
+        const minified = await minify(code)
+        callback(null, minified.code)
+      } catch (err) {
+        console.error('Terser error: ', err)
+        // Fail gracefully.
+        callback(null, code)
+      }
+    } else {
+      callback(null, code)
+    }
+  })
 
   return {
     dir: {

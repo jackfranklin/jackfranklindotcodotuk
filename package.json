@@ -3,9 +3,10 @@
   "author": "Jack Franklin",
   "license": "MIT",
   "scripts": {
-    "build": "eleventy",
+    "build": "npm run rollup && eleventy",
     "watch": "eleventy --serve --port=8181",
-    "start": "npm run watch"
+    "start": "npm run watch",
+    "rollup": "rollup --config rollup.config.js"
   },
   "dependencies": {
     "@11ty/eleventy": "^0.11.0",
@@ -22,8 +23,15 @@
     "prettier": "^2.0.5"
   },
   "devDependencies": {
+    "@rollup/plugin-commonjs": "^17.1.0",
+    "@rollup/plugin-node-resolve": "^11.1.1",
     "clean-css": "^4.2.3",
     "glob": "^7.1.6",
-    "jest": "^26.0.1"
+    "jest": "^26.0.1",
+    "rollup": "^2.38.5",
+    "rollup-plugin-css-only": "^3.1.0",
+    "rollup-plugin-svelte": "^7.1.0",
+    "svelte": "^3.32.1",
+    "terser": "^5.6.0-beta"
   }
 }

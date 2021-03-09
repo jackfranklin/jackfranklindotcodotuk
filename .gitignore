@@ -3,6 +3,7 @@
 
 # build artefacts
 /dist
+src/site/_includes/js/out
 
 # secrets
 .env

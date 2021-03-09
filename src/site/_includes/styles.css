@@ -112,8 +112,9 @@ h4 {
     font-size: var(--size-700);
   }
 
-  p {
-    font-size: var(--size-500);
+  p,
+  li {
+    font-size: var(--size-500) !important;
   }
 
   figcaption {
@@ -305,10 +306,14 @@ header nav li:first-child {
 
 .post code {
   background: var(--green);
-  padding: var(--space-s);
   font-size: 1.1em;
   color: var(--white);
   border-radius: 4px;
+  padding: var(--space-s);
+}
+
+.post pre code {
+  padding: 0 !important;
 }
 
 .post blockquote {
@@ -348,4 +353,62 @@ a.formkit-powered-by {
 .formkit-wrapper .formkit-teaser {
   font-size: 1em !important;
   margin-bottom: var(--space-m);
+}
+
+.side-by-side-container {
+  width: 90vw;
+  max-width: 1000px;
+}
+
+.side-by-side-container.side-by-side-mode {
+  display: flex;
+}
+
+.post > pre {
+  width: 90vw;
+  max-width: 1000px;
+}
+
+.side-by-side-container .code-block-wrapper.side-by-side-mode {
+  width: 50%;
+  padding: var(--space-m);
+}
+
+.code-block-wrapper.tabs-mode:not(.active-block) {
+  display: none;
+}
+
+.side-by-side-container .code-block-wrapper:first-of-type {
+  border-right: 2px solid var(--green);
+}
+
+.side-by-side-header {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.side-by-side-header button:first-of-type {
+  margin-left: auto;
+}
+
+.side-by-side-header .tab-links {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.side-by-side-header .tab-links a {
+  display: block;
+  padding: var(--space-s) var(--space-l);
+}
+
+.side-by-side-header .tab-links a:not(.active-tab) {
+  border-bottom: 4px solid transparent;
+}
+
+.side-by-side-header .tab-links a.active-tab,
+.side-by-side-header .tab-links a:not(.active-tab):hover {
+  border-bottom: 4px solid var(--green);
 }
