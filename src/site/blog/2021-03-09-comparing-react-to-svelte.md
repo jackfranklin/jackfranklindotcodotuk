@@ -94,9 +94,9 @@ export const listenForAuthChanges = () => {
 }
 ```
 
-Then, within the top level Svelte component, I can call this within `onMount`,
-which will run once when the component is mounted (the function is `return`ed so
-we unsubscribe when the component is removed, much like how `useEffect` lets you
+Within the top level Svelte component, I can call this within `onMount`, which
+will run once when the component is mounted (the function is `return`ed so we
+unsubscribe when the component is removed, much like how `useEffect` lets you
 return a function).
 
 ```js
@@ -146,9 +146,9 @@ quite far off. However, if these timeouts are moved into a web worker, they
 should run to time and not get de-prioritised by the browser.
 
 Therefore, in my `Tracker` component, I need to instantiate a web worker, send
-it messages and recieve data (such as time remaining) back. This is one area
+it messages and receive data (such as time remaining) back. This is one area
 where I found React more "admin heavy" than Svelte; because React components are
-re-executed everytime the component re-renders, you can easily end up with
+re-executed every time the component re-renders, you can easily end up with
 thousands of workers being created! It's essential to use
 [useRef](https://reactjs.org/docs/hooks-reference.html#useref) to avoid this
 problem by maintaining a reference to the worker that you've created.
@@ -242,8 +242,8 @@ but once I got used to Svelte I found that React felt like jumping through
 hoops. You can't create a worker instance, it has to go in a `useRef`, and then
 you can't easily pull code out into a function without then requiring
 `useCallback` so it can be a safe dependency on `useEffect`. With Svelte I write
-code that's closer to "plain" JavaScript, whereas in React everything is wrapped
-in a React primitive.
+code that's closer to "plain" JavaScript, whereas in React more of my code is
+wrapped in a React primitive.
 
 ### Conditional rendering
 
@@ -317,9 +317,9 @@ re-rendered. Svelte is different in that by default most of your code is only
 going to run once; a `console.log('foo')` line in a component will only run when
 that component is first rendered. In React, it will run many times.
 
-React doing this has some benefits; let's say you are taking in a big list of
-data and running some function to convert it into data that you can render. In
-React, within your component, you can write:
+React's re-rendering approach has its upsides: let's say you are taking in a big
+list of data and running some function to convert it into data that you can
+render. In React, within your component, you can write:
 
 ```js
 const input = props.inputData
@@ -343,7 +343,9 @@ const transformed = input.map((item) => transformItem(item))
 ```
 
 Here the output will be rendered the first time the component is rendered, but
-then not updated at all. We can solve this in two ways:
+then not updated at all. We can solve this in two ways, either by using the `$:`
+label syntax, which marks the code as reactive, or by moving our transform logic
+into the template:
 
 <side-by-side first="Using $" second="Transform in template" is-wide-example>
 
@@ -378,6 +380,100 @@ time, often pulling out the logic into a function:
 <div>{calculateOutputForItems(input)}</div>
 ```
 
+Coming from React to Svelte this did catch me out numerous times but for me I
+now prefer Svelte's approach, particularly because it removes some of the
+boilerplate around `useEffect`.
+
+### Component composition
+
+Component composition is a huge part of what makes working with a component
+based framework enjoyable or not and it's something that both React and Svelte
+solve well. React's `children` prop makes it very easy to render any provided
+content:
+
+```jsx
+function Box(props) {
+  return <div>{props.children}</div>
+}
+
+function App() {
+  return (
+    <Box>
+      <p>hello world!</p>
+    </Box>
+  )
+}
+```
+
+(If you've not read it, the
+[React guide on Composition is well worth a read](https://reactjs.org/docs/composition-vs-inheritance.html)).
+
+Svelte does similar, using [slots](https://svelte.dev/tutorial/slots):
+
+```html
+<!-- Box component -->
+<div class="box">
+  <slot></slot>
+</div>
+
+<!-- App component -->
+<Box>
+  <p>hello world!</p>
+</Box>
+```
+
+They take different approaches when it comes to multiple children, and this is
+where I find myself preferring Svelte's approach more. React suggest passing
+through multiple props:
+
+```jsx
+function Box(props) {
+  return (
+    <div>
+      <div class="left">{props.left}</div>
+      <div class="right">{props.right}</div>
+    </div>
+  )
+}
+
+function App() {
+  return <Box left={<p>hello</p>} right={<p>world!</P>} />
+}
+```
+
+One gripe I've had with this approach is that you lose the visual cues that
+you're passing children into the Box component; they now aren't nested within
+the Box when you render them like we're used to in HTML; it's now up to you to
+read the props and spot which ones are being used to provide children. It's
+easily done on this dummy example, but harder in "real world" applications - or
+at least, I find it harder!
+
+Svelte's approach is to define multiple slots with explicit names to let the
+user provide the elements that should fill those slots:
+
+```html
+<!-- Box component -->
+<div class="box">
+  <slot name="left"></slot>
+  <slot name="right"></slot>
+</div>
+
+<!-- App component -->
+<Box>
+  <p slot="left">hello</p>
+  <p slot="right">world!</p>
+</Box>
+```
+
+I like this approach more because I can scan the code that renders the `Box`
+component and easily spot that it takes two children. If the `Box` took any
+props, they'd be within the opening `<Box>` tag, and they would be distinct from
+any children props.
+
+My preference here is biased by the fact that I spend everyday at work building
+web components, so Svelte's approach feels very familiar to
+[slots in web components](https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_templates_and_slots).
+
 ### Styling
 
 I enjoy that Svelte has an opinion about styling; especially in the context of
@@ -389,6 +485,80 @@ This isn't really a downside to React; one of React's strengths is that it lets
 you control so much and slot React into your environment, but I like that Svelte
 comes with a good CSS story out the box.
 
+### Conditional classes
+
+One small feature I love about Svelte is how I can apply classes conditionally
+to an element:
+
+```js
+<div class:is-active={isActive}>
+```
+
+This will apply the class `is-active` to the element, but only if the value
+`isActive` is truthy. This reads well, is clear and is great that it comes out
+of the box.
+
+I have used [classnames](https://www.npmjs.com/package/classnames) to achieve
+similar functionality in React, and it's a good solution, but I enjoy that
+Svelte provides this out the box.
+
+### Binding event listeners
+
+Similarly to conditional classes, Svelte packs in some extra utilities for
+binding event listeners in the form of
+[modifiers](https://svelte.dev/tutorial/event-modifiers). These let you modify
+event listeners to ask Svelte to include common functionality, such as calling
+`event.preventDefault()`, for you.
+
+<side-by-side first="Manual preventDefault" second="preventDefault modifier">
+
+{% raw %}
+
+```js
+<script>
+function click(event) {
+  event.preventDefault()
+  // logic here
+}
+</script>
+
+<button on:click={click}>
+  Click me!
+</button>
+```
+
+```js
+<script>
+function click() {
+  // No need to preventDefault ourselves
+  // logic here
+}
+</script>
+
+<button on:click|preventDefault={click}>
+  Click me!
+</button>
+```
+
+{% endraw %}
+
+</side-by-side>
+
 ### Conclusion
 
-#### I don't miss useEffect
+I like both React and Svelte. Put me in a codebase with either of them and I'll
+enjoy it, be productive and happy putting new features together or fixing bugs.
+I have side projects in React, and others in Svelte, and I'm in no rush to
+convert any from one to the other. React and Svelte are very similar in many
+ways, but what I've found is that in all the little ways that they are
+different, I prefer Svelte. The codebase for Pomodone makes more sense to me in
+Svelte, not React. I find it easier to navigate and work with.
+
+If I were to sum up why in one sentence, it's because **I don't miss
+`useEffect`**. I understand why it exists, I understand the approach React
+takes, and there are benefits of its approach. But writing complex React
+components feels more like admin; a constant worry that I'll miss a dependency
+in my `useEffect` call and end up crashing my browser session. With Svelte I
+don't have that lingering feeling, and that's what I've come to enjoy. Svelte is
+there when I need it with useful APIs, but fades into the background as I put my
+app together.

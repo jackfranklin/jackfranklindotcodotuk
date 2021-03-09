@@ -273,8 +273,8 @@ class SvelteComponent {
 
 function add_css() {
 	var style = element("style");
-	style.id = "svelte-1yq21w0-style";
-	style.textContent = ".wrapper.svelte-1yq21w0.svelte-1yq21w0{width:90vw;max-width:1000px;margin-top:var(--space-m);margin-bottom:var(--space-m)}.header.svelte-1yq21w0.svelte-1yq21w0{display:flex;align-items:center;width:100%;height:40px}.header.svelte-1yq21w0 ul.svelte-1yq21w0{display:flex;list-style:none;margin:0;padding:0;max-width:auto}.header.svelte-1yq21w0 ul li.svelte-1yq21w0{margin-top:initial}.side-by-side.svelte-1yq21w0 .header ul.svelte-1yq21w0{display:none}.header.svelte-1yq21w0 ul a.svelte-1yq21w0{display:block;padding:var(--space-s) var(--space-m);border-bottom:4px solid transparent}.header.svelte-1yq21w0 ul a.is-active.svelte-1yq21w0{border-bottom:4px solid var(--green)}.header.svelte-1yq21w0 button.svelte-1yq21w0:first-of-type{margin-left:auto}.code-block.svelte-1yq21w0.svelte-1yq21w0:not(.is-active){display:none}.side-by-side.svelte-1yq21w0 .code-wrapper.svelte-1yq21w0{display:grid;grid-template-columns:repeat(2, 1fr);grid-template-rows:1fr;column-gap:10px;align-items:start;align-content:start}.tabs.svelte-1yq21w0 .inline-code-title.svelte-1yq21w0{display:none}.side-by-side.svelte-1yq21w0 .code-block.svelte-1yq21w0{position:relative;min-width:0}.side-by-side.svelte-1yq21w0 .inline-code-title.svelte-1yq21w0{user-select:none;display:block;z-index:3;background:#fff;position:absolute;top:-15px;padding:var(--space-m) var(--space-l);font-size:var(--font-m);left:0}@media(min-width: 45em){.side-by-side.svelte-1yq21w0 .inline-code-title.svelte-1yq21w0{font-size:var(--size-500);top:-25px}}";
+	style.id = "svelte-1kji4gv-style";
+	style.textContent = ".wrapper.svelte-1kji4gv.svelte-1kji4gv{width:90vw;max-width:1000px;margin-top:var(--space-m);margin-bottom:var(--space-m)}.header.svelte-1kji4gv.svelte-1kji4gv{display:flex;align-items:center;width:100%;height:40px}.header.svelte-1kji4gv ul.svelte-1kji4gv{display:flex;list-style:none;margin:0;padding:0;max-width:auto}.header.svelte-1kji4gv ul li.svelte-1kji4gv{margin-top:initial}.header.svelte-1kji4gv ul li.svelte-1kji4gv:not(:last-child){margin-right:var(--space-l)}.side-by-side.svelte-1kji4gv .header ul.svelte-1kji4gv{display:none}.header.svelte-1kji4gv ul a.svelte-1kji4gv{display:block;padding:var(--space-s) var(--space-m);border-bottom:4px solid transparent}.header.svelte-1kji4gv ul a.is-active.svelte-1kji4gv{border-bottom:4px solid var(--green)}.header.svelte-1kji4gv button.svelte-1kji4gv:first-of-type{margin-left:auto}.code-block.svelte-1kji4gv.svelte-1kji4gv:not(.is-active){display:none}.side-by-side.svelte-1kji4gv .code-wrapper.svelte-1kji4gv{display:grid;grid-template-columns:repeat(2, 1fr);grid-template-rows:1fr;column-gap:10px;align-items:start;align-content:start}.tabs.svelte-1kji4gv .inline-code-title.svelte-1kji4gv{display:none}.side-by-side.svelte-1kji4gv .code-block.svelte-1kji4gv{position:relative;min-width:0}.side-by-side.svelte-1kji4gv .inline-code-title.svelte-1kji4gv{user-select:none;display:block;z-index:3;background:#fff;position:absolute;top:-15px;padding:var(--space-m) var(--space-l);font-size:var(--font-m);left:0}@media(min-width: 45em){.side-by-side.svelte-1kji4gv .inline-code-title.svelte-1kji4gv{font-size:var(--size-500);top:-25px}}";
 	append(document.head, style);
 }
 
@@ -341,35 +341,35 @@ function create_fragment(ctx) {
 			span1 = element("span");
 			t10 = text(t10_value);
 			attr(a0, "href", "/");
-			attr(a0, "class", "svelte-1yq21w0");
+			attr(a0, "class", "svelte-1kji4gv");
 			toggle_class(a0, "is-active", /*activeTab*/ ctx[5] === 0);
-			attr(li0, "class", "svelte-1yq21w0");
+			attr(li0, "class", "svelte-1kji4gv");
 			attr(a1, "href", "/");
-			attr(a1, "class", "svelte-1yq21w0");
+			attr(a1, "class", "svelte-1kji4gv");
 			toggle_class(a1, "is-active", /*activeTab*/ ctx[5] === 1);
-			attr(li1, "class", "svelte-1yq21w0");
-			attr(ul, "class", "svelte-1yq21w0");
+			attr(li1, "class", "svelte-1kji4gv");
+			attr(ul, "class", "svelte-1kji4gv");
 			button0.disabled = button0_disabled_value = /*mode*/ ctx[4] === "side-by-side";
-			attr(button0, "class", "svelte-1yq21w0");
+			attr(button0, "class", "svelte-1kji4gv");
 			button1.disabled = button1_disabled_value = /*mode*/ ctx[4] === "tabs";
-			attr(button1, "class", "svelte-1yq21w0");
-			attr(div0, "class", "header svelte-1yq21w0");
-			attr(span0, "class", "inline-code-title svelte-1yq21w0");
-			attr(div1, "class", "code-block svelte-1yq21w0");
+			attr(button1, "class", "svelte-1kji4gv");
+			attr(div0, "class", "header svelte-1kji4gv");
+			attr(span0, "class", "inline-code-title svelte-1kji4gv");
+			attr(div1, "class", "code-block svelte-1kji4gv");
 
 			toggle_class(div1, "is-active", /*mode*/ ctx[4] === "tabs"
 			? /*activeTab*/ ctx[5] === 0
 			: true);
 
-			attr(span1, "class", "inline-code-title svelte-1yq21w0");
-			attr(div2, "class", "code-block svelte-1yq21w0");
+			attr(span1, "class", "inline-code-title svelte-1kji4gv");
+			attr(div2, "class", "code-block svelte-1kji4gv");
 
 			toggle_class(div2, "is-active", /*mode*/ ctx[4] === "tabs"
 			? /*activeTab*/ ctx[5] === 1
 			: true);
 
-			attr(div3, "class", "code-wrapper svelte-1yq21w0");
-			attr(div4, "class", "wrapper svelte-1yq21w0");
+			attr(div3, "class", "code-wrapper svelte-1kji4gv");
+			attr(div4, "class", "wrapper svelte-1kji4gv");
 			toggle_class(div4, "tabs", /*mode*/ ctx[4] === "tabs");
 			toggle_class(div4, "side-by-side", /*mode*/ ctx[4] === "side-by-side");
 		},
@@ -474,7 +474,6 @@ function instance($$self, $$props, $$invalidate) {
 	let { firstBlock } = $$props;
 	let { secondBlock } = $$props;
 	let { isWideExample } = $$props;
-	console.log("isWideExample", isWideExample);
 	let svelteFirstBlock;
 	let svelteSecondBlock;
 
@@ -533,7 +532,7 @@ function instance($$self, $$props, $$invalidate) {
 class SideBySide extends SvelteComponent {
 	constructor(options) {
 		super();
-		if (!document.getElementById("svelte-1yq21w0-style")) add_css();
+		if (!document.getElementById("svelte-1kji4gv-style")) add_css();
 
 		init(this, options, instance, create_fragment, safe_not_equal, {
 			firstBlock: 0,

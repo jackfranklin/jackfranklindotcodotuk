@@ -306,10 +306,14 @@ header nav li:first-child {
 
 .post code {
   background: var(--green);
-  padding: var(--space-s);
   font-size: 1.1em;
   color: var(--white);
   border-radius: 4px;
+  padding: var(--space-s);
+}
+
+.post pre code {
+  padding: 0 !important;
 }
 
 .post blockquote {

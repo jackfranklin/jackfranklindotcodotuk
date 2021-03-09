@@ -4,8 +4,6 @@
   export let secondBlock
   export let isWideExample
 
-  console.log('isWideExample', isWideExample)
-
   let svelteFirstBlock
   let svelteSecondBlock
 
@@ -95,6 +93,10 @@
 
   .header ul li {
     margin-top: initial;
+  }
+
+  .header ul li:not(:last-child) {
+    margin-right: var(--space-l);
   }
 
   .side-by-side .header ul {
