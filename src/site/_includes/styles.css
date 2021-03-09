@@ -364,7 +364,7 @@ a.formkit-powered-by {
   display: flex;
 }
 
-.post-content > pre {
+.post > pre {
   width: 90vw;
   max-width: 1000px;
 }

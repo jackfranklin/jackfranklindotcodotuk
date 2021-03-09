@@ -10,12 +10,26 @@
   onMount(() => {
     svelteFirstBlock.appendChild(firstBlock.code)
     svelteSecondBlock.appendChild(secondBlock.code)
+    calculateMode()
   })
 
-  let mode = window.innerWidth < 650 || isWideExample ? 'tabs' : 'side-by-side'
+  let windowIsTooSmallForSideBySide
+  let mode
+
+  function calculateMode() {
+    windowIsTooSmallForSideBySide = window.innerWidth < 750
+    mode =
+      windowIsTooSmallForSideBySide || isWideExample ? 'tabs' : 'side-by-side'
+  }
+
   let activeTab = 0
+
+  function handleWindowResize() {
+    calculateMode()
+  }
 </script>
 
+<svelte:window on:resize={handleWindowResize} />
 <div
   class="wrapper"
   class:tabs={mode === 'tabs'}
@@ -40,11 +54,14 @@
     </ul>
 
     <button
+      class="toggle-btn"
+      class:hidden={windowIsTooSmallForSideBySide}
       disabled={mode === 'side-by-side'}
-      on:click|preventDefault={() => (mode = 'side-by-side')}
-      >Side by side</button
+      on:click|preventDefault={() => (mode = 'side-by-side')}>Side</button
     >
     <button
+      class="toggle-btn"
+      class:hidden={windowIsTooSmallForSideBySide}
       disabled={mode === 'tabs'}
       on:click|preventDefault={() => (mode = 'tabs')}>Tabs</button
     >
@@ -93,6 +110,30 @@
 
   .header ul li {
     margin-top: initial;
+  }
+
+  .toggle-btn {
+    background: var(--grey);
+    color: var(--dark);
+    border: none;
+    padding: var(--space-s);
+    border: 1px solid var(--blue);
+    opacity: 1;
+  }
+
+  .toggle-btn.hidden {
+    display: none;
+  }
+
+  .toggle-btn[disabled] {
+    opacity: 0.5;
+  }
+
+  .toggle-btn:first-of-type {
+    border-right: 1px solid var(--blue);
+  }
+  .toggle-btn:last-of-type {
+    border-left: 1px solid var(--blue);
   }
 
   .header ul li:not(:last-child) {
@@ -153,7 +194,7 @@
   @media (min-width: 45em) {
     .side-by-side .inline-code-title {
       font-size: var(--size-500);
-      top: -25px;
+      top: -40px;
     }
   }
 </style>
