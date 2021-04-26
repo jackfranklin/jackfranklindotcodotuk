@@ -306,7 +306,6 @@ header nav li:first-child {
 
 .post code {
   background: var(--green);
-  font-size: 1.1em;
   color: var(--white);
   border-radius: 4px;
   padding: var(--space-s);

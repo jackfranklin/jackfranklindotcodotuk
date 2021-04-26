@@ -176,19 +176,26 @@ Once I've done all the work locally and I'm ready to upload my change I can now
 rebase those commits. I rebase, squashing them into one large commit, and then
 I'll write a brand new description, that might look like so:
 
-```
+```md
 Add column resizing to data-grid component
 
-This commit adds the ability for the user to resize the columns of the data-grid using their mouse. It will resize relative to the overall size of the data-grid, and when resizing a column all other columns are left untouched.
+This commit adds the ability for the user to resize the columns of the data-grid
+using their mouse. It will resize relative to the overall size of the data-grid,
+and when resizing a column all other columns are left untouched.
 
-If you're rendering a data-grid and don't want to allow the user to resize the column, you can set the `no-resizing` attribute on the `data-grid` component.
+If you're rendering a data-grid and don't want to allow the user to resize the
+column, you can set the `no-resizing` attribute on the `data-grid` component.
 
-The column resizing logic is also aware of hidden columns, and won't resize those, and it will re-adjust the column widths if the container is resized. Once a user has resized the column, it will never have it sized changed automatically. If you want to programmatically reset a column, you can call `resetColumnWidths()` on the data-grid instance.
+The column resizing logic is also aware of hidden columns, and won't resize
+those, and it will re-adjust the column widths if the container is resized. Once
+a user has resized the column, it will never have it sized changed
+automatically. If you want to programmatically reset a column, you can call
+`resetColumnWidths()` on the data-grid instance.
 
 You can find more info here:
 
-* Design doc: https://...
-* Tracking bug: https://...
+- Design doc: https://...
+- Tracking bug: https://...
 ```
 
 Now I take the time to dive into detail and write a thorough description of the
