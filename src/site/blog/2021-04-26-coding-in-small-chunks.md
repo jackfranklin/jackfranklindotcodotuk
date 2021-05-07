@@ -2,8 +2,8 @@
 permalink: /blog/coding-javascript-small-chunks/index.html
 title: 'Working in small chunks'
 intro:
-  "Today I'm comparing the same app built once in React, and once in Svelte, to
-  look at the pros and cons of each library and how I think about them."
+  'This post looks at how I like to break down bigger projects into smaller
+  chunks, and the advantages that brings.'
 date: 2021-03-09
 ---
 
