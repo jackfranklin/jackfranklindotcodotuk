@@ -13,7 +13,7 @@ pagination:
   <ul class="latest-blog-posts">
     {%- for item in pagination.items -%}
       <li>
-        <h4><a href="{{item.url}}">{{item.data.title}}</a></h4>
+        <h2><a href="{{item.url}}">{{item.data.title}}</a></h2>
         <p>{{item.data.intro}}</p>
       </li>
     {%- endfor -%}
