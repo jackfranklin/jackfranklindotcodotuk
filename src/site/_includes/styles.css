@@ -131,7 +131,7 @@ h4 {
   }
 }
 
-p,
+p:not(.formkit-teaser),
 li {
   max-width: 60ch;
 }
@@ -331,27 +331,9 @@ header nav li:first-child {
   }
 }
 
-a.formkit-powered-by {
-  border-bottom: none !important;
-  text-align: right !important;
-  color: var(--blue) !important;
-}
-
-.formkit-form[data-uid='ad41405733'] [data-style='clean'] {
-  padding: 0 !important;
-}
-
-.formkit-wrapper {
-  border: 2px solid var(--blue);
-  border-radius: 4px;
-  padding: var(--space-l);
+.post-footer {
+  border-top: 2px solid var(--blue);
   margin: var(--space-xl) 0;
-  background: var(--grey);
-}
-
-.formkit-wrapper .formkit-teaser {
-  font-size: 1em !important;
-  margin-bottom: var(--space-m);
 }
 
 .side-by-side-container {
