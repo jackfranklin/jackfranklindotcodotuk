@@ -111,3 +111,5 @@ This post is not to say that you shouldn't reach for dependencies. In response t
 I completely agree with Charles' opinion, and this is one area where working on the DevTools for one browser has an advantage because we know our audience's browser choice.
 
 My hope is that with the baseline feature set supported by browsers now more uniform - especially with the death of Internet Explorer - that we as an industry can over time move to reaching for the extensive built-in functionality of browsers by default, polyfilling where absolutely necessary, and look beyond frameworks as a default starting point.
+
+_Thank you to [Tim van der Lippe](https://twitter.com/TimvdLippe) and [Paul Lewis](https://twitter.com/aerotwist) for their help reviewing drafts of this post._
