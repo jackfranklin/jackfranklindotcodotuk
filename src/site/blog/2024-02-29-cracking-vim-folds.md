@@ -102,6 +102,9 @@ this a very subjective setting though!
 vim.opt.foldnestmax = 4
 ```
 
+> You can find my folds config
+> [as part of my dotfiles](https://github.com/jackfranklin/dotfiles/blob/master/nvim/lua/jack/folds.lua)
+
 ## Keyboard shortcuts
 
 I have to thank
