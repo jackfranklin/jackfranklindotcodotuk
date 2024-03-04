@@ -31,6 +31,6 @@
     "rollup-plugin-css-only": "^3.1.0",
     "rollup-plugin-svelte": "^7.1.0",
     "svelte": "^3.32.1",
-    "terser": "^5.6.0-beta"
+    "terser": "^5.14.2"
   }
 }
