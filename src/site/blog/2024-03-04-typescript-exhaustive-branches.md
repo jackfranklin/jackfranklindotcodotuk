@@ -72,7 +72,7 @@ function codeForColour2(colour: SupportedColour2): string {
 }
 ```
 
-```
+```txt
 Function lacks ending return statement and return type does not include 'undefined'.
 ```
 
@@ -132,7 +132,7 @@ Because `ensureExhaustive` takes in an argument of type `never`, which
 represents values that cannot be observed, this code will now cause a compiler
 error:
 
-```
+```txt
 Argument of type 'string' is not assignable to parameter of type 'never'.(2345)
 (parameter) colour: "GREEN"
 ```
