@@ -393,3 +393,9 @@ header nav li:first-child {
 .side-by-side-header .tab-links a:not(.active-tab):hover {
   border-bottom: 4px solid var(--green);
 }
+
+.post img {
+  max-width: 100%;
+  border: 1px solid var(--blue);
+  padding: 2px;
+}
