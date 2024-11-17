@@ -1,12 +1,12 @@
 ---
-permalink: blog/typescrkt-enums-0-values/index.html
-title: 'Being caught out by TypeScript enums and falsey values'
-date: 2024-08-23
+permalink: blog/typescript-enums-0-values/index.html
+title: 'TypeScript enums and falsy values'
+date: 2024-11-17
 ---
 
 I recently lost an evening to debugging a subtle issue which highlights a
-potential pitfall in the interaction between TypeScript enums and "falsey"
-values in JavaScript. Let’s look at a scenario that illustrates this problem:
+potential pitfall in the interaction between TypeScript enums and "falsy" values
+in JavaScript. Let’s look at a scenario that illustrates this problem:
 
 ## Spot the Bug
 
@@ -85,7 +85,7 @@ checks:
 
 ```typescript
 function checkUserStatus(user?: User): void {
-  const status = getUserStatus(userId)
+  const status = getUserStatus(user)
 
   if (status !== null) {
     console.log('User has a valid status:', status)
@@ -110,11 +110,11 @@ const enum Status {
 ```
 
 Now code that checks `if(status)` when status is `Status|null` will work as
-intended as we avoid inadvertently treating an enum value as falsey.
+intended as we avoid inadvertently treating an enum value as falsy.
 
 If you prefer to be more explicit with your enum values, you can also use string
-values. As long as you avoid the empty string (which is also considered "falsey"
-in JavaScript), you will also avoid the bug in this blog post:
+values. As long as you avoid the empty string (which is also considered "falsy"
+in JavaScript), you will also avoid the bug:
 
 ```typescript
 const enum Status {
@@ -130,7 +130,7 @@ TypeScript enums are still a powerful tool for representing various states,
 despite the
 [well documented concerns](https://rahuulmiishra.medium.com/the-pitfalls-of-using-enums-in-typescript-4a52f00979a8#).
 This bug is particularly challenging to fix given that is avoids any TypeScript
-compiliation errors, so you have to be careful when using enum values, or the
+compilation errors, so you have to be careful when using enum values, or the
 existence of them, in your conditionals.
 
 You might also like to check the
