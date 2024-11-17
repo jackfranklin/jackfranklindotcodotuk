@@ -15,9 +15,9 @@ Consider the following code where a function returns either an enum value or
 
 ```typescript
 const enum Status {
-  Inactive = 0,
-  Active = 1,
-  Pending = 2,
+  Inactive,
+  Active,
+  Pending,
 }
 
 function getUserStatus(user?: User): Status | null {
