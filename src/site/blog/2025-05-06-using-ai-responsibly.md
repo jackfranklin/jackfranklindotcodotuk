@@ -179,7 +179,7 @@ trust it are missing a trick; **if you assume you cannot trust AI, it becomes a
 very powerful tool**.
 
 The output from AI _presents itself confidently_ and this is the crux of the
-problem. It continues to frustate me that all the major AI surfaces contain the
+problem. It continues to frustrate me that all the major AI surfaces contain the
 tiniest _X may make mistakes_ in the footer, and I wish this fact was more
 prominently presented to users. However, once you know and understand this, you
 can use it with a freedom because you accept it will provide _guidance and
