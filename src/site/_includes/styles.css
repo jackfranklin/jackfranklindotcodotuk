@@ -35,7 +35,7 @@ body {
 .flow > * + *,
 .post ol > li + li,
 .post ul > li + li {
-  margin-top: var(--flow-space, 1em);
+  margin-top: var(--flow-space, 0.8em);
 }
 
 * {
@@ -133,7 +133,7 @@ h4 {
 
 p:not(.formkit-teaser),
 li {
-  max-width: 60ch;
+  max-width: 80ch;
 }
 
 blockquote p {
@@ -141,13 +141,13 @@ blockquote p {
 }
 
 .post h1 {
-  max-width: 25ch;
+  max-width: 30ch;
 }
 
 .post h2,
 .post h3,
 .post h4 {
-  max-width: 35ch;
+  max-width: 45ch;
 }
 
 header {
