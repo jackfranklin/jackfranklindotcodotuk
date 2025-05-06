@@ -147,7 +147,7 @@ blockquote p {
 .post h2,
 .post h3,
 .post h4 {
-  max-width: 25ch;
+  max-width: 35ch;
 }
 
 header {
