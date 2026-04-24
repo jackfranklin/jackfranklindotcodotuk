@@ -75,7 +75,7 @@ with a `--project` flag.
 Here is the AI listing projects (`routemaster` is the old, internal name for
 OnTrack):
 
-```
+```bash
 run list --project routemaster
 ```
 
@@ -84,7 +84,7 @@ using an AI for this feedback shines - as you give it feedback it can also
 analyse your code and system to make some potential implementation notes as you
 go:
 
-```
+```bash
 run show 32
 
 [32] #024 — No visual confirmation when player performs an action (toast notification system)
@@ -108,7 +108,7 @@ contract completions and town growth.
 And adding an item (you can also edit an existing item by ID which looks nearly
 identical):
 
-```
+```bash
 run add --project routemaster \
   --title "Train detail window: journey progress bar disappears when train is delayed" \
   --detail "When a train is running late (shown in red), the journey progress bar in the train detail window stops rendering entirely. The delay
@@ -120,7 +120,7 @@ than 2 stops." \
 
 And finally, marking an item as complete:
 
-```
+```bash
 run done 75
 ```
 
