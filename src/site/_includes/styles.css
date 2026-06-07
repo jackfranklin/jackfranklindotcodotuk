@@ -281,6 +281,10 @@ header nav li:first-child {
   background-color: var(--blue);
 }
 
+.post li {
+  --flow-space: var(--size-400);
+}
+
 .post {
   --flow-space: var(--size-700);
 
