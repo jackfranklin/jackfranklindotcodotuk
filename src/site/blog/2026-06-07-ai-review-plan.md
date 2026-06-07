@@ -1,6 +1,6 @@
 ---
 permalink: blog/ai-review-plan/index.html
-title: 'ai-review-plan: reviewing AI code before it lands'
+title: 'ai-review: reviewing AI code before it lands'
 date: 2026-06-07
 ---
 
